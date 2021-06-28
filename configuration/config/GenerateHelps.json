@@ -1,0 +1,1639 @@
+{
+    "vehicleUsageLabelHelp":[
+        {
+            "value":"<p><strong>Commute to work or school (within the state):</strong> Regular commute to and from your place of employment or education.</p><p><strong>Commute to work or school (outside the state):</strong> Driven out of state four or more times per month.</p><p><strong>Business:</strong>  For business purposes during the day in occupations that involve making regular sales or business calls.</p><p><strong>Artisan:</strong> Used by a skilled craftsman who is not self-employed and who drives a private passenger auto, pickup or van to conduct business. Some examples of artisan use would be appliance repair, carpentry, plumbing, or other construction type occupations.<p><strong>Pleasure:</strong> Not used on a regular basis for business, or for work or school commuting purposes.</p><p><strong>Farming:</strong> Used primarily on a farm, ranch or orchard.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "ALL"
+            ]
+            
+        },
+      {
+        "value":"<p><strong>Commute to work or school (within the state):</strong> Regular commute to and from your place of employment or education.</p><p><strong>Commute to work or school (outside the state):</strong> Driven out of state four or more times per month.</p><p><strong>Business:</strong>  For business purposes during the day in occupations that involve making regular sales or business calls.</p><p><strong>Artisan:</strong> Used by a skilled craftsman who is not self-employed and who drives a private passenger auto, pickup or van to conduct business. Some examples of artisan use would be appliance repair, carpentry, plumbing, or other construction type occupations.<p><strong>Pleasure:</strong> Not used on a regular basis for business, or for work or school commuting purposes.</p><p><strong>Farming:</strong> Used primarily on a farm, ranch or orchard.</p><p><strong>Transportation Network:</strong> Used in connection with any \"transportation network\" company using an internet-enabled computer application or platform to connect drivers of their own vehicles with paying customers needing transportation.  Examples of such companies include Uber, Lyft, etc.</strong></p> ",
+        "rateLevel":"ALL",
+        "state":[
+          "GA"
+
+        ]
+
+      },
+      {
+        "value":"<p><strong>Commute to work or school (within the state):</strong> Regular commute to and from your place of employment or education.</p><p><strong>Commute to work or school (outside the state):</strong> Driven out of state four or more times per month.</p><p><strong>Business:</strong>  For business purposes during the day in occupations that involve making regular sales or business calls.</p><p><strong>Artisan:</strong> Used by a skilled craftsman who is not self-employed and who drives a private passenger auto, pickup or van to conduct business. Some examples of artisan use would be appliance repair, carpentry, plumbing, or other construction type occupations.<p><strong>Pleasure:</strong> Not used on a regular basis for business, or for work or school commuting purposes.</p><p><strong>Farming:</strong> Used primarily on a farm, ranch or orchard.</p><p><strong>Transportation Network:</strong> Used in connection with any \"transportation network\" company using an internet-enabled computer application or platform to connect drivers of their own vehicles with paying customers needing transportation.  Examples of such companies include Uber, Lyft, etc.</strong></p> ",
+        "rateLevel":"ALL",
+        "state":[
+          "TX", "VA"
+
+        ]
+
+      },
+        {
+            "value":"<p><strong>Commute to work or school (within the state):</strong> Regular commute to and from your place of employment or education.</p><p><strong>Commute to work or school (outside the state):</strong> Driven out of state four or more times per month.</p><p><strong>Business:</strong> For business purposes during the day in occupations that involve making regular sales or business calls.</p><p><strong>Artisan:</strong> Used by a skilled craftsman who is not self-employed and who drives a private passenger auto, pickup or van to conduct business. Some examples of artisan use would be appliance repair, carpentry, plumbing, or other construction type occupations.</p><p><strong>Pleasure:</strong> Not used on a regular basis for business, or for work or school commuting purposes.</p><p><strong>Farming:</strong> Used primarily on a farm, ranch or orchard.</p><p><strong>Snowplow:</strong> Used primarily for plowing snow.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "MI"
+            ]
+            
+        },
+        {
+          "value":"<p><strong>Commute to work or school:</strong>  Regular commute to and from your place of employment or education.</p><p><strong>Business:</strong> For business purposes during the day in occupations that involve making regular sales or business calls.</p><p><strong>Pleasure:</strong> Not used on a regular basis for business, or for work or school commuting purposes.</p><p><strong>Transportation Network:</strong> Used in connection with any \"transportation network\" company using an internet-enabled computer application or platform to connect drivers of their own vehicles with paying customers needing transportation.  Examples of such companies include Uber, Lyft, etc.</strong></p> " ,
+          "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+            
+        },
+        {
+            "value":"<p><strong>Commute:</strong>  Regular commute to and from your place of employment or education.</p><p><strong>Commute to NY or NJ four times a month or more:</strong> Driven out of state to New York or New Jersey four or more times per month.</p><p><strong>Business:</strong> For business purposes during the day in occupations that involve making regular sales or business calls.</p><p><strong>Artisan:</strong> Used by a skilled craftsman who is not self-employed and who drives a private passenger auto, pickup or van to conduct business. Some examples of artisan use would be appliance repair, carpentry, plumbing, or other construction type occupations.</p><p><strong>Pleasure:</strong> Not used on a regular basis for business, or for work or school commuting purposes.</p><p><strong>Farming:</strong> Used primarily on a farm, ranch or orchard.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "PA"
+            ]
+            
+        },
+        {
+          "value":"<p><strong>Commute to work or school (within the state):</strong> Regular commute to and from your place of employment or education.</p><p><strong>Commute to work or school (outside the state):</strong> Driven out of state four or more times per month.</p><p><strong>Business:</strong> For business purposes during the day in occupations that involve making regular sales or business calls.</p><p><strong>Artisan:</strong> Used by a skilled craftsman who is not self-employed and who drives a private passenger auto, pickup or van to conduct business. Some examples of artisan use would be appliance repair, carpentry, plumbing, or other construction type occupations.</p><p><strong>Pleasure:</strong> Not used on a regular basis for business, or for work or school commuting purposes.</p><p><strong>Farming:</strong> Used primarily on a farm, ranch or orchard.</p><p><strong>Transportation Network:</strong> Used in connection with any \"transportation network\" company using an internet-enabled computer application or platform to connect drivers of their own vehicles with paying customers needing transportation.  Examples of such companies include Uber, Lyft, etc.</strong></p> " ,		        
+          "state":[
+            "AZ",
+            "NV",
+            "OK"
+          ]
+        },
+      {
+        "value":"<p><strong>Commute to work or school (within the state):</strong> Regular commute to and from your place of employment or education.</p><p><strong>Commute to work or school (outside the state):</strong> Driven out of state four or more times per month.</p><p><strong>Business:</strong>  For business purposes during the day in occupations that involve making regular sales or business calls.</p><p><strong>Artisan:</strong> Used by a skilled craftsman who is not self-employed and who drives a private passenger auto, pickup or van to conduct business. Some examples of artisan use would be appliance repair, carpentry, plumbing, or other construction type occupations.<p><strong>Pleasure:</strong> Not used on a regular basis for business, or for work or school commuting purposes.</p><p><strong>Farming:</strong> Used primarily on a farm, ranch or orchard.</p>",
+        "rateLevel":"alternative",
+        "state":[
+          "IL"
+        ]
+
+      },
+      {
+        "value":"<p><strong>Commute to work or school (within the state):</strong> Regular commute to and from your place of employment or education.</p><p><strong>Commute to work or school (outside the state):</strong> Driven out of state four or more times per month.</p><p><strong>Business:</strong>  For business purposes during the day in occupations that involve making regular sales or business calls.</p><p><strong>Artisan:</strong> Used by a skilled craftsman who is not self-employed and who drives a private passenger auto, pickup or van to conduct business. Some examples of artisan use would be appliance repair, carpentry, plumbing, or other construction type occupations.<p><strong>Pleasure:</strong> Not used on a regular basis for business, or for work or school commuting purposes.</p><p><strong>Farming:</strong> Used primarily on a farm, ranch or orchard.</p><p><strong>Transportation Network:</strong> Used in connection with any \"transportation network\" company using an internet-enabled computer application or platform to connect drivers of their own vehicles with paying customers needing transportation.  Examples of such companies include Uber, Lyft, etc.</strong></p> " ,
+        "rateLevel":"ALL",
+        "state":[
+          "IL" ,"FL"
+        ]
+
+      }
+    ],
+    "vinLabelHelp":[
+        {
+            "value":"<p>A VIN number is generally 17 characters in length and does NOT contain the letters I and O, the numbers 1 or zero are used instead.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "ALL"
+            ]
+            
+        }
+        
+    ],
+    "antiTheft1LabelHelp":[
+        {
+            "value":"<h4>Alarm</h4><p>Device that sounds an audible alarm that can be heard at a distance of at least 300 feet for a minimum of three minutes.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "ALL"
+            ]
+            
+        }
+        
+    ],
+    "antiTheft2LabelHelp":[
+        {
+            "value":"<h4>Manual Disabling Device</h4><p>Device that disables the vehicle by making the fuel, ignition or starting system inoperative. This device type requires a separate manual step to engage the device.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "ALL"
+            ]
+            
+        }
+        
+    ],
+    "antiTheft3LabelHelp":[
+        {
+            "value":"<h4>Automatic Disabling Device</h4><p>Device that disables the vehicle by making the fuel, ignition or starting system inoperative. This device type does not require a separate manual step to engage the device.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "ALL"
+            ]
+            
+        }
+        
+    ],
+    "antiTheft5LabelHelp":[
+        {
+            "value":"<h4>Lo Jack</h4><p>Electronic homing device, using a radio frequency network used in conjunction with a participating police agency.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "ALL"
+            ]
+            
+        }
+        
+    ],
+    "antiTheft6LabelHelp":[
+        {
+            "value":"<h4>Teletrac</h4><p>Electronic homing device, using a radio frequency network used in conjunction with a participating police agency</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "ALL"
+            ]
+            
+        }
+        
+    ],
+    "antiTheft7LabelHelp":[
+        {
+            "value":"<h4>VIN Etching</h4><p>Vehicle identification number (VIN) or other unique identifying symbol etched on the vehicle's window (i.e. vehicle's door glass, windshield and rear window).</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "ALL"
+            ]
+            
+        }
+        
+    ],
+    "healthInsurerNameLabelHelp":[
+        {
+            "value":"<p>This information is required if you are purchasing coverage with Health Insurance as your Primary PIP Insurer.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "healthInsurancePolicyNumberLabelHelp":[
+        {
+            "value":"<p>Please provide the Health Insurance policy number. This is also known as the group number or certificate number.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "driverTrainingDateLabelHelp":[
+        {
+            "value":"<p>Date of completion on the certificate received, for successful completion of a driver improvement course sponsored by a DMV certified school.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+            
+        }
+        
+    ],
+    "promotionCodeLabelHelp":[
+        {
+            "value":"<p>Mercury Insurance Group occasionally runs promotional giveaways. For additional promotion information please refer to the relevant terms and conditions.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "ALL"
+            ]
+            
+        }
+        
+    ],
+    "primaryHealthInsurerLabelHelp":[
+        {
+            "value":"<p>Health insurance as your primary PIP insurer:</p><p>Yes: Indicates you choose to have your health insurance policy or benefits provide primary coverage for the payment of medical expenses.</p><p>No: Indicates you choose to have your auto insurance policy provide primary coverage for the payment of medical expenses in the event of an accident.</p>#more Learn more about Personal Injury Protection (PIP)* #more",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "paHealthInsurer_MIGLabelHelp":[
+    {
+    "value":"<p>This information is required if you are selecting coverage with Health Insurance as your Primary PIP Insurer.",
+         "rateLevel":"ALL",
+                     "state":[
+                         "NJ"
+                     ]
+
+                 }
+    ],
+    "medExpenseOnlyLabelHelp":[
+        {
+            "value":"<p>PIP Medical Expense Only:</p><p>Yes: Indicates you will not be eligible for coverages including Income Continuation, Essential Services, Death Benefits, and Funeral Benefits.</p><p>No: Indicates you will be eligible for coverages including Income Continuation, Essential Services, Death Benefits, and Funeral Benefits.</p>#more Learn more about Personal Injury Protection (PIP)* #more",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "pipMedExpenseLimitLabelHelp":[
+        {
+            "value":"<p>PIP Medical Expense covers you, whether or not you cause the accident, relatives living in your home, certain passengers who lack PIP, and certain licensed drivers who drive your vehicle with your permission, up to the limits of your policy. Medical Expense also covers your child who lives in the same household if that child suffers an injury while riding on a school bus. Medical Expense protects you while in your own or someone else's vehicle and as a pedestrian or bicyclist if you suffer an injury in an accident involving a motor vehicle. It also offers options for extended medical expense benefits and primary or secondary coverage.</p>#more Learn more about Personal Injury Protection (PIP)* #more",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "primaryHealthInsurerLabelHelpMore1":[
+        {
+            "value":"<p>Personal Injury Protection (PIP), also known as no-fault protection, provides coverage for you regardless of whether or not you cause an accident. </p><p>PIP covers you, whether or not you cause the accident, relatives living in your home, certain passengers who lack PIP, and certain licensed drivers who drive your vehicle with your permission, up to the limits of your policy. It also covers your child who lives in the same household if that child suffers an injury while riding on a school bus. It protects you while in your own or someone else's vehicle and as a pedestrian or bicyclist if you suffer an injury in an accident involving a motor vehicle. </p><p>PIP also offers options for extended medical payments and primary or secondary coverage. You have the choice of limits of PIP coverage (maximum amount that may be paid). You also have the choice of deductible levels (the amount you must pay before your insurance coverage begins). Your cost will be higher if you pick a higher limit of coverage or a lower deductible.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "medExpenseOnlyLabelHelpMore1":[
+        {
+            "value":"<p>Personal Injury Protection (PIP), also known as no-fault protection, provides coverage for you regardless of whether or not you cause an accident. </p><p>PIP covers you, whether or not you cause the accident, relatives living in your home, certain passengers who lack PIP, and certain licensed drivers who drive your vehicle with your permission, up to the limits of your policy. It also covers your child who lives in the same household if that child suffers an injury while riding on a school bus. It protects you while in your own or someone else's vehicle and as a pedestrian or bicyclist if you suffer an injury in an accident involving a motor vehicle. </p><p>PIP also offers options for extended medical payments and primary or secondary coverage. You have the choice of limits of PIP coverage (maximum amount that may be paid). You also have the choice of deductible levels (the amount you must pay before your insurance coverage begins). Your cost will be higher if you pick a higher limit of coverage or a lower deductible.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "pipMedExpenseLimitLabelHelpMore1":[
+        {
+            "value":"<p>Personal Injury Protection (PIP), also known as no-fault protection, provides coverage for you regardless of whether or not you cause an accident. </p><p>PIP covers you, whether or not you cause the accident, relatives living in your home, certain passengers who lack PIP, and certain licensed drivers who drive your vehicle with your permission, up to the limits of your policy. It also covers your child who lives in the same household if that child suffers an injury while riding on a school bus. It protects you while in your own or someone else's vehicle and as a pedestrian or bicyclist if you suffer an injury in an accident involving a motor vehicle. </p><p>PIP also offers options for extended medical payments and primary or secondary coverage. You have the choice of limits of PIP coverage (maximum amount that may be paid). You also have the choice of deductible levels (the amount you must pay before your insurance coverage begins). Your cost will be higher if you pick a higher limit of coverage or a lower deductible.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "driverFilingLabelHelp":[
+        {
+            "value":"<p>SR-22, also called a Certificate of Financial Responsibility (CFR), is mandated by the state and provided by your auto insurance company that verifies that you have auto insurance liability coverage.</p><p>Not everyone needs an SR-22. Usually, it is required by the court or mandated by the state for certain driving-related violations. Examples include: DUI convictions, reckless driving, accidents caused by uninsured drivers. If you need an SR-22, the courts or your state Motor Vehicle Department will notify you.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NV",
+                "AZ",
+                "IL",
+                "MI",
+                "GA",
+                "TX"
+            ]
+            
+        },
+        {
+            "value":"<P>SR-22 or FR-44, also called Certificates of Financial Responsibility (CFR) are mandated by the state and provided by your auto insurance company to verify that you have auto insurance liability coverage.</p><P>Not everyone needs an SR-22 or FR-44. Usually, one is required by the court or mandated by the state for certain driving-related violations. Examples include: DUI convictions, reckless driving, accidents caused by uninsured drivers. If you need an SR-22 or FR-44, the courts or your state Motor Vehicle Department will notify you.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "FL",
+                "VA"
+            ]
+            
+        },
+        {
+            "value":"<p>SR-22 or SR1P, also called Certificates of Financial Responsibility (CFR) are mandated by the state and provided by your auto insurance company to verify that you have auto insurance liability coverage.</p><p>Not everyone needs an SR-22 or SR1P. Usually, one is required by the court or mandated by the state for certain driving-related violations. Examples include: DUI convictions, reckless driving, accidents caused by uninsured drivers. If you need an SR-22 or SR1P, the courts or your state Motor Vehicle Department will notify you.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+            
+        }
+        
+    ],
+    "association2LabelHelp":[
+        {
+            "value":"<h4>Educator Discount</h4><P>May apply to drivers who are teachers or educational administrators holding a \"Clear\", \"Professional Clear\", \"Life\", or \"Preliminary\" designation from the State of California Commission on Teacher Credentialing.</p><p>Also applies to drivers who are employed full-time as a college or university teacher or professor.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+            
+        }
+        
+    ],
+    "association4LabelHelp":[
+        {
+            "value":"<h4>Engineer Discount</h4><P>May apply to drivers who have a Bachelor's degree or higher or are licensed as an engineer in one of the following fields of engineering: Aeronautical, Aerospace, Architectural, Chemical, Civil, Electrical, Gas, Mechanical, Nuclear, Petroleum, Structural.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+            
+        }
+        
+    ],
+    "association5LabelHelp":[
+        {
+            "value":"<h4>Government Employees Discount</h4><P>A discount may apply to drivers who are professional Federal or State of California government employees in an administrative or technical position.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+        }
+    ],
+    "association6LabelHelp":[
+        {
+            "value":"<h4>Alumni Association Discount</h4><P>A discount may apply to drivers who are current members of an alumni association of a 4 year US accredited college.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+        }
+    ],
+    "association7LabelHelp":[
+        {
+            "value":"<h4>Public Safety Professionals Discount</h4><P>A discount may apply to drivers who are a member of law enforcement; a firefighter; or a paramedic or EMT.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+        }
+    ],
+    "association8LabelHelp":[
+        {
+            "value":"<h4>Scientist Discount</h4><P>A discount may apply to drivers who have a Bachelor's degree or higher in one of the following fields:</p><p>Biochemistry, Biology, Chemistry, Computer Science, Geology, Geophysics, Information Systems, Mathematics, Meteorology, Physics, Planetary Systems.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+        }
+    ],
+    "matureOrDefensiveDriverLabelHelp":[
+        {
+            "value":"<P>A discount may apply if the driver is over 55 years of age and has completed the National Safety Council's Defensive Driving Course or a motor vehicle accident prevention course, which meets or exceeds the National Safety Council's Defensive Driving Course standards.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "IL"
+            ]
+            
+        },
+        {
+            "value":"<P>A discount may apply if the driver completes at least a 6 hour defensive driver training course approved by Mercury Insurance.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "OK"
+            ]
+            
+        },
+        {
+            "value":"<P>A discount may apply if the following criteria are met:</P><ol><li>All drivers who are 25 or older complete at least a 6 hour defensive driver training course in the last three years.</li><li>All drivers who are  under 25 complete a preparatory course for new drivers of at least 30 hours of classroom training and 6 hours of practical training by an approved driver training school.</li></ol>",
+            "rateLevel":"ALL",
+            "state":[
+                "GA"
+            ]
+            
+        },
+        {
+            "value":"<P>A discount may apply if the driver completes a defensive driver training course approved by the New Jersey Motor Vehicle Commission.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        },
+        {
+            "value":"<P>A discount may apply to principal drivers over the age of 55. To qualify the driver must:</p><ol><li>Have received a driver improvement course certificate from a DMV certified school, and</li><li>Had no at fault accidents or traffic convictions since completing the course.</li></ol>",
+            "rateLevel":"ALL",
+            "state":[
+                "NV",
+                "AZ",
+                "CA"
+            ]
+            
+        },
+        {
+            "value":"<P>A discount may apply to drivers 55 years of age or older.To qualify the driver must:</p><ol><li>Have received a driver improvement course certificate within three years from a certified school that meets the standards of the State Department of Transportation, and</li><li>Had no at fault accidents or traffic convictions since completing the course.</li></ol><p>The discount is not applicable if the course is taken as punishment from a moving violation.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "FL"
+            ]
+            
+        },
+        {
+            "value":"<P>A discount may apply to drivers 55 years of age or older.</p><p>To qualify the driver must have received a driver improvement course certificate within three years from a certified school that meets the standards of the State Department of Transportation.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "PA",
+                "VA"
+            ]
+            
+        },
+        {
+            "value":"<p>A discount may apply if the driver completes a driver education course approved by the New York Department of Motor Vehicles within the last 36 months.</p><p>The discount is not applicable if the course is taken as punishment from a moving violation.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NY"
+            ]
+            
+        }
+        
+    ],
+    "goodStudentNoLabelHelp":[
+        {
+            "value":"<p>A discount may apply to single full-time students (minimum of 12 units for undergraduate and 8 units for graduate) under the age of 23. To qualify the driver must attend high school, college, or vocational school and</p><ol><li>Be on the Dean's list; or</li><li>In the top 20% of their class; or</li><li>Have a grade average of \"B\" or better average; or</li><li>Have a 3.0 or higher grade point average</li></ol>",
+            "rateLevel":"ALL",
+            "state":[
+                "IL",
+                "MI",
+                "FL",
+                "NJ",
+                "NY",
+                "PA",
+                "VA"
+            ]
+            
+        },
+        {
+            "value":"<p>A discount may apply to single full-time students (minimum of 12 units for undergraduate and 8 units for graduate) under the age of 25. To qualify the driver must attend high school, college, or vocational school and</p><ol><li>Be on the Dean's list; or</li><li>In the top 20% of their class; or</li><li>Have a grade average of \"B\" or better average; or</li><li>Have a 3.0 or higher grade point average</li></ol>",
+            "rateLevel":"ALL",
+            "state":[
+                "GA"
+            ]
+            
+        },
+        {
+            "value":"<p>A discount may apply to your policy if the driver attends a public or parochial school or college and meets the following criteria:</p><ol><li>Is single, and</li><li>Has less than 8 years of driving experience, and </li><li>Is enrolled as a full time student (minimum of 12 units for undergraduate and 8 units for graduate), and </li><li>Had a \"B\" or better grade point average while a full time student in the previous semester</li></ol>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+            
+        }
+        
+    ],
+    "distantStudentDiscountLabelHelp":[
+        {
+            "value":"<p> A discount may apply if a student has less than eight years of license experience and resides more than 100 miles from the named insured's home without a vehicle.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+            
+        }
+        
+    ],
+    "pipClaimsCountLabelHelp":[
+        {
+            "value":"<p>Personal Injury Protection (PIP) claims are claims filed with an insurance company made specifically for compensation of medical expenses and lost wages due to accidents involving the named insured, a dependent resident relative, or other occupants of the vehicle, regardless of fault.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "FL"
+            ]
+            
+        }
+        
+    ],
+    "pipExtnForOtherResidentLabelHelp":[
+        {
+            "value":"<p>Additional Personal Injury Protection provides reimbursement for certain other expenses you may have because you are hurt, such as lost wages and the need to hire someone to take care of your home or family. Limit options are available when the Full PIP Coverage options are selected. Limits may cover you and any resident relatives as designated. Additional Personal Injury Protection limit options are available for #more Income Continuation #more, #moreEssential Services#more, #moreDeath Benefit#more, #moreFuneral Expenses#more.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "pipExtnForOtherResidentLabelHelpMore1":[
+        {
+            "value":"<p>Income Continuation: If you cannot work due to accident-related injuries, this coverage pays lost wages, minus Temporary Disability Benefits you may receive if your disability prevents you from working, up to the amount you select.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "pipExtnForOtherResidentLabelHelpMore2":[
+        {
+            "value":"<p>Essential Services: Pays for necessary services that you normally do yourself, such as cleaning your house, mowing your lawn, shoveling snow or doing laundry if you are injured in an auto accident.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "pipExtnForOtherResidentLabelHelpMore3":[
+        {
+            "value":"<p>Death Benefit: In the case of death, family members or estates will receive any benefits not already collected under the income continuation and essential services coverage.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "pipExtnForOtherResidentLabelHelpMore4":[
+        {
+            "value":"<p>Funeral Expenses: Pays for reasonable funeral expenses up to the limit you select if you die as a result of an auto accident.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "incomeLabelHelp":[
+        {
+            "value":"<p>Income Continuation: If you cannot work due to accident-related injuries, this coverage pays lost wages, minus Temporary Disability Benefits you may receive if your disability prevents you from working, up to the amount you select.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "essentialLabelHelp":[
+        {
+            "value":"<p>Essential Services: Pays for necessary services that you normally do yourself, such as cleaning your house, mowing your lawn, shoveling snow or doing laundry if you are injured in an auto accident.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "deathLabelHelp":[
+        {
+            "value":"<p>Death Benefit: In the case of death, family members or estates will receive any benefits not already collected under the income continuation and essential services coverage.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "funeralLabelHelp":[
+        {
+            "value":"<p>Funeral Expenses: Pays for reasonable funeral expenses up to the limit you select if you die as a result of an auto accident.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "violationTypeLabelHelp":[
+        {
+            "value":"<p>Please note that on December 11, 2011, the California Department of Insurance changed how a chargeable accident is defined.</p><p>#more Chargeable accidents that occurred before December 11, 2011 #more</p><p>#more Chargeable accidents that occurred on or after December 11, 2011 #more</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+            
+        }
+        
+    ],
+    "violationTypeLabelHelpMore1":[
+        {
+            "value":"<p>A chargeable accident that occurred before December 11, 2011 is:</p><ol><li>Any accident involving only one vehicle, or</li><li>Any accident in which the driver was deemed to be 51% or more at fault and:<ol type='a'><li>The property damage to any one person exceeded $750, or</li><li>The accident resulted in bodily injury or death</li></ol></li></ol>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+            
+        }
+        
+    ],
+    "violationTypeLabelHelpMore2":[
+        {
+            "value":"<p>A chargeable accident that occurred on or after December 11, 2011 is:</p><ol><li>Any accident involving only one vehicle, or</li><li>Any accident in which the driver was deemed to be 51% or more at fault and:<ol type='a'><li>The total loss or damage caused by the accident exceeded $1,000, or</li><li>The accident resulted in bodily injury or death</li></ol></li></ol>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+
+
+        }
+        
+    ],
+    "salvageAndModificationsHelp":[
+        {
+            "value":"<p><strong>Salvaged</strong>: A wrecked or damaged vehicle that is considered too expensive to repair and has been deemed a total loss. </p><p><strong>Modified</strong>: A vehicle that has been upgraded with aftermarket parts and/or components.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "ALL"
+            ]
+
+        },
+        {
+          "value":"<p><strong>Modified or Customized Vehicle</strong>: A vehicle that has been upgraded with aftermarket parts and/or components.</p>",
+          "rateLevel":"ALL",
+          "state":[
+            "CA"
+          ]
+        },
+        {
+          "value":"<p><strong>Modified/Damaged</strong>: A vehicle that has been upgraded with aftermarket parts and/or components or has existing damage, including broken glass.</p>",
+          "rateLevel":"ALL",
+          "state":["TX","AZ","VA","FL","NV","GA","OK"]
+        },
+        {
+          "value":"<p><strong>Modified/Damaged</strong>: A vehicle that has been upgraded with aftermarket parts and/or components or has existing damage, including broken glass.</p>",
+          "rateLevel":"alternative",
+          "state":["IL","NJ"]
+        }
+    ],
+    "TheftFeeLabelHelp":[
+        {
+            "value":"<h4>Auto Theft Fee</h4><p>A state required anti-theft fee assessed per vehicle.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "AZ"
+            ]
+        },
+        {
+            "value":"<h4>Motor Vehicle Crime Prevention Authority Fee</h4><p>By law, this fee funds the Motor Vehicle Crime Prevention Authority (MVCPA) for auto burglary, theft, and fraud prevention; criminal justice efforts; and trauma care and emergency medical services for victims of accidents due to traffic offenses.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "TX"
+            ]
+        }
+        
+    ],
+    "MVLEFeeLabelHelp":[
+        {
+            "value":"<h4>MVLE Fee</h4><p>The Motor Vehicle Law Enforcement Fee is a per vehicle fee required by the state of New York for the New York State Fund for Fraud Prevention.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NY"
+            ]
+            
+        }
+        
+    ],
+    "MCCAFeeLabelHelp":[
+        {
+            "value":"<h4>MCCA Fee</h4><p>This is a per vehicle fee required by the state of Michigan for the Michigan Catastrophic Claims Association (MCCA).</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "MI"
+            ]
+            
+        }
+        
+    ],
+    "StatutoryFeeLabelHelp":[
+        {
+            "value":"<h4>Statutory Fee</h4><p>This is a per vehicle fee required by the state of Michigan to cover the costs associated with assigned claims, assigned placement and theft prevention.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "MI"
+            ]
+            
+        }
+        
+    ],
+    "FraudFeeLabelHelp":[
+        {
+            "value":"<h4>State Fee</h4><p>A state required fraud fee assessed per vehicle for a 6 month policy.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+            
+        }
+        
+    ],
+    "PolicyFeeLabelHelp":[
+        {
+            "value":"<h4>Policy Fee</h4><p>A non-reimbursable fee required by Mercury Insurance Group.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "AZ",
+                "OK",
+                "CA"
+            ]
+            
+        }
+        
+    ],
+    "FilingFeeLabelHelp":[
+        {
+            "value":"<h4>Driver Filing Fee</h4><p>A fee required for filing proof of financial responsibility with the state.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NV",
+                "AZ",
+                "IL",
+                "MI",
+                "CA",
+                "GA",
+                "TX",
+                "FL",
+                "VA"
+            ]
+            
+        }
+        
+    ],
+    "InstallmentFeeLabelHelp":[
+        {
+            "value":"<h4>Installment Fees</h4><p>Fees associated with paying your premium in installments.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "ALL"
+            ]
+            
+        }
+        
+    ],
+    "IGAFeeLabelHelp":[
+        {
+            "value":"<h4>PLIGA Fee</h4><p>This fee is required by the state of New Jersey.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+            
+        }
+        
+    ],
+    "HurricaneFeeLabelHelp":[
+        {
+            "value":"<h4>FHCF Fee</h4><p>This fee is a percentage of your automobile premium and is required by the state of Florida to support the Florida Hurricane Catastrophe Fund (FHCF).</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "FL"
+            ]
+            
+        }
+        
+    ],
+    "PALiabilityCov_MIGHelpHelp":[
+        {
+            "value":"<p>Bodily Injury and Property Damage cover damages if you injure someone or their property in an auto accident. <span id='breakLine'></span> For example $50,000/$100,000/$50,000 means you have coverage of $50,000 per person up to a maximum of $100,000 per accident if you injure someone, and $50,000 to cover damage of their property.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NV",
+                "AZ",
+                "IL",
+                "OK",
+                "CA",
+                "NJ",
+                "FL",
+                "GA",
+                "NY",
+                "PA",
+                "VA",
+                "TX"
+            ]
+        },
+        {
+            "value":"<p>Provides coverage when you must pay for injuries or damage to others. The no-fault law protects insured persons from being sued as a result of an auto accident except in certain special situations. In general, you can only be sued for injuries or damage if you:</p><ol><li>Cause an accident in Michigan in which someone is killed, seriously injured, or permanently disfigured</li><li>Are involved in an accident in Michigan with an out-of-state resident who is an occupant of a vehicle not registered in Michigan</li><li>Are involved in an accident in another state; or</li><li>Are at fault 50% or more in an accident which causes damages to another person's vehicle which is not covered by insurance.</li></ol>",
+            "rateLevel":"ALL",
+            "state":[
+                "MI"
+            ]
+        }
+    ],
+    "PAMedPayCov_MIGHelpHelp":[
+        {
+            "value":"<p>Medical provides coverage for reasonable medical expenses and/or funeral expenses made necessary due to an accident. <br> #more Learn more #more</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NV",
+                "AZ",
+                "IL",
+                "OK",
+                "GA",
+                "FL",
+                "CA",
+                "NY"
+            ]
+        }
+    ],
+    "PAMedPayCov_MIGHelpHelpMore1":[
+        {
+            "value":"<p>Medical coverage pays reasonable medical and/or funeral expenses, made necessary due to an accident, for you and other persons occupying your auto. The coverage is provided regardless of fault. This coverage may be excess to other coverage you already own, and is subject to reimbursement under certain conditions specified in detail in the policy.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NV",
+                "AZ",
+                "IL",
+                "OK",
+                "GA",
+                "FL",
+                "CA"
+            ]
+        },
+        {
+            "value":"<p>Medical Payments coverage pays reasonable medical and/or funeral expenses, made necessary due to an accident, for you and other persons occupying your auto. The coverage is provided regardless of fault. This coverage may be excess to other medical coverage and is subject to other exclusions specified in the policy.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NY"
+            ]
+        }
+    ],
+    "PAMedExpCov_MIGHelpHelp": [
+        {
+            "value":"<p>Medical provides coverage for reasonable medical expenses and/or funeral expenses made necessary due to an accident. <br> #more Learn more #more</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "VA"
+            ]
+        },
+        {
+            "value":"<p>Medical provides coverage for reasonable medical expenses and/or funeral expenses made necessary due to an accident. <br> #more Learn more #more</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "PA"
+            ]
+        }
+    ],
+        "PAMedExpCov_MIGHelpHelpMore1": [
+            {
+                "value":"<p>Medical coverage pays reasonable medical and/or funeral expenses, made necessary due to an accident, for you and other persons occupying your auto. The coverage is provided regardless of fault. This coverage may be excess to other coverage you already own, and is subject to reimbursement under certain conditions specified in detail in the policy.</p>",
+                "rateLevel":"ALL",
+                "state":[
+                    "VA"
+                ]
+            },
+            {
+                "value":"<p>Medical Expense coverage pays reasonable medical expenses for injuries sustained as a result of a covered accident regardless of fault. This coverage may be excess to other medical coverage and is subject to reimbursement under certain conditions specified in the policy. The minimum coverage limit in Pennsylvania is $5,000.</p><p>Combination First Party Benefit packages include Medical Expense, Income Loss, Accidental Death, and Funeral Benefits at a single combined limit of either $177,500 or $277,500. Otherwise, these options may be purchased individually. These coverages are subject to all of the terms and conditions of your policy.</p>",
+                "rateLevel":"ALL",
+                "state":[
+                    "PA"
+                ]
+            }
+        ],
+    "PAMedPayCovTX_MIGHelpHelp":[
+        {
+            "value":"<p>Medical provides coverage for reasonable medical expenses and/or funeral expenses made necessary due to an accident. <br> #more Learn more #more</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "TX"
+            ]
+        }
+    ],
+    "PAMedPayCovTX_MIGHelpHelpMore1":[
+        {
+            "value":"<p>Medical coverage pays reasonable medical and/or funeral expenses, made necessary due to an accident, for you and other persons occupying your auto. The coverage is provided regardless of fault. This coverage may be excess to other coverage you already own, and is subject to reimbursement under certain conditions specified in detail in the policy. </p><p>Medical Coverage is only available when Personal Injury Protection Coverage is declined.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "TX"
+            ]
+        }
+    ],
+    "PAUMUIMBICov_MIGHelpHelp":[
+        {
+            "value":"<p>If you're in an automobile accident with another driver who has caused injury and does not have enough liabililty insurance (Bodily Injury Coverage), uninsured motorist covers the damages that you experience from the accident. <br> #more Learn more #more</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NV",
+                "NJ",
+                "TX"
+            ]
+        },
+        {
+            "value":"<p>Uninsured Motorist Bodily Injury provides coverage as a result of an automobile accident where it is determined that the other driver is at fault and has insufficient or no liability coverage.</p><p>This coverage compensates you for pain and suffering and excess wage loss if you are injured in a hit and run accident or if an uninsured motorist strikes you.</p><p>This coverage also compensates you for any difference between what the court awards you for pain and suffering caused by an insured driver and the maximum you are able to collect from that person and/or his or her insurance carrier.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "MI"
+            ]
+        }
+    ],
+    "PAUMUIMBICov_MIGHelpHelpMore1":[
+        {
+            "value":"<p>Uninsured Motorist Bodily Injury (UMBI) provides coverage if you or other passengers in your vehicle are injured as a result of an accident with an uninsured or underinsured at-fault driver.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NV",
+                "NJ",
+                "TX"
+            ]
+        },
+        {
+            "value":"<p>Uninsured Motorist Bodily Injury provides coverage as a result of an automobile accident where it is determined that the other driver is at fault and has insufficient or no liability coverage.</p><p>This coverage compensates you for pain and suffering and excess wage loss if you are injured in a hit and run accident or if an uninsured motorist strikes you.</p><p>This coverage also compensates you for any difference between what the court awards you for pain and suffering caused by an insured driver and the maximum you are able to collect from that person and/or his or her insurance carrier.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "MI"
+            ]
+        }
+    ],
+    "PAUMBICov_MIGHelpHelp": [
+        {
+            "value":"<p>If you're in an automobile accident with another driver who has caused injury and does not have enough liabililty insurance (Bodily Injury Coverage), uninsured motorist covers the damages that you experience from the accident. <br> #more Learn more #more</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "VA"
+            ]
+        },
+        {
+            "value":"<p>If you're in an automobile accident with another driver who has caused injury and does not have enough liabililty insurance (Bodily Injury Coverage), uninsured motorist covers the damages that you experience from the accident. <br> #more Learn more #more</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "AZ"
+            ]
+        },
+        {
+            "value":"<p>Uninsured Motorist Bodily Injury (UMBI) provides bodily injury coverage for you, your resident relatives and the passengers in your covered vehicle. This coverage only applies if it is determined that the other driver is at fault and has no liability coverage.</p><p>Within UMBI you may purchase one of two types of coverage- Unstacked UMBI and Stacked UMBI.</p><p>Unstacked UMBI provides coverage up to the limit selected regardless of the number of vehicles on your policy.</p><p>Stacked UMBI provides coverage up to the limit selected, multiplied by the number of vehicles on your policy.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "PA"
+            ]
+        }
+    ],
+    "PAUMBICov_MIGHelpHelpMore1": [
+        {
+            "value":"<p>Uninsured Motorist Bodily Injury (UMBI) provides coverage if you or other passengers in your vehicle are injured as a result of an accident with an uninsured or underinsured at-fault driver.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "VA"
+            ]
+        },
+        {
+            "value":"<p>Uninsured Motorist Bodily Injury (UMBI) provides bodily injury coverage for you, your resident relatives and the passengers in your covered vehicle. This coverage only applies if it is determined that the other driver is at fault and has no liability coverage.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "AZ"
+            ]
+        },
+        {
+            "value":"<p>Uninsured Motorist Bodily Injury (UMBI) provides bodily injury coverage for you, your resident relatives and the passengers in your covered vehicle. This coverage only applies if it is determined that the other driver is at fault and has no liability coverage.</p><p>Within UMBI you may purchase one of two types of coverage- Unstacked UMBI and Stacked UMBI.</p><p>Unstacked UMBI provides coverage up to the limit selected regardless of the number of vehicles on your policy.</p><p>Stacked UMBI provides coverage up to the limit selected, multiplied by the number of vehicles on your policy.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "PA"
+            ]
+        }
+    ],
+    "PAUMBICovGA_MIGHelpHelp": [
+        {
+            "value":"<p>If you're in an automobile accident with another driver who has caused injury and does not have enough liabililty insurance (Bodily Injury Coverage), uninsured motorist covers the damages that you experience from the accident. <br> #more Learn more #more</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "GA"
+            ]
+        }
+    ],
+    "PAUMBICovGA_MIGHelpHelpMore1": [
+        {
+            "value":"<p>Uninsured Motorist Bodily Injury (UMBI) provides coverage if you or other passengers in your vehicle are injured as a result of an accident with an uninsured or underinsured at-fault driver.</p><p>Within UMBI you may purchase one of two types of coverage - Reduced UMBI or Added On UMBI.</p><p>Reduced UMBI pays up to the difference between the at-fault driver's bodily injury coverage limits and the Reduced UMBI coverage amount you select.  Reduced Uninsured Motorist Coverage provides a lesser amount of coverage than Added On UMBI Coverage at a reduced premium. </p><p>Added On UMBI provides coverage that will pay for your damages in addition to the at-fault driver's bodily injury coverage limits, up to your Added-On UMBI limits.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "GA"
+            ]
+        }
+    ],
+    "PAUMBICovOK_MIGHelpHelp": [ 
+        {
+            "value":"<p>If you're in an automobile accident with another driver who has caused injury and does not have enough liabililty insurance (Bodily Injury Coverage), uninsured motorist covers the damages that you experience from the accident. <br> #more Learn more #more</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "OK"
+            ]
+        }
+    ],
+        "PAUMBICovOK_MIGHelpHelpMore1": [
+            {
+                "value":"<p>Uninsured Motorist Bodily Injury (UMBI) provides coverage if you or other passengers in your vehicle are injured as a result of an accident with an uninsured or underinsured at-fault driver.</p>",
+                "rateLevel":"ALL",
+                "state":[
+                    "OK"
+                ]
+            }
+        ],
+    "PAUMBICovIL_MIGHelpHelp": [
+        {
+            "value":"<p>If you're in an automobile accident with another driver who has caused injury and does not have enough liabililty insurance (Bodily Injury Coverage), uninsured motorist covers the damages that you experience from the accident. <br> #more Learn more #more</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "IL"
+            ]
+        }
+    ],
+    "PAUMBICovIL_MIGHelpHelpMore1": [
+        {
+            "value":"<p>Uninsured Motorist Bodily Injury (UMBI) provides bodily injury coverage for you, your resident relatives and the passengers in your covered vehicle. This coverage only applies if it is determined that the other driver is at fault and has no liability coverage.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "IL"
+            ]
+        }
+    ],
+    "PAUMBICovCA_MIGHelpHelp": [
+        {
+            "value":"<p>If you're in an automobile accident with another driver who has caused injury and does not have enough liabililty insurance (Bodily Injury Coverage), uninsured motorist covers the damages that you experience from the accident. <br> #more Learn more #more</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+        }
+    ],
+    "PAUMBICovCA_MIGHelpHelpMore1": [
+        {
+            "value":"<p>Uninsured Motorist Bodily Injury (UMBI) provides coverage if you or other passengers in your vehicle are injured as a result of an accident with an uninsured or underinsured at-fault driver.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA"
+            ]
+        }
+    ],
+    "PAUMSUMCov_MIGHelpHelp": [
+        {
+            "value":"<p>If you're in an automobile accident with another driver who has caused injury and does not have enough liabililty insurance (Bodily Injury Coverage), uninsured motorist covers the damages that you experience from the accident. <br> #more Learn more #more</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NY"
+            ]
+        }
+    ],
+    "PAUMSUMCov_MIGHelpHelpMore1": [
+        {
+            "value":"<p>Uninsured/Underinsured Motorist (UM) and Supplementary Uninsured/Underinsured Motorist (SUM) provides coverage if you or other passengers in your vehicle are injured as a result of an accident with an uninsured or underinsured at-fault driver.</p><p>UM coverage only applies to accidents that occur in the state of New York.</p><p>Within SUM the coverage applies to accidents which occur anywhere in the US, its territories or Canada.  SUM also offers higher limits of coverage.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NY"
+            ]
+        }
+    ],
+    "PAUIMBICov_MIGHelpHelp":[
+        {
+            "value":"<p>Underinsured Motorist Bodily Injury (UIM) provides bodily injury coverage for you, your resident relatives and the passengers in your covered vehicle. This coverage only applies if it is determined that the other driver is at fault and has insufficient liability coverage.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "AZ"
+            ]
+        },
+        {
+            "value":"<p>Underinsured Motorist Bodily Injury (UIM) provides bodily injury coverage for you, your resident relatives and the passengers in your covered vehicle. This coverage only applies if it is determined that the other driver is at fault and has insufficient liability coverage.</p><p>Within UIM you may purchase one of two types of coverage- Unstacked UIM and Stacked UIM.</p><p>Unstacked UIM provides coverage up to the limit selected regardless of the number of vehicles on your policy.</p><p>Stacked UIM provides coverage up to the limit selected, multiplied by the number of vehicles on your policy.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "PA"
+            ]
+        }
+    ],
+    "PAUIMBICovIL_MIGHelpHelp": [
+        {
+            "value":"<p>Underinsured Motorist Bodily Injury (UIM) provides bodily injury coverage for you, your resident relatives and the passengers in your covered vehicle. This coverage only applies if it is determined that the other driver is at fault and has insufficient liability coverage.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "IL"
+            ]
+        }
+    ],
+    "PALimitedPDLiabilityCov_MIGHelpHelp":[
+        {
+            "value":"<p>Under Michigan law, if you are 50% or more at-fault in an accident, you can be sued for damages to another person's car which are not covered by collision insurance. </p><p>Limited Property Damage Liability provides coverage up to $1,000 in these instances.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "MI"
+            ]
+        }
+    ],
+    "PAPipCovMI_MIGHelpHelp": [ 
+        {
+            "value":"<p>Personal Injury Protection (PIP) covers you, your spouse or partner, resident relatives and persons injured while in your insured vehicle(s) or pedestrians who are injured in an accident involving your insured vehicle(s).</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "MI"
+            ]
+        }
+    ],
+    "Split1HelpHelp":[
+        {
+            "value":"<p>PIP medical benefits can be selected as primary or excess to a health or medical insurance policy.</p><p>You should purchase primary PIP medical if you, your spouse, or your resident relatives do not have a health insurance policy that would pay medical benefits as primary in the event of an automobile accident. </p><p>Excess PIP medical should be purchased only if your health insurance policy pays benefits as primary for you, your spouse or partner, and your resident relatives for injuries sustained in an automobile accident.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "MI"
+            ]
+        }
+    ],
+    "Split2HelpHelp":[
+        {
+            "value":"<p>If injuries are sustained as a result of an automobile accident, PIP work loss benefits can supplement the injured person's income. PIP work loss benefits can also be selected as primary or excess to a health or medical insurance policy.</p><p>You should purchase primary PIP work loss if there is no accident or disability insurance policy that would pay primary for any loss of income sustained by you, your spouse or partner, or resident relatives as the result of injuries sustained in an automobile accident.</p><p>Excess PIP work loss should only be purchased if you, your spouse or partner and resident relatives have coverage under an accident or disability insurance policy that pays benefits on a primary basis for injuries sustained in an automobile accident.</p><p>Persons age 60 or older may waive PIP work loss benefits by accepting the \"PIP work loss waiver\". Accepting the PIP work loss waiver means there is no coverage provided under PIP work loss benefits. If the waiver is declined, then work loss coverage is provided.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "MI"
+            ]
+        }
+    ],
+    "PAPipCovNJ_MIGHelpHelp":[
+        {
+            "value":"<p>Personal Injury Protection provides coverage for reasonable medical expenses, lost wages and other related expenses. <br> #more Learn more #more </p><p>Extended Medical provides additional coverage for medical expenses for injuries that are sustained while occupying a non-owned highway vehicle other than a private passenger automobile, such as motorcycles, taxis, and large commercial vehicles such as buses.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+        }
+    ],
+    "PAPipCovNJ_MIGHelpHelpMore1":[
+        {
+            "value":"<p>Personal Injury Protection (PIP), also known as no-fault protection, provides coverage for you regardless of whether or not you cause an accident. </p><p>PIP covers you, whether or not you cause the accident, relatives living in your home, certain passengers who lack PIP, and certain licensed drivers who drive your vehicle with your permission, up to the limits of your policy. It also covers your child who lives in the same household if that child suffers an injury while riding on a school bus. It protects you while in your own or someone else's vehicle and as a pedestrian or bicyclist if you suffer an injury in an accident involving a motor vehicle. </p><p>PIP also offers options for extended medical payments and primary or secondary coverage. You have the choice of limits of PIP coverage (maximum amount that may be paid). You also have the choice of deductible levels (the amount you must pay before your insurance coverage begins). Your cost will be higher if you pick a higher limit of coverage or a lower deductible.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+        }
+    ],
+    "PAAPipCov_MIGHelpHelp":[
+        {
+            "value":"<p>Additional Personal Injury Protection provides reimbursement for certain other expenses you may have because you are hurt, such as lost wages and the need to hire someone to take care of your home or family. Limits may cover you and any resident relatives as designated.</p>   <p>Income Continuation: If you cannot work due to accident-related injuries, this coverage pays lost wages, minus Temporary Disability Benefits you may receive if your disability prevents you from working, up to the amount you select.</p>   <p>Essential Services: Pays for necessary services that you normally do yourself, such as cleaning your house, mowing your lawn, shoveling snow or doing laundry if you are injured in an auto accident.</p>   <p>Death Benefit: In the case of death, family members or estates will receive any benefits not already collected under the income continuation and essential services coverage.</p>   <p>Funeral Expenses: Pays for reasonable funeral expenses up to the limit you select if you die as a result of an auto accident.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+        }
+    ],
+    "PAPipCovFL_MIGHelpHelp":[
+        {
+            "value":"<p>Personal Injury Protection provides coverage for reasonable medical expenses, lost wages and other related expenses. <br> #more Learn more #more </p>",
+            "rateLevel":"ALL",
+            "state":[
+                "FL"
+            ]
+        }
+    ],
+    "PAPipCovFL_MIGHelpHelpMore1":[
+        {
+            "value":"<p>Personal Injury Protection (PIP), also known as No-Fault coverage, provides coverage for you, your dependent resident relatives, and your passengers for injuries sustained in an accident, regardless of fault, up to the limits of your policy. PIP also covers you while in someone else's vehicle, or if you suffer an injury involving a motor vehicle as a pedestrian or bicyclist. PIP also covers your resident children if an injury is sustained while riding a school bus. The minimum PIP coverage required by law is $10,000. PIP coverage pays 80% of reasonable medical expenses, 60% of lost wages, reasonable expenses for replacement services such as child care, housekeeping or yard work, and a $5,000 death benefit.</p><p>If you select PIP with a deductible for the Named Insured, the deductible will only apply to the Named Insured and his/her spouse. If you select PIP with a deductible for the Name Insured and dependent Resident Relatives, the deductible will apply to the Named Insured, spouse, and all dependent resident relatives. </p><p>If the Wage Loss Exclusion is selected the Named Insured, spouse and dependent resident relatives will be excluded from receiving benefits for loss of gross income and loss of earning capacity.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "FL"
+            ]
+        }
+    ],
+    "PAPipCovTX_MIGHelpHelp":[
+        {
+            "value":"<p>Personal Injury Protection provides coverage for reasonable medical expenses, lost wages and other related expenses. <br> #more Learn more #more </p>",
+            "rateLevel":"ALL",
+            "state":[
+                "TX"
+            ]
+        }
+    ],
+    "PAPipCovTX_MIGHelpHelpMore1":[
+        {
+            "value":"<p>Personal Injury Protection (PIP) provides coverage for you, your resident relatives, and your passengers, regardless of fault, if they are injured in an automobile accident. </p><p>This is available only on policies with Bodily Injury/Property Damage Liability Coverage when Medical coverage is declined. </p><p>This coverage is mandatory on all automobile liability polices unless the insured signs a PIP rejection form. </p>",
+            "rateLevel":"ALL",
+            "state":[
+                "TX"
+            ]
+        }
+    ],
+    "PAPipCovNY_MIGHelpHelp":[
+        {
+            "value":"<p>Personal Injury Protection provides coverage for reasonable medical expenses, lost wages and other related expenses. <br> #more Learn more #more </p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NY"
+            ]
+        }
+    ],
+    "PAPipCovNY_MIGHelpHelpMore1":[
+        {
+            "value":"<p>Personal Injury Protection (PIP) provides coverage up to $50,000 per person for:</p><ul><li>Medical expenses</li><li>Work Loss Benefits: 80% of lost earnings from work up to $2,000 per month (for up to 3 years). </li><li>$25 per day (for up to a year) for all other reasonable expenses </li><li>Death Benefit of $2,000 </li></ul><p>You can choose either a $0 or $200 deductible. This applies to the named insured and his or her resident relatives. If you would like to cover guest passengers when driving outside of New York, you must also purchase Additional PIP coverage</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NY"
+            ]
+        }
+    ],
+    "PAPropertyProtectionCov_MIGHelpHelp":[
+        {
+            "value":"<p>Property Protection Insurance (PPI) provides up to $1,000,000 for damages your car does in Michigan to other people's property, such as buildings and fences. It will also pay for damage your car does to another vehicle but only if the vehicle was properly parked. Other vehicle damage is covered only if the vehicle has collision and/or comprehensive coverage.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "MI"
+            ]
+        }
+    ],
+    "PAComprehensiveCov_MIGHelpHelp":[
+        {
+            "value":"<p>Comprehensive coverage pays to repair damages to your vehicle that are not caused by a collision, such as theft, fire, vandalism and hail. Payment for damages are subject to a deductible.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NV",
+                "OK",
+                "IL",
+                "FL",
+                "NJ",
+                "GA",
+                "TX",
+                "CA",
+                "PA",
+                "AZ",
+                "NY"
+            ]
+        },
+        {
+            "value":"<p>Comprehensive coverage provides coverage, less a specified deductible, for damage to an insured automobile that is not caused by a collision, such as theft, fire, vandalism, etc.</p><p>If you select Full Glass the Comprehensive deductible will not apply for expenses related to replacement of windows (which includes sunroofs and moonroofs).</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "MI"
+            ]
+        }
+    ],
+    "PAOtherThanCollCov_MIGHelpHelp": [
+        {
+            "value":"<p>Other Than Collision coverage pays to repair damages to your vehicle that are not caused by a collision, such as theft, fire, vandalism and hail. Payment for damages are subject to a deductible.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "VA"
+            ]
+        }
+    ],
+    "PACollisionCov_MIGHelpHelp":[
+        {
+            "value":"<p>If you're in an auto accident, regardless of who is at fault, collision insurance provides protection to replace or repair your vehicle. Payment for damages is subject to a deductible.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NV",
+                "AZ",
+                "IL",
+                "OK",
+                "CA",
+                "NJ",
+                "FL",
+                "TX",
+                "GA",
+                "NY",
+                "PA",
+                "VA"
+            ]
+        },
+        {
+            "value":"<p>Collision coverage provides protection to an insured vehicle when it is damaged in a collision with another vehicle or object, other than an animal.</p><p>Three types of Collision coverage are available:</p><ol><li>Limited Collision:  Pays for repairs above your deductible when the driver of your vehicle is not more than 50% at fault in an accident. If the driver of your vehicle is more than 50% at fault in an accident, then no coverage is provided. </li><li>Standard or Basic Collision:  Pays for repairs without regard to who is at fault. A deductible always applies.</li><li>Broad Collision:  Pays for repairs that exceed your deductible. A deductible does not apply if the driver of your vehicle is not more than 50% at fault in an accident.</li></ol>",
+            "rateLevel":"ALL",
+            "state":[
+                "MI"
+            ]
+        }
+    ],
+    "PARentalCov_MIGHelpHelp":[
+        {
+            "value":"<p>Rental car coverage will reimburse you for the rental of a vehicle from a qualified rental agency while an insured vehicle is being repaired due to a covered loss. The coverage is subject to a maximum daily amount for a specified limited period of time.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NV",
+                "AZ",
+                "IL",
+                "OK",
+                "CA",
+                "NJ",
+                "FL",
+                "TX",
+                "GA",
+                "NY",
+                "PA",
+                "MI"
+            ]
+        },
+        {
+            "value":"<p>Transportation Expense coverage will reimburse you for the rental of a vehicle from a qualified rental agency, while an insured vehicle is being repaired due to a covered loss. The coverage is subject to a maximum amount per occurrence for 30 days from the date coverage begins.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "VA"
+            ]
+        }
+    ],
+    "PATransExpCov_MIGHelpHelp":[
+        {
+            "value":"<p>Transportation Expense coverage will reimburse you for the rental of a vehicle from a qualified rental agency, while an insured vehicle is being repaired due to a covered loss. The coverage is subject to a maximum amount per occurrence for 30 days from the date coverage begins.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "VA"
+            ]
+        }
+    ],
+    "PARoadSideAssistance_MIGHelpHelp":[
+        {
+            "value":"<p>Mercury's Roadside Assistance provider offers  covered services such as towing, locksmith services, battery jump-start, and flat tire change at the place where the vehicle was disabled (limitations and #more exclusions #more may apply).</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NV",
+                "AZ",
+                "IL",
+                "OK",
+                "CA",
+                "NJ",
+                "VA",
+                "TX",
+                "GA",
+                "NY",
+                "PA",
+                "MI"
+            ]
+        },
+        {
+            "value":"<p>Roadside Assistance can only be added to vehicles with Collision coverage. Mercury's Roadside Assistance provider offers  covered services such as towing, locksmith services, battery jump-start, and flat tire change at the place where the vehicle was disabled (limitations and #more exclusions #more may apply).</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "FL"
+            ]
+        }
+    ],
+    "PARoadSideAssistance_MIGHelpHelpMore1":[
+        {
+            "value":"<ol type=\"a\"><li>Routine maintenance of an insured auto;</li><li>Labor not related to the disablement;</li><li>Installation of products or materials not related to the disablement;</li><li>Labor or repair work performed at a service station, garage or repair shop;</li><li>Towing from a service station, garage or repair shop;</li><li>Tire repair;</li><li>Towing from entrapment in snow, mud, water or sand, more than 100 feet from a public road or highway;</li><li>Disablement that occurs on road not regularly maintained, or on sand beaches, open fields, or areas designated as impassable due to construction, weather or earth movement;</li><li>Towing related to impoundment, abandonment, illegal parking or other violations of law;</li><li>Storage charges;</li><li>Mounting or removing snow tires or chains; or</li><li>Assistance with jacks, levelers or awnings on a motor home.</li></ol>",
+            "rateLevel":"ALL",
+            "state":[
+                "ALL"
+            ]
+        }
+    ],
+    "PACDWCov_MIGHelpHelp":[
+        {
+            "value":"<p>Collision Deductible Waiver (CDW) waives your Collision deductible if your covered vehicle sustains an accident where the other driver was at fault and does not have insurance. Your CDW amount must match the Collision deductible. This coverage is not available if Uninsured Motorist Property Damage is selected.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "IL",
+                "CA"
+            ]
+        }
+    ],
+    "PAUMPDPolCov_MIGHelpHelp":[
+        {
+            "value":"<p>If you're in an automobile accident with another driver who has caused damage to your vehicle and does not have enough insurance, uninsured motorist property damage (UMPD) covers the damages that you experience from the accident. <br> #more Learn more #more</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "VA"
+            ]
+        },
+        {
+            "value":"<p>If you're in an automobile accident with another driver who has caused damage to your vehicle and does not have enough insurance, uninsured motorist property damage (UMPD) covers the damages that you experience from the accident. <br> #more Learn more #more</p><p>The UMPD deductible amount is the amount that you will pay before you are entitled to any recovery payment under Uninsured Motorist Property Damage coverage.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "GA"
+            ]
+        }
+    ],
+    "PAUMPDPolCov_MIGHelpHelpMore1":[
+        {
+            "value":"<p>Uninsured Motorist Property Damage (UMPD) provides coverage if you sustain vehicle damage caused by being in an automobile accident with an uninsured or underinsured motorist who is legally liable for the accident. </p>",
+            "rateLevel":"ALL",
+            "state":[
+                "VA"
+            ]
+        },
+        {
+            "value":"<p>Uninsured Motorist Property Damage (UMPD) provides coverage if you sustain vehicle damage caused by being in an automobile accident with an uninsured or underinsured motorist.</p><p>Within UMPD you may purchase one of two types of coverage-Reduced UMPD or Added On UMPD.</p><p>Reduced UMPD pays up to the difference between the at-fault driver's property damage coverage limits and the Reduced UMPD coverage amount you select. Reduced Uninsured Motorist Coverage provides a lesser amount of coverage than Added On UMPD Coverage at a reduced premium.</p><p>Added On UMPD provides coverage that will pay for your damages in addition to the at-fault driver's property damage coverage limits, up to your Added-On UMPD limits.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "GA"
+            ]
+        }
+    ],
+    "PAUMUIMPDPolCov_MIGHelpHelp":[
+        {
+            "value":"<p>If you're in an automobile accident with another driver who has caused damage to your vehicle and does not have enough insurance, uninsured motorist property damage (UMPD) covers the damages that you experience from the accident. <br> #more Learn more #more</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "TX",
+                "NJ"
+            ]
+        }
+    ],
+    "PAUMUIMPDPolCov_MIGHelpHelpMore1":[
+        {
+            "value":"<p>Uninsured Motorist Property Damage (UMPD) provides coverage if you sustain vehicle damage caused by being in an automobile accident with an uninsured or underinsured motorist who is legally liable for the accident. </p>",
+            "rateLevel":"ALL",
+            "state":[
+                "TX",
+                "NJ"
+            ]
+        }
+    ],
+    "PAUMPDCov_MIGHelpHelp": [
+        {
+            "value":"<p>If you're in an automobile accident with another driver who has caused damage to your vehicle and does not have enough insurance, uninsured motorist property damage (UMPD) covers the damages that you experience from the accident. <br> #more Learn more #more</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA",
+                "IL"
+            ]
+        }
+    ],
+    "PAUMPDCov_MIGHelpHelpMore1": [
+        {
+            "value":"<p>Uninsured Motorist Property Damage (UMPD) provides coverage if you sustain vehicle damage caused by being in an automobile accident with an uninsured or underinsured motorist who is legally liable for the accident. </p>",
+            "rateLevel":"ALL",
+            "state":[
+                "CA",
+                "IL"
+            ]
+        }
+    ],
+    "PAAccidentalDeathPerPersonCov_MIGHelpHelp": [
+        {
+            "value":"<p>Accidental Death Benefit provides payment in the amount of $10,000 in the event that the named insured or resident relative dies as the result of an automobile accident in accordance with the policy endorsement.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "MI"
+            ]
+        },
+        {
+            "value":"<p>Accidental Death provides payment up to the selected limit in the event that a covered automobile accident results in the death of you or a resident relative.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "PA"
+            ]
+        }
+    ],
+    "PAUMBICovFL_MIGHelpHelp":[
+        {
+            "value":"<p>Uninsured Motorist (UM) coverage provides bodily injury coverage for you, your resident relatives and the passengers in your covered vehicle. This coverage only applies if it is determined that the other driver is at fault and has insufficient or no liability coverage.</p><p>Within UM you may purchase one of two types of coverage-Stacked UM or Non-stacked UM.</p><p>Stacked UM coverage- The limits for each vehicle listed on your policy may be combined to determine the total amount of UM coverage. </p><p>Non-stacked UM coverage- The limits for each vehicle may not be combined, your UM coverage is based on the limits for only one vehicle.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "FL"
+            ]
+        }
+    ],
+    "PALiab_TortThreshold_MIGHelpHelp":[
+        {
+            "value":"<p>The Tort Threshold determines when an insured may sue for damages.</p><p>You may purchase one of two types of coverage-Limitation on Lawsuit or No Limitation on Lawsuit.</p><p>Limitation on Lawsuit Option- This is also referred to as Verbal Threshold. This option allows you to recover all medical and other out-of-pocket expenses, but not for pain and suffering or non-monetary damages, unless the injuries are defined as serious. This option is less expensive than the No Limitation on Lawsuit option since you agree to limit your ability to sue for pain and suffering, except in cases where you have been seriously injured in an accident.</p><p>No Limitation on Lawsuit Option- This is also referred to as Zero Threshold. This allows you and other household members covered under this policy to recover all medical and other out-of-pocket expenses as well as financial compensation for pain and suffering.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NJ"
+            ]
+        }
+    ],
+    "PALiab_TortOption_MIGHelpHelp":[
+        {
+            "value":"<p>The tort option selected determines the type of financial compensation you may seek from the negligent party if you are injured in an accident.</p><p>You may purchase one of two types of coverage - Limited tort or Full tort.</p><p>Limited tort allows you to seek financial compensation for medical bills and lost wages, but not for pain and suffering or non-monetary damages, unless the injuries are defined as serious.</p><p>Full tort allows you to seek financial compensation for medical bills, lost wages, and for pain and suffering.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "PA"
+            ]
+        }
+    ],
+    "PAAPipCovNY_MIGHelpHelp":[
+        {
+            "value":"<p>Additional Personal Injury Protection (APIP) is supplemental to your PIP coverage.  APIP will extend coverage to guest passengers when driving outside of New York state.  APIP also provides options to increase your PIP coverage limit.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NY"
+            ]
+        }
+    ],
+    "PAOBELCov_MIGHelpHelp":[
+        {
+            "value":"<p>OBEL provides $25,000 additional coverage for: </p><ol><li>Basic Economic Loss </li><li>Loss of earnings from work </li><li>psychiatric, physical, or occupational therapy and rehabilitation </li><li>or any combination of 2 or 3. </li></ol><p>The named insured and resident relatives are covered both inside and outside of New York. Guest occupants are only covered while in New York state by this coverage. If you would like to cover guest passengers when driving outside of New York, you must also purchase Additional PIP coverage.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "NY"
+            ]
+        }
+    ],
+    "PAIncomeLossBenfCov_MIGHelpHelp":[
+        {
+            "value":"<p>Income Loss Benefit coverage pays for lost income resulting from injuries sustained in a covered automobile accident. Conditions and limits are detailed in the policy.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "VA"
+            ]
+        }
+    ],
+    "PAIncomeLossCov_MIGHelpHelp":[
+        {
+            "value":"<p>Income Loss Benefit coverage pays for lost income resulting from injuries sustained in a covered automobile accident. Conditions and limits are detailed in the policy</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "PA"
+            ]
+        }
+    ],
+    "PAFuneralBenfCov_MIGHelpHelp":[
+        {
+            "value":"<p>Funeral Benefits provide payment for reasonable funeral expenses up to the selected limit in the event that a covered automobile accident results in the death of you or a resident relative.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "PA"
+            ]
+        }
+    ],
+    "PAExtraMedBenfCov_MIGHelpHelp":[
+        {
+            "value":"<p>Extraordinary Medical Benefits provides coverage for medical treatment and rehabilitative services exceeding $100,000 for bodily injuries sustained in a covered accident.</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "PA"
+            ]
+        }
+    ],
+    "PATowingLaborCov_MIGHelpHelp":[
+        {
+            "value":"<p>Mercury's Towing and Labor provider offers  covered services such as towing, locksmith services, battery jump-start, and flat tire change at the place where the vehicle was disabled (limitations and #more exclusions #more may apply).</p>",
+            "rateLevel":"ALL",
+            "state":[
+                "VA"
+            ]
+        }
+    ],
+    
+    "PATowingLaborCov_MIGHelpHelpMore1":[
+        {
+            "value":"<ol type=\"a\"><li>Routine maintenance of an insured auto;</li><li>Labor not related to the disablement;</li><li>Installation of products or materials not related to the disablement;</li><li>Labor or repair work performed at a service station, garage or repair shop;</li><li>Towing from a service station, garage or repair shop;</li><li>Tire repair;</li><li>Towing from entrapment in snow, mud, water or sand, more than 100 feet from a public road or highway;</li><li>Disablement that occurs on road not regularly maintained, or on sand beaches, open fields, or areas designated as impassable due to construction, weather or earth movement;</li><li>Towing related to impoundment, abandonment, illegal parking or other violations of law;</li><li>Storage charges;</li><li>Mounting or removing snow tires or chains; or</li><li>Assistance with jacks, levelers or awnings on a motor home.</li></ol>",
+            "rateLevel":"ALL",
+            "state":[
+                "VA"
+            ]
+        }
+    ],
+    "isSalvagedVehicleLabelHelp":[
+      {
+        "value":"<p>A wrecked or damaged vehicle that has been previously deemed a total loss.</p>",
+        "rateLevel":"ALL",
+        "state":[
+        "CA","TX","NV","OK","VA","IL","GA","AZ","NJ","FL"
+        ]
+      }
+    ],
+  "tnTransportationLabelHelp":[
+    {
+      "value":"<p><strong>Transportation Network:</strong> Used in connection with any \"transportation network\" company using an internet-enabled computer application or platform to connect drivers of their own vehicles with paying customers needing transportation.  Examples of such companies include Uber, Lyft, etc.</strong></p> " ,
+      "rateLevel":"ALL",
+      "state":[
+        "CA",
+         "IL"
+      ]
+    },
+    {
+      "value":"<p><strong>Transportation Network:</strong> Used in connection with any \"transportation network\" company using an internet-enabled computer application or platform to connect drivers of their own vehicles with paying customers needing transportation.  Examples of such companies include Uber, Lyft, etc.</strong></p> " ,
+      "rateLevel":"ALL",
+      "state":[
+
+        "GA"
+      ]
+    },
+    {
+      "value":"<p><strong>Transportation Network:</strong> Used in connection with any \"transportation network\" company using an internet-enabled computer application or platform to connect drivers of their own vehicles with paying customers needing transportation.  Examples of such companies include Uber, Lyft, etc.</strong></p> " ,
+      "rateLevel":"ALL",
+      "state":[
+
+        "TX"
+      ]
+    }
+  ],
+  "verifyMileageLabelHelp":[
+    {
+      "value":"<p>With Mercury's RealDrive Mileage Program, the less miles you drive, the more you save! By enrolling your vehicle(s) and upon qualification, you will receive a discount. By simply providing odometer reading(s) at each renewal, you continue to qualify for a discount.</p>",
+      "rateLevel":"ALL",
+      "state":[
+      "CA"
+      ]
+    }
+
+    ],
+    "tnDriverLabelHelp":[
+        {
+            "value":"<p><strong>Transportation Network:</strong> Used in connection with any \"transportation network\" company using an internet-enabled computer application or platform to connect drivers of their own vehicles with paying customers needing transportation. Examples of such companies include Uber, Lyft, etc.</strong></p>",
+            "rateLevel":"ALL","state":["CA","GA"]
+        },
+      {
+        "value":"<p><strong>Transportation Network:</strong> Used in connection with any \"transportation network\" company using an internet-enabled computer application or platform to connect drivers of their own vehicles with paying customers needing transportation. Examples of such companies include Uber, Lyft, etc.</strong></p>",
+        "rateLevel":"ALL","state":["GA"]
+      },
+      {
+        "value":"<p><strong>Transportation Network:</strong> Used in connection with any \"transportation network\" company using an internet-enabled computer application or platform to connect drivers of their own vehicles with paying customers needing transportation. Examples of such companies include Uber, Lyft, etc.</strong></p>",
+        "rateLevel":"ALL","state":["TX","NV","OK","VA","FL"]
+      }
+    ],
+    "IntervenorFeeLabelHelp":[
+            {
+                "value":"<h4>Intervenor Fee</h4><p>Recoupment fee for regulatory intervenor costs.</p>",
+                "rateLevel":"ALL",
+                "state":[
+                    "CA"
+                ]
+                
+            }
+            
+     ],
+     "estMilesPerYearLabelHelp":[
+            {
+                "value":"<p>Based on your driving history, estimate the number of miles driven per year with this vehicle. We may order mileage verification reports to confirm the information provided.</p>",
+                "rateLevel":"ALL",
+                "state":[
+                    "NJ","NY"
+                ]
+                
+            }
+            
+     ],
+     "odometerLabelHelp":[
+            {
+                "value":"<p>The odometer is usually found in your vehicle's dashboard and should not be confused with the trip mileage counter which is often adjacent to the odometer. This information may be used to measure the miles driven per year in this vehicle.</p>",
+                "rateLevel":"ALL",
+                "state":[
+                    "CA","NJ","NY"
+                ]
+                
+            }
+            
+     ]
+}

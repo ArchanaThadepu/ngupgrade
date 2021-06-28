@@ -1,0 +1,163 @@
+{
+    "lineCoverageDisplay": [
+      {"value": {"default":{"value":"Select"},
+        "PALiabilityCov_MIG":{"value":"Select"},
+        "PAMedPayCov_MIG":{"value":"Select"},
+        "PAUMUIMBICov_MIG":{"value":"Select"}
+      },"rateLevel": "ALL", "state": ["NV"]},
+      {"value": {"default":{"value":"Select"},
+        "PALiabilityCov_MIG":{"value":"Select"},
+        "PAMedPayCov_MIG":{"value":"Select"},
+        "PAUMBICovGA_MIG":{"value":"Select"},
+        "PAUMPDPolCov_MIG":{"value":"Select"}
+      },"rateLevel": "ALL", "state": ["GA"]},
+      {"value": {"default":{"value":"Select"},
+        "PALiabilityCov_MIG":{"value":"Select"},
+        "PAPipCovNJ_MIG":{"value":"Space"},
+        "PAAPipCov_MIG":{"value":"Select"},
+        "PAUMUIMBICov_MIG":{"value":"Select"},
+        "PAUMUIMPDPolCov_MIG":{"value":"Select"}
+      },"rateLevel": "ALL", "state": ["NJ"]},
+      {"value": {"default":{"value":"Select"},
+        "PALiabilityCov_MIG":{"value":"Select"},
+        "PAMedPayCov_MIG":{"value":"Select"},
+        "PAAPipCovNY_MIG":{"value":"Select"},
+        "PAUMSUMCov_MIG":{"value":"Select"},
+        "PAPipCovNY_MIG":{"value":"Space"},
+        "PAOBELCov_MIG":{"value":"Radio"}
+      },"rateLevel": "ALL", "state": ["NY"]},
+      {"value": {"default":{"value":"Select"},
+        "PALiabilityCov_MIG":{"value":"Select"},
+        "PALimitedPDLiabilityCov_MIG":{"value":"Radio"},
+        "PAPropertyProtectionCov_MIG":{"value":"ReadOnly"},
+        "PAPipCovMI_MIG":{"value":"Space"},
+        "PAUMUIMBICov_MIG":{"value":"Select"}
+      },"rateLevel": "ALL", "state": ["MI"]},
+      {"value": {"default":{"value":"Select"},
+        "PALiabilityCov_MIG":{"value":"Select"},
+        "PAMedPayCov_MIG":{"value":"Select"},
+        "PAPipCovFL_MIG":{"value":"Space"},
+        "PAUMBICovFL_MIG":{"value":"Select"}
+      },"rateLevel": "ALL", "state": ["FL"]},
+      {"value": {"default":{"value":"Select"},
+        "PALiabilityCov_MIG":{"value":"Select"},
+        "PAMedPayCov_MIG":{"value":"Select"},
+        "PAUIMBICov_MIG":{"value":"Select"},
+        "PAUMBICov_MIG":{"value":"Select"}
+      },"rateLevel": "ALL", "state": ["AZ"]},
+      {"value": {"default":{"value":"Select"},
+        "PALiabilityCov_MIG":{"value":"Select"},
+        "PAMedPayCov_MIG":{"value":"Select"},
+        "PAUMBICovIL_MIG":{"value":"Select"},
+        "PAUIMBICovIL_MIG":{"value":"Select"}
+      },"rateLevel": "ALL", "state": ["IL"]},
+      {"value": {"default":{"value":"Select"},
+        "PALiabilityCov_MIG":{"value":"Select"},
+        "PAMedPayCovTX_MIG":{"value":"Select"},
+        "PAPipCovTX_MIG":{"value":"Select"},
+        "PAUMUIMBICov_MIG":{"value":"Select"},
+        "PAUMUIMPDPolCov_MIG":{"value":"Select"}
+      },"rateLevel": "ALL", "state": ["TX"]},
+      {"value": {"default":{"value":"Select"},
+        "PALiabilityCov_MIG":{"value":"Select"},
+        "PAMedPayCov_MIG":{"value":"Select"},
+        "PAUMBICovCA_MIG":{"value":"Select"}
+      },"rateLevel": "ALL", "state": ["CA"]},
+      {"value": {"default":{"value":"Select"},
+        "PALiabilityCov_MIG":{"value":"Select"},
+        "PAMedPayCov_MIG":{"value":"Select"},
+        "PAUMBICovOK_MIG":{"value":"Select"}
+      },"rateLevel": "ALL", "state": ["OK"]},
+      {"value": {"default":{"value":"Select"},
+        "PALiabilityCov_MIG":{"value":"Select"},
+        "PAIncomeLossBenfCov_MIG":{"value":"Radio"},
+        "PAMedExpCov_MIG":{"value":"Select"},
+        "PAUMBICov_MIG":{"value":"Select"},
+        "PAUMPDPolCov_MIG":{"value":"Select"}
+      },"rateLevel": "ALL", "state": ["VA"]},
+      {"value": {"default":{"value":"Select"},
+        "PALiabilityCov_MIG":{"value":"Select"},
+        "PAMedExpCov_MIG":{"value":"Select"},
+        "PAUMBICov_MIG":{"value":"Select"},
+        "PAUIMBICov_MIG":{"value":"Select"},
+        "PAIncomeLossCov_MIG":{"value":"Select"},
+        "PAFuneralBenfCov_MIG":{"value":"Select"},
+        "PAExtraMedBenfCov_MIG":{"value":"Radio"},
+        "PAAccidentalDeathPerPersonCov_MIG":{"value":"Select"}
+      },"rateLevel": "ALL", "state": ["PA"]}
+    ],
+    "lineCoverageTermDisplay":[
+      {"value": {"default":{"value":"Select"},
+        "PAPip_DeductFL_MIG":{"value":"Select"},
+        "PAPip_LimitFL_MIG":{"value":"Space"},
+        "PAPip_WageLossExclFL_MIG":{"value":"Select"},
+        "PAUMBICovFLLimit_MIG":{"value": "Select"},
+        "PAUMBI_FLCovType_MIG":{"value":"Radio"}
+      },"rateLevel": "ALL", "state": ["FL"]},
+      {"value": {"default":{"value":"Select"},
+        "PAPipNY_Limit_MIG":{"value":"Space"},
+        "PAPipNY_Deduct_MIG":{"value":"Radio"}
+      },"rateLevel": "ALL", "state": ["NY"]},
+      {"value": {"default":{"value":"Select"},
+        "PAUMBICovGALimit_MIG":{"value":"Select"},
+        "PAUMBI_GACovType_MIG":{"value":"Radio"},
+        "PAUMPDPolCovDeduct_MIG":{"value":"LineItemSelect"}
+      },"rateLevel": "ALL", "state": ["GA"]},
+      {"value": {"default":{"value":"Select"},
+        "PALiab_TortThreshold_MIG":{"value":"LineItemSelect"},
+        "PAPip_NJLimit_MIG":{"value":"Select"},
+        "PAPip_NJDeduct_MIG":{"value":"Select"},
+        "PAPip_NJHealthInsurer_MIG":{"value":"Radio"},
+        "PAPip_NJMedExpOnly_MIG":{"value":"Radio"},
+        "PAPip_NJExtMedLimit_MIG":{"value":"Radio"},
+        "PAAPip_IncomeContLimit_MIG":{"value":"ReadOnly"},
+        "PAApip_EssenServLimit_MIG":{"value":"ReadOnly"},
+        "PAAPip_DeathBenefLimit_MIG":{"value":"ReadOnly"},
+        "PAAPip_FuneralExpLimit_MIG":{"value":"ReadOnly"},
+        "PAAPip_APipExtension_MIG":{"value":"ReadOnly"}
+      },"rateLevel": "ALL", "state": ["NJ"]},
+      {"value": {"default":{"value":"Coverage Term"},
+        "Split1":{"value":"Radio"},
+        "Split2":{"value":"Radio"},
+        "Split3":{"value":"Select"},
+        "Split4":{"value":"Radio"}
+      },"rateLevel": "ALL", "state": ["MI"]},
+      {"value": {"default":{"value":"Select"},
+        "PALiab_TortOption_MIG":{"value":"LineItemRadio"},
+        "PAUMBICovLimit_MIG":{"value":"Select"},
+        "PAUIMBICovLimit_MIG":{"value":"Select"},
+        "PAUMBI_CovType_MIG":{"value":"Radio"},
+        "PAUIMBI_CovType_MIG":{"value":"Radio"}
+      },"rateLevel": "ALL", "state": ["PA"]}
+    ],
+    "vehicleCoverageDisplay": [
+      {"value": {"default":{"value":"Select"},
+        "PAComprehensiveCov_MIG":{"value":"Select"},
+        "PACollisionCov_MIG":{"value":"Select"},
+        "PACDWCov_MIG":{"value":"Select"},
+        "PARentalCov_MIG":{"value":"Select"},
+        "PARoadSideAssistance_MIG":{"value":"Select"},
+        "PATowingLaborCov_MIG":{"value":"Select"},
+        "PATransExpCov_MIG":{"value":"Select"},
+        "PAOtherThanCollCov_MIG":{"value":"Select"},
+        "PANonFactoryEquipment_MIG":{"value":"ReadOnly"},
+        "PACustomExcEquipCov_MIG":{"value":"ReadOnly"}
+      },"rateLevel": "ALL", "state": ["ALL"]},
+      {"value": {"default":{"value":"Select"},
+        "PAComprehensiveCov_MIG":{"value":"Select"},
+        "PACollisionCov_MIG":{"value":"Select"},
+        "PACDWCov_MIG":{"value":"Select"},
+        "PAUMPDCov_MIG":{"value":"Select"},
+        "PARentalCov_MIG":{"value":"Select"},
+        "PARoadSideAssistance_MIG":{"value":"Select"},
+        "PANonFactoryEquipment_MIG":{"value":"ReadOnly"}
+       },"rateLevel": "ALL", "state": ["IL","CA"]},
+       {"value": {"default":{"value":"Select"},
+        "PACollisionCov_MIG":{"value":"Select"},
+        "PATowingLaborCov_MIG":{"value":"Select"},
+        "PATransExpCov_MIG":{"value":"Select"},
+        "PAOtherThanCollCov_MIG":{"value":"Select"},
+        "PACustomExcEquipCov_MIG":{"value":"ReadOnly"}
+      },"rateLevel": "ALL", "state": ["VA"]}
+      ]
+}

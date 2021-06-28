@@ -1,0 +1,273 @@
+{
+  "serviceTimeout": 90000,
+  "gatewayHeaders": {
+    "X-Gateway-Token": "<auth><systemKey>QB_SYSTEM_QA123</systemKey></auth>",
+    "Accept": "application/JSON",
+    "Content-Type": "application/JSON"
+  },
+  "getToken": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/TOKEN/Get/V1",
+    "gatewayEnable": "Y",
+    "httpMethod": "GET",
+    "source": "gateway",
+    "ignoreOnError": true
+  },
+  "create": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/Create/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": false
+  },
+  "retrieve": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/Retrieve/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": false
+  },
+  "save": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/Save/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": false
+  },
+  "delete": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/Delete/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": false
+  },
+  "saveAndQuote": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/Rate/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": false
+  },
+  "executeSmartRules": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/ExecuteSmartRules/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": false
+  },
+  "updateCustomQuote": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/Rate/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": false
+  },
+  "updateQuotedSubmission": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/Rate/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": false
+  },
+  "submitEsign": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/SubmitEsign/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": false
+  },
+  "createLead": {
+    "baseURL": "",
+    "serviceEndPoint": "quote",
+    "gatewayEnable": "N",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": false
+  },
+  "getEsignURL": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/GetEsignURL/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": false
+  },
+  "bind": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/Bind/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": false
+  },
+  "getPaymentStatus": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/GetPaymentStatus/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": false
+  },
+  "zipDetailsByZip": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/ADDRESS/ZipDetails/V1?",
+    "gatewayEnable": "Y",
+    "httpMethod": "GET",
+    "source": "gateway",
+    "ignoreOnError": true
+  },
+  "getSplitTerritories": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/SplitTerritories/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": true
+  },
+  "standardizeAddress": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/ADDRESS/Standardize/V1",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "gateway",
+    "ignoreOnError": true
+  },
+  "getMakes": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/VIN/Makes/V1?",
+    "gatewayEnable": "Y",
+    "httpMethod": "GET",
+    "source": "gateway",
+    "ignoreOnError": true
+  },
+  "getModels": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/VIN/Models/V1?",
+    "gatewayEnable": "Y",
+    "httpMethod": "GET",
+    "source": "gateway",
+    "ignoreOnError": true
+  },
+  "getBodyTypes": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/VIN/BodyStyles/V1?",
+    "gatewayEnable": "Y",
+    "httpMethod": "GET",
+    "source": "gateway",
+    "ignoreOnError": true
+  },
+  "autofillBasedOnVIN": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/VinDetails/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": true
+  },
+  "getFilteredTypeListByFilter": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/TypeList/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": true
+  },
+  "getDriverPrefillData": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/DriverPrefill/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": true
+  },
+  "getVinPrefillData": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/VinPrefill/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": true
+  },
+  "getDiscoveredDrivers": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/DiscoveredDrivers/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": true
+  },
+  "getCurrentCarrierInfo": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/CurrentCarrier/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": true
+  },
+  "validatePromotion": {
+    "baseURL": "https://qa-api.mercuryinsurance.com",
+    "serviceEndPoint": "/SYSTEM/QUOTE/ValidatePromotion/V2",
+    "gatewayEnable": "Y",
+    "httpMethod": "POST",
+    "source": "edge",
+    "ignoreOnError": true
+  },
+  "ValidValues": {
+    "baseURL": "../js/src/mercury/config/",
+    "serviceEndPoint": "",
+    "gatewayEnable": "Y",
+    "httpMethod": "GET",
+    "source": "config"
+  },
+  "Labels": {
+    "baseURL": "../js/src/mercury/config/",
+    "serviceEndPoint": "",
+    "gatewayEnable": "Y",
+    "httpMethod": "GET",
+    "source": "config"
+  },
+  "Helps": {
+    "baseURL": "../js/src/mercury/config/",
+    "serviceEndPoint": "",
+    "gatewayEnable": "Y",
+    "httpMethod": "GET",
+    "source": "config"
+  },
+  "Messages": {
+    "baseURL": "../js/src/mercury/config/",
+    "serviceEndPoint": "",
+    "gatewayEnable": "Y",
+    "httpMethod": "GET",
+    "source": "config"
+  },
+  "HideShowRules": {
+    "baseURL": "../js/src/mercury/config/",
+    "serviceEndPoint": "",
+    "gatewayEnable": "Y",
+    "httpMethod": "GET",
+    "source": "config"
+  },
+  "ConstraintValues": {
+    "baseURL": "../js/src/mercury/config/",
+    "serviceEndPoint": "",
+    "gatewayEnable": "Y",
+    "httpMethod": "GET",
+    "source": "config"
+  },
+  "CoverageDisplayType": {
+    "baseURL": "../js/src/mercury/config/",
+    "serviceEndPoint": "",
+    "gatewayEnable": "Y",
+    "httpMethod": "GET",
+    "source": "config"
+  }
+}

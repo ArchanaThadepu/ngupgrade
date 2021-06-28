@@ -1,0 +1,57 @@
+
+<div class="mmProgression">
+  <div id="overlayMask" tabindex="-1" (click)="hideMenu();"></div>
+  <div id="overlayModalMaskClickable" tabindex="-1" (click)="hideModalOverlay();"></div>
+  <div id="overlayModalMask"></div>
+  <div class="overlayWrapper">
+    <div id="rateWarningOverlay" class="overlayContent clickable small">
+      <p>You may lose changes made to your quote. Are you sure you want to leave this page?</p>
+      <div class="button-wrapper">
+        <div class="buttons">
+          <input type="submit" class="orange small" value="Continue" (click)="goToNextView()" />
+          <input type="submit" class="gray small" value="Cancel" (click)="hideModalOverlay()" />
+        </div>
+      </div>
+    </div>
+    <div id="vehicleWarningOverlay" class="overlayContent small">
+      <p>Warning!</p>
+      <div class="button-wrapper">
+        <div class="buttons">
+          <input type="submit" class="orange small" value="OK" (click)="hideModalOverlay(); showUpdateRate();" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div ng-if="page === 'rate'" class="updateRate">
+    <div class="button-wrapper">
+      <div class="buttons">
+        <input type="button" class="orange" (click)="updateRate(rate); enableMenu(); enableBreadcrumbs()" value="Update Quote" />
+      </div>
+    </div>
+  </div>
+
+  <div class="circleContainer aboutYou" tabindex="{{migClickable ? 0 : -1}}" [ngClass]="{ 'migActive': (page === 'aboutYou') || (page === 'addressStandardization') || (page === 'addressVerification'), 'migClickable': migClickable }" (click)="(page === 'rate' && !menuEditMode && updateSubmissionMenu('aboutYou', page, rate)) || (percentComplete === 100 && editUnchanged && !menuEditMode && migClickable && showSelectedView('aboutYou', page))" aria-label="Navigate to the About You Page">
+    <div class="circleContainerNum">1</div>
+    <div class="circleContainerText">About You</div>
+  </div>
+  <div class="dividers"></div>
+  <div class="circleContainer vehicles" tabindex="{{migClickable ? 0 : -1}}" [ngClass]="{ 'migActive': (page === 'vehicles') || (page === 'vehicleDetails'), 'migClickable': migClickable }" (click)="(page === 'rate' && !menuEditMode && updateSubmissionMenu('vehicles', page, rate)) || (percentComplete === 100 && editUnchanged && !menuEditMode && migClickable && showSelectedView('vehicles', page))" aria-label="Navigate to the Vehicles Page">
+    <div class="circleContainerNum">2</div>
+    <div class="circleContainerText">Vehicles</div>
+  </div>
+  <div class="dividers"></div>
+  <div class="circleContainer drivers" tabindex="{{migClickable ? 0 : -1}}" [ngClass]="{ 'migActive': (page === 'drivers') || (page === 'driverDetails') || (page === 'driverDiscovery'), 'migClickable': migClickable }" (click)="(page === 'rate' && !menuEditMode && updateSubmissionMenu('drivers', page, rate)) || (percentComplete === 100 && editUnchanged && !menuEditMode && migClickable && showSelectedView('drivers', page))" aria-label="Navigate to the Drivers Page">
+    <div class="circleContainerNum">3</div>
+    <div class="circleContainerText">Drivers</div>
+  </div>
+  <div class="dividers"></div>
+  <div class="circleContainer details" tabindex="{{migClickable ? 0 : -1}}" [ngClass]="{ 'migActive': (page === 'additionalInfo') || (page === 'rentersBundle') || (page === 'mercuryGoEnrollment') || (page === 'driverAssignment'), 'migClickable': migClickable }" (click)="(page === 'rate' && !menuEditMode && updateSubmissionMenu('additionalInfo', page, rate)) || (percentComplete === 100 && editUnchanged && !menuEditMode && migClickable && showSelectedView('additionalInfo', page))" aria-label="Navigate to the Additional Information Page">
+    <div class="circleContainerNum">4</div>
+    <div class="circleContainerText">Details</div>
+  </div>
+  <div class="dividers"></div>
+  <div class="circleContainer yourQuote" tabindex="{{migClickable ? 0 : -1}}" [ngClass]="{ 'migActive': page === 'rate', 'migClickable': migClickable }" (click)="(page === 'rate' && !menuEditMode && updateSubmissionMenu('rate', page, rate)) || (percentComplete === 100 && editUnchanged && !menuEditMode && migClickable && showSelectedView('rate', page))" aria-label="Navigate to the Rate Page">
+    <div class="circleContainerNum">5</div>
+    <div class="circleContainerText">Your Quote</div>
+  </div>
+</div>

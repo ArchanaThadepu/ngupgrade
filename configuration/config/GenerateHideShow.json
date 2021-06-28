@@ -1,0 +1,82 @@
+{
+	"dob": [{"value": "false","rateLevel": "ALL", "state": ["ALL"]}],
+	"emailAddress": [{"value": "false","rateLevel": "ALL", "state": ["NV"]}],
+	"milesDrivenPerYear": [{"value": "hide","rateLevel": "ALL", "state": ["ALL"]},{"value": "show","rateLevel": "ALL", "state": ["CA"]}],
+	"numOfDaysPerWeek": [{"value": "hide","rateLevel": "ALL", "state": ["ALL"]},{"value": "show","rateLevel": "ALL", "state": ["CA"]}],
+	"oneWayMilesToWork": [{"value": "hide","rateLevel": "ALL", "state": ["ALL"]},{"value": "show","rateLevel": "ALL", "state": ["CA"]}],
+	"antiTheftEquipment": [{"value": "show","rateLevel": "ALL", "state": ["CA"]}],
+	"antiTheftCheckboxes": [{"value": "show","rateLevel": "ALL", "state": ["NY"]}],
+    "compensatoryEquip": [{"value": "show","rateLevel": "ALL", "state": ["ALL"]},{"value": "hide","rateLevel": "ALL", "state": ["CA"]}],
+    "purchaseType": [{"value": "show","rateLevel": "ALL", "state": ["ALL"]},{"value": "hide","rateLevel": "ALL", "state": ["CA"]}],
+	"splitTerritories": [{"value": "true","rateLevel": "ALL", "state": ["IL"]}],
+	"firstNameSecondaryLabel": [{"value": "show","rateLevel": "ALL", "state": ["NY"]}],
+	"gender": [{"value": "show","rateLevel": "ALL", "state": ["CA"]}],
+    "countryLicensed": [{"value": "show","rateLevel": "ALL", "state": ["CA"]}],
+    "ageFirstLicensed": [{"value": "show","rateLevel": "ALL", "state": ["CA","NY"]}],
+    "primaryVehicle": [{"value": "show","rateLevel": "ALL", "state": ["CA","VA"]}],
+    "suspendedRevoked": [{"value": "show","rateLevel": "ALL", "state": ["CA"]}],
+    "driverFiling": [{"value": "show","rateLevel": "ALL", "state": ["NV","AZ","IL","MI","FL","GA","TX","CA","VA"]},{"value": "hide","rateLevel": "ALL", "state": ["OK","NJ","PA","NY"]}],
+    "residenceType":[{"value":"hide", "rateLevel": "ALL", "state":["ALL"]},{"value": "show","rateLevel": "ALL", "state": ["CA"]}],
+  "ssn": [{"value": "show","rateLevel": "ALL", "state": ["ALL"]},{"value": "hide","rateLevel": "ALL", "state": ["CA"]}],
+    "goodStudent": [{"value": "show","rateLevel": "ALL", "state": ["ALL"]},{"value": "hide","rateLevel": "ALL", "state": ["NV","AZ","OK","TX"]}],
+    "associationRadio": [{"value": "show","rateLevel": "ALL", "state": ["MI","PA"]},
+      {"value": "hide","rateLevel": "base", "state": ["GA"]}
+    ],
+    "associationCheckboxes": [{"value": "show","rateLevel": "ALL", "state": ["NJ"]}],
+    "groupDiscount": [{"value": "show","rateLevel": "ALL", "state": ["CA"]}],
+    "pipClaimsCount": [{"value": "show","rateLevel": "ALL", "state": ["FL"]}],
+    "matureOrDefensiveDriver": [{"value": "show","rateLevel": "ALL", "state": ["NV","AZ","FL","CA","VA","PA","OK","GA","NJ","NY","IL"]},{"value": "hide","rateLevel": "ALL", "state": ["MI","TX"]}],
+    "driveLessThan3000Miles": [{"value": "show","rateLevel": "ALL", "state": ["MI"]}],
+    "usageMoreThan50Percent": [{"value": "show","rateLevel": "ALL", "state": ["ALL"]},{"value": "hide","rateLevel": "ALL", "state": ["CA"]}],
+    "occupationIndustry": [{"value": "show","rateLevel": "ALL", "state": ["ALL"]},{"value": "hide","rateLevel": "ALL", "state": ["CA"]}],
+    "occupationType": [{"value": "show","rateLevel": "ALL", "state": ["ALL"]},{"value": "hide","rateLevel": "ALL", "state": ["CA"]}],
+    "educationLevel": [{"value": "show","rateLevel": "ALL", "state": ["IL","MI","NJ","TX","NY","VA","PA"]},{"value": "hide","rateLevel": "ALL", "state": ["CA","NV","AZ","OK","FL","GA"]}],
+    "excludedReason": [{"value": "show","rateLevel": "ALL", "state": ["ALL"]},{"value": "hide","rateLevel": "ALL", "state": ["CA"]}],
+    "maritalStatus": [{"value": "hide","rateLevel": "ALL", "state": ["ALL"]},{"value": "show","rateLevel": "ALL", "state": ["CA"]}],
+    "atFaultThreshold": [{"value": "show","rateLevel": "ALL", "state": ["CA","NY"]},{"value": "hide","rateLevel": "ALL", "state": ["NV","AZ","IL","MI","OK","FL","GA","NJ","TX","VA","PA"]}],
+	"hasMercuryPolicy": [{"value": "show","rateLevel": "ALL", "state": ["ALL"]},{"value": "hide","rateLevel": "ALL", "state": ["FL","MI"]}],
+    "hasInsCoverAccident": [{"value": "show","rateLevel": "ALL", "state": ["MI"]}],
+    "hasLossWagesInsurance": [{"value": "show","rateLevel": "ALL", "state": ["MI"]}],
+    "primaryHealthInsurer": [{"value": "show","rateLevel": "ALL", "state": ["NJ"]}],
+    "medExpenseOnly": [{"value": "show","rateLevel": "ALL", "state": ["NJ"]}],
+    "pipMedExpenseLimit": [{"value": "show","rateLevel": "ALL", "state": ["NJ"]}],
+    "noPersonInHouse": [{"value": "show","rateLevel": "ALL", "state": ["MI","NJ","NY"]}],
+    "hasWorkLossReduction":[{"value":"show","rateLevel": "ALL", "state":["NY"]}],
+    "showSinglePaymentOption":[{"value":"show", "rateLevel": "ALL", "state":["CA"]}],
+    "collegeNames":[{"value":"show", "rateLevel": "ALL", "state":["CA"]}],
+    "employerName":[{"value":"show", "rateLevel": "ALL", "state":["ALL"]},{"value": "hide","rateLevel": "ALL", "state": ["CA"]}],
+    "healthInsurer":[{"value":"show", "rateLevel": "ALL", "state":["NJ"]}],
+    "healthInsurancePNum":[{"value":"show", "rateLevel": "ALL", "state":["NJ"]}],
+    "pipExtnForOtherResidents":[{"value":"show", "rateLevel": "ALL", "state":["NJ"]}],
+    "ahhBodyLabel":[{"value":"show", "rateLevel": "ALL", "state":["NY", "MI"]}],
+    "vehiclePurchaseDate":[{"value":"show","rateLevel": "ALL", "state":["NY"]}],
+    "vehicleOwnership": [{"value": "show","rateLevel": "ALL", "state": ["ALL"]},{"value": "hide","rateLevel": "ALL", "state": ["NY"]}],
+    "tnTransportation": [
+      {"value": "show","rateLevel": "ALL","state": ["CA"]},
+      {"value":"show","rateLevel": "ALL","state":["GA"]},
+      {"value":"show","rateLevel": "ALL","state":["TX"]},
+      {"value": "show","rateLevel": "alternative", "state": ["IL"]}
+    ],
+   "usedForTNTransport":[
+    {"value":"show","state":["AZ","CA","NV"]},
+     {"value":"show","rateLevel": "ALL","state":["TX", "VA"]},
+     {"value":"show","rateLevel": "ALL","state":["GA"]},
+     {"value":"show","rateLevel": "ALL","state":["IL","OK","FL"]}
+   ],
+   "usedForSalvaged": [
+   		{"value": "show","rateLevel": "ALL", "state": ["CA","NJ", "TX", "AZ", "VA","FL","NV","GA","OK"]},
+        {"value":"show","rateLevel": "alternative","state":["IL"]}
+	],
+   "verifyMileage": [{"value": "show","rateLevel": "ALL", "state": ["CA"]}],
+   "tnDriver": [
+     {"value": true,"rateLevel": "ALL", "state": ["CA","AZ"]},
+     {"value":true,"rateLevel": "alternative","state":["IL"]},
+     {"value":true,"rateLevel": "ALL","state":["TX","VA","FL","NV","GA","OK"]}
+   ],
+   "tNHours_MIG": [{"value": true,"rateLevel": "ALL", "state": ["TX","NV","OK","VA","AZ","FL","GA"]},
+   {"value": true,"rateLevel": "alternative", "state": ["IL"]}
+   ],
+   "verifiedMileage": [
+   		{"value":"show","rateLevel":"alternative","state":["NJ"]}
+   ] 
+}

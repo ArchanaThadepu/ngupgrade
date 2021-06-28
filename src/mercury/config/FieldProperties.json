@@ -1,0 +1,1009 @@
+{
+	"aboutYouPage":[
+		{
+		"name": "firstNameSecondaryLabel",
+		"fieldID": "firstNameSecondaryLabel",
+		"hideShowValueKey": "firstNameSecondaryLabel"
+		},
+		{
+			"name":"lastNameLabel",
+			"fieldID":"lastNameLabel",
+			"labelValueKey":"lastNameLabel"
+		},	
+		{
+			"name":"nameSuffix",
+			"fieldID":"nameSuffix",
+			"labelValueKey":"nameSuffix",
+			"validValueKey":"nameSuffix",
+			"messageValueKey":"suffix"
+		},
+		{
+			"name":"dob",
+			"fieldID":"dob",
+			"labelValueKey":"dob",
+			"messageValueKey":"dob",
+			"hideShowValueKey":"dateOfBirth"
+		},
+		{
+			"name":"zip",
+			"fieldID":"zip",
+			"labelValueKey":"zip",
+			"messageValueKey":"zip"
+		},
+		{
+			"name":"city",
+			"fieldID":"city",
+			"labelValueKey":"city",
+			"messageValueKey":"city"
+		},
+		{
+			"name":"phoneNumber",
+			"fieldID":"phoneNumber",
+			"labelValueKey":"phoneNumber",
+			"messageValueKey":"phoneNumber"
+		},
+		{
+			"name":"mailingAddress",
+			"fieldID":"mailingAddress",
+			"labelValueKey":"mailingAddress",
+			"messageValueKey":"mailingAddress"
+		},
+		{
+			"name":"email",
+			"fieldID":"email",
+			"labelValueKey":"email",
+			"messageValueKey":"email"
+		},
+		{
+			"name":"aptUnit",
+			"fieldID":"aptUnit",
+			"labelValueKey":"aptUnit",
+			"messageValueKey":"aptUnit"
+		},
+		{
+			"name":"consumerDisclosure",
+			"fieldID":"consumerDisclosure",
+			"labelValueKey":"consumerDisclosure"
+		},
+		{
+			"name":"consumerDisclosureMobile",
+			"fieldID":"consumerDisclosureMobile",
+			"labelValueKey":"consumerDisclosure"
+		},
+		{
+			"name":"consumerDisclosureAgg",
+			"fieldID":"consumerDisclosureAgg",
+			"labelValueKey":"consumerDisclosureAgg"
+		},
+		{
+			"name":"consumerDisclosureAggMobile",
+			"fieldID":"consumerDisclosureAggMobile",
+			"labelValueKey":"consumerDisclosureAgg"
+		}
+	],
+  "vehicleWizard":[
+    {
+      "name": "vehicleUsage",
+      "fieldID": "vehicleUsage",
+      "validValueKey": "vehicleUsage",
+      "labelValueKey": ""
+    },
+    {
+      "name": "milesDrivenPerYear",
+      "fieldID": "milesDrivenPerYear",
+      "labelValueKey": "milesDrivenPerYear",
+      "hideShowValueKey":"milesDrivenPerYear"
+    },{
+      "name": "numOfDaysPerWeek",
+      "fieldID": "numOfDaysPerWeek",
+      "validValueKey": "numOfDaysPerWeek",
+      "labelValueKey": "",
+      "hideShowValueKey":"numOfDaysPerWeek"
+    },
+    {
+      "name": "oneWayMilesToWork",
+      "fieldID": "oneWayMilesToWork",
+      "labelValueKey": "oneWayMilesToWork",
+      "hideShowValueKey":"oneWayMilesToWork"
+    },
+    {
+      "name": "state",
+      "fieldID": "state",
+      "validValueKey":"state"
+    },
+    {
+      "name": "leaseOrRent",
+      "fieldID": "leaseOrRent",
+      "validValueKey": "leaseOrRent",
+      "labelValueKey": ""
+    },
+    {
+      "name": "antiTheftEquipment",
+      "fieldID": "antiTheftEquipment",
+      "validValueKey": "antiTheftEquipment",
+      "labelValueKey": "antiTheftEquipment",
+      "hideShowValueKey":"antiTheftEquipment"
+    },
+    {
+      "name": "antiTheftCheckboxes",
+      "fieldID": "antiTheftCheckboxes",
+      "validValueKey": "paAntiTheftEquipment",
+      "hideShowValueKey":"antiTheftCheckboxes"
+    },
+    {
+      "name": "antiTheftEquipmentLabel",
+      "fieldID": "antiTheftEquipmentLabel",
+      "labelValueKey": "antiTheftEquipmentLabel"
+    },
+    {
+      "name": "specialEqType",
+      "fieldID": "specialEqType",
+      "validValueKey": "nonFactoryEquipment"
+    },
+    {
+      "name": "nonFactoryEquipmentLabel",
+      "fieldID": "nonFactoryEquipmentLabel",
+      "labelValueKey": "nonFactoryEquipmentLabel"
+    },
+    {
+      "name": "nfeqTypeLabel",
+      "fieldID": "nfeqTypeLabel",
+      "labelValueKey": "nfeqTypeLabel"
+    },
+    {
+      "name": "nonFactoryEquipmentSecondaryLabel",
+      "fieldID": "nonFactoryEquipmentSecondaryLabel",
+      "labelValueKey": "nonFactoryEquipmentSecondaryLabel"
+    },
+    {
+      "name": "addNonFactoryEquipmentButton",
+      "fieldID": "addNonFactoryEquipmentButton",
+      "labelValueKey": "addNonFactoryEquipmentButton"
+    },
+    {
+      "name": "purchaseType",
+      "fieldID": "purchaseType",
+      "labelValueKey": "",
+      "hideShowValueKey":"purchaseType"
+    },
+    {
+      "name": "usedForSalvaged",
+      "fieldID": "usedForSalvaged",
+      "hideShowValueKey":"usedForSalvaged"
+    },
+    {
+      "name": "splitTerritories",
+      "fieldID": "splitTerritories",
+      "hideShowValueKey":"splitTerritories"
+    },
+    {
+      "name": "compensatoryEquip",
+      "fieldID": "compensatoryEquip",
+      "hideShowValueKey":"compensatoryEquip"
+    },
+    {
+      "name": "tNHours_MIG",
+      "fieldID": "tNHours_MIG",
+      "hideShowValueKey":"tNHours_MIG"
+    },
+    {
+      "name": "verifiedMileage",
+      "fieldID": "verifiedMileage",
+      "hideShowValueKey":"verifiedMileage"
+    }
+  ],
+  "drivers":[
+    {
+      "name": "peopleSummaryCopyDeck",
+      "fieldID": "peopleSummaryCopyDeck",
+      "labelValueKey": "peopleSummaryCopyDeck"
+    },
+    {
+      "name":"nameSuffix",
+      "fieldID":"nameSuffix",
+      "validValueKey":"nameSuffix"
+    },
+    {
+      "name": "relationship",
+      "fieldID": "relationship",
+      "validValueKey": "relationship"
+    },
+    {
+      "name": "licenseStatus",
+      "fieldID": "licenseStatus",
+      "validValueKey": "licenseStatus"
+    }
+  ],
+  "driverWizard":[
+    {
+    "name": "firstNameSecondaryLabel",
+    "fieldID": "firstNameSecondaryLabel",
+    "hideShowValueKey": "firstNameSecondaryLabel"
+    },
+    {
+      "name":"nameSuffix",
+      "fieldID":"nameSuffix",
+      "validValueKey":"nameSuffix"
+    },
+    {
+      "name": "dob",
+      "fieldID": "dob",
+      "labelValueKey": ""
+    },
+    {
+      "name": "gender",
+      "fieldID": "gender",
+      "hideShowValueKey": "gender"
+    },
+    {
+      "name": "relationship",
+      "fieldID": "relationship",
+      "validValueKey": "relationship"
+    },
+    {
+      "name": "maritalStatus",
+      "fieldID": "maritalStatus",
+      "validValueKey": "maritalStatus",
+      "hideShowValueKey": "maritalStatus"
+    },
+    {
+      "name": "primaryResidence",
+      "fieldID": "primaryResidence",
+      "validValueKey": "primaryResidence"
+    },
+    {
+      "name": "residenceType",
+      "fieldID": "residenceType",
+      "validValueKey": "residenceType",
+      "hideShowValueKey": "residenceType"
+    },
+    {
+      "name": "primaryVehicle",
+      "fieldID": "primaryVehicle",
+      "hideShowValueKey": "primaryVehicle"
+    },
+    {
+      "name": "licenseStatus",
+      "fieldID": "licenseStatus",
+      "validValueKey": "licenseStatus"
+    },
+    {
+      "name": "licenseStatus_HHM",
+      "fieldID": "licenseStatus_HHM",
+      "validValueKey": "licenseStatus_HHM"
+    },
+    {
+      "name": "stateLicensed",
+      "fieldID": "stateLicensed",
+      "validValueKey": "stateLicensed"
+    },
+    {
+      "name": "countryLicensed",
+      "fieldID": "countryLicensed",
+      "validValueKey": "countryLicensed",
+      "hideShowValueKey": "countryLicensed"
+    },
+    {
+      "name": "ageFirstLicensed",
+      "fieldID": "ageFirstLicensed",
+      "hideShowValueKey": "ageFirstLicensed"
+    },
+    {
+      "name": "suspendedRevoked",
+      "fieldID": "suspendedRevoked",
+      "hideShowValueKey": "suspendedRevoked"
+    },
+    {
+      "name": "occupationIndustries",
+      "fieldID": "occupationIndustries",
+      "validValueKey": "occupationIndustries"
+    },
+    {
+      "name": "educationLevels",
+      "fieldID": "educationLevels",
+      "validValueKey": "educationLevels"
+    },
+    {
+      "name": "associationGroup",
+      "fieldID": "associationGroup",
+      "validValueKey": "associationGroup",
+      "hideShowValueKey": "associationGroup"
+    },
+    {
+      "name": "violationType",
+      "fieldID": "violationType",
+      "validValueKey": "violationType"
+    },
+    {
+      "name": "violationTypeCA",
+      "fieldID": "violationTypeCA",
+      "validValueKey": "violationTypeCA"
+    },
+    {
+      "name": "atFaultThreshold",
+      "fieldID": "atFaultThreshold",
+      "hideShowValueKey": "atFaultThreshold"
+    },
+    {
+      "name": "ssn",
+      "fieldID": "ssn",
+      "hideShowValueKey": "ssn"
+    },
+    {
+      "name": "driverFiling",
+      "fieldID": "driverFiling",
+      "hideShowValueKey": "driverFiling"
+    },
+    {
+      "name": "goodStudent",
+      "fieldID": "goodStudent",
+      "hideShowValueKey": "goodStudent"
+    },
+    {
+      "name": "associationRadio",
+      "fieldID": "associationRadio",
+      "hideShowValueKey": "associationRadio"
+    },
+    {
+      "name": "associationCheckboxes",
+      "fieldID": "associationCheckboxes",
+      "hideShowValueKey": "associationCheckboxes"
+    },
+    {
+      "name": "groupDiscount",
+      "fieldID": "groupDiscount",
+      "validValueKey": "groupDiscount",
+      "hideShowValueKey": "groupDiscount"
+    },
+    {
+      "name": "matureOrDefensiveDriver",
+      "fieldID": "matureOrDefensiveDriver",
+      "hideShowValueKey": "matureOrDefensiveDriver"
+    },
+    {
+      "name": "matureOrDefensiveDriverLabel",
+      "fieldID": "matureOrDefensiveDriverLabel",
+      "labelValueKey": "matureOrDefensiveDriverLabel"
+    },
+    {
+      "name": "driveLessThan3000Miles",
+      "fieldID": "driveLessThan3000Miles",
+      "hideShowValueKey": "driveLessThan3000Miles"
+    },
+    {
+      "name": "usageMoreThan50Percent",
+      "fieldID": "usageMoreThan50Percent",
+      "hideShowValueKey": "usageMoreThan50Percent"
+    },
+    {
+      "name": "pipClaimsCount",
+      "fieldID": "pipClaimsCount",
+      "hideShowValueKey": "pipClaimsCount",
+      "validValueKey": "pipClaimsCount"
+    },
+    {
+      "name": "occupationIndustry",
+      "fieldID": "occupationIndustry",
+      "validValueKey": "occupationIndustry",
+      "hideShowValueKey": "occupationIndustry"
+    },
+    {
+      "name": "occupationType",
+      "fieldID": "occupationType",
+      "hideShowValueKey": "occupationType"
+    },
+    {
+      "name": "educationLevel",
+      "fieldID": "educationLevel",
+      "validValueKey": "educationLevel",
+      "hideShowValueKey": "educationLevel"
+    },
+    {
+      "name": "excludedReason",
+      "fieldID": "excludedReason",
+      "validValueKey": "excludedReason",
+      "hideShowValueKey": "excludedReason"
+    },
+    {
+      "name": "firstNameValidationMsg",
+      "fieldID": "firstNameValidationMsg",
+      "labelValueKey": "firstNameValidationMsg"
+    },
+    {
+      "name": "lastNameValidationMsg",
+      "fieldID": "lastNameValidationMsg",
+      "labelValueKey": "lastNameValidationMsg"
+    },
+    {
+      "name": "maritalStatusValidationMsg",
+      "fieldID": "maritalStatusValidationMsg",
+      "labelValueKey": "maritalStatusValidationMsg"
+    },
+    {
+      "name": "licenseStatusValidationMsg",
+      "fieldID": "licenseStatusValidationMsg",
+      "labelValueKey": "licenseStatusValidationMsg"
+    },
+    {
+      "name": "stateLicensedValidationMsg",
+      "fieldID": "stateLicensedValidationMsg",
+      "labelValueKey": "stateLicensedValidationMsg"
+    },
+    {
+      "name": "countryLicensedValidationMsg",
+      "fieldID": "countryLicensedValidationMsg",
+      "labelValueKey": "countryLicensedValidationMsg"
+    },
+    {
+      "name": "ageFirstLicensedLabel",
+      "fieldID": "ageFirstLicensedLabel",
+      "labelValueKey": "ageFirstLicensedLabel"
+    },
+    {
+      "name": "driverFilingLabel",
+      "fieldID": "driverFilingLabel",
+      "labelValueKey": "driverFilingLabel"
+    },
+    {
+      "name": "associationLabel",
+      "fieldID": "associationLabel",
+      "labelValueKey": "associationLabel"
+    },
+    {
+      "name": "primaryVehicleLabel",
+      "fieldID": "primaryVehicleLabel",
+      "labelValueKey": "primaryVehicleLabel"
+    },
+    {
+      "name": "primaryVehicleValidationMsg",
+      "fieldID": "primaryVehicleValidationMsg",
+      "labelValueKey": "primaryVehicleValidationMsg"
+    },
+    {
+      "name": "matureDriverLabel",
+      "fieldID": "matureDriverLabel",
+      "labelValueKey": "matureDriverLabel"
+    },
+    {
+      "name": "defensiveDriverLabel",
+      "fieldID": "defensiveDriverLabel",
+      "labelValueKey": "defensiveDriverLabel"
+    },
+    {
+      "name": "seniorDriverLabel",
+      "fieldID": "seniorDriverLabel",
+      "labelValueKey": "seniorDriverLabel"
+    },
+    {
+      "name": "pipClaimsLabel",
+      "fieldID": "pipClaimsLabel",
+      "labelValueKey": "pipClaimsLabel"
+    },
+    {
+      "name": "goodStudentLabel",
+      "fieldID": "goodStudentLabel",
+      "labelValueKey": "goodStudentLabel"
+    },
+    {
+      "name": "accidentViolationsLabel",
+      "fieldID": "accidentViolationsLabel",
+      "labelValueKey": "accidentViolationsLabel"
+    },
+    {
+      "name": "accidentViolationsSecondaryLabel",
+      "fieldID": "accidentViolationsSecondaryLabel",
+      "labelValueKey": "accidentViolationsSecondaryLabel"
+    },
+    {
+      "name": "suspendedRevokedLabel",
+      "fieldID": "suspendedRevokedLabel",
+      "labelValueKey": "suspendedRevokedLabel"
+    },
+     {
+      "name": "groupDiscountLabel",
+      "fieldID": "groupDiscountLabel",
+      "labelValueKey": "groupDiscountLabel"
+    }
+  ],
+  "additionalInfo":[
+    {
+      "name": "hasMercuryPolicy",
+      "fieldID": "hasMercuryPolicy",
+      "validValueKey": "hasMercuryPolicy",
+      "hideShowValueKey":"hasMercuryPolicy"
+    },
+    {
+      "name": "hasMercuryPolicyLabel",
+      "fieldID": "hasMercuryPolicyLabel",
+      "labelValueKey":"hasMercuryPolicyLabel"
+    },
+    {
+      "name": "hasContinueInsuranceLabel",
+      "fieldID": "hasContinueInsuranceLabel",
+      "labelValueKey":"hasContinueInsuranceLabel"
+    },
+    {
+      "name": "recentInsurancePeriodLabel",
+      "fieldID": "recentInsurancePeriodLabel",
+      "labelValueKey":"recentInsurancePeriodLabel"
+    },
+    {
+      "name": "recentWithoutInsurancePeriodLabel",
+      "fieldID": "recentWithoutInsurancePeriodLabel",
+      "labelValueKey":"recentWithoutInsurancePeriodLabel"
+    },
+    {
+      "name": "mostRecentInsurancePeriodLabel",
+      "fieldID": "mostRecentInsurancePeriodLabel",
+      "labelValueKey":"mostRecentInsurancePeriodLabel"
+    },
+    {
+      "name":"recentInsurancePeriod",
+      "fieldID":"recentInsurancePeriod",
+      "labelValueKey":"recentInsurancePeriod",
+      "validValueKey":"priorInsDuration"
+    },
+    {
+      "name":"currentBIPDLimit",
+      "fieldID":"currentBIPDLimit",
+      "labelValueKey":"currentBIPDLimit",
+      "validValueKey":"priorBIPDSet",
+      "hideShowValueKey":"currentBIPDLimit"
+    },
+    {
+      "name":"currentInsurerName",
+      "fieldID":"currentInsurerName",
+      "labelValueKey":"currentInsurerName",
+      "messageValueKey":"currentInsurerName",
+      "validValueKey":"priorPolicyCarriers"
+    },
+    {
+      "name":"reasonForQuote",
+      "fieldID":"reasonForQuote",
+      "labelValueKey":"reasonForQuote",
+      "messageValueKey":"reasonForQuote",
+      "validValueKey":"reasonForQuote"
+    },
+    {
+      "name":"recentWithoutInsurancePeriod",
+      "fieldID":"recentWithoutInsurancePeriod",
+      "labelValueKey":"recentWithoutInsurancePeriod",
+      "validValueKey":"durationOfNotInsured"
+    },
+    {
+      "name":"mostRecentInsurancePeriod",
+      "fieldID":"mostRecentInsurancePeriod",
+      "labelValueKey":"mostRecentInsurancePeriod",
+      "validValueKey":"priorInsDuration"
+    },
+    {
+      "name":"priorBIPDLimit",
+      "fieldID":"priorBIPDLimit",
+      "labelValueKey":"priorBIPDLimit",
+      "validValueKey":"priorBIPDSet",
+      "hideShowValueKey":"priorBIPDLimit"
+    },
+    {
+      "name":"priorInsurerName",
+      "fieldID":"priorInsurerName",
+      "labelValueKey":"priorInsurerName",
+      "messageValueKey":"priorInsurerName",
+      "validValueKey":"priorPolicyCarriers"
+    },
+    {
+      "name":"noPriorInsReasons",
+      "fieldID":"noPriorInsReasons",
+      "labelValueKey":"noPriorInsReasons",
+      "messageValueKey":"noPriorInsReasons",
+      "validValueKey":"noPriorInsReasons"
+    },
+    {
+      "name":"noPersonInHouse",
+      "fieldID":"noPersonInHouse",
+      "labelValueKey":"noPersonInHouse",
+      "messageValueKey":"noPersonInHouse",
+      "validValueKey":"noPersonInHouse"
+    },
+    {
+      "name": "hasInsCoverAccident",
+      "fieldID": "hasInsCoverAccident",
+      "hideShowValueKey":"hasInsCoverAccident"
+    },
+    {
+      "name": "hasLossWagesInsurance",
+      "fieldID": "hasLossWagesInsurance",
+      "hideShowValueKey":"hasLossWagesInsurance"
+    },
+    {
+      "name": "primaryHealthInsurer",
+      "fieldID": "primaryHealthInsurer",
+      "hideShowValueKey":"primaryHealthInsurer"
+    },
+    {
+      "name": "paHealthInsurer_MIG",
+      "fieldID": "paHealthInsurer_MIG",
+      "labelValueKey":"paHealthInsurer_MIG",
+      "hideShowValueKey":"paHealthInsurer_MIG",
+       "validValueKey":"paHealthInsurer_MIG"
+     },
+    {
+      "name": "medExpenseOnly",
+      "fieldID": "medExpenseOnly",
+      "hideShowValueKey":"medExpenseOnly"
+    },
+    {
+      "name": "pipMedExpenseLimit",
+      "fieldID": "pipMedExpenseLimit",
+      "hideShowValueKey":"pipMedExpenseLimit"
+    },
+    {
+      "name": "noPersonInHouse",
+      "fieldID": "noPersonInHouse",
+      "hideShowValueKey":"noPersonInHouse"
+    },
+    {
+      "name": "hasWorkLossReduction",
+      "fieldID": "hasWorkLossReduction",
+      "hideShowValueKey": "hasWorkLossReduction"
+    },
+    {
+      "name": "invalidStatePromotionCodeMsg",
+      "fieldID": "invalidStatePromotionCodeMsg",
+      "labelValueKey": "invalidStatePromotionCodeMsg"
+    },
+    {
+      "name": "verifyMileage",
+      "fieldID": "verifyMileage",
+      "hideShowValueKey":"verifyMileage"
+    }
+
+  ],
+  "mercuryGoEnrollment":[
+      {
+        "name":"mercuryGODiscountLabel",
+        "fieldID":"mercuryGODiscountLabel",
+        "labelValueKey":"mercuryGODiscountLabel"
+      }
+  ],
+  "rate":[
+    {
+      "name":"lineCoverageLabel",
+      "fieldID":"lineCoverageLabel",
+      "labelValueKey": "lineCoverageLabel"
+    },
+    {
+      "name":"vehicleCoverageLabel",
+      "fieldID":"vehicleCoverageLabel",
+      "labelValueKey": "vehicleCoverageLabel"
+    },
+    {
+      "name":"lineCoverageTermLabel",
+      "fieldID":"lineCoverageTermLabel",
+      "labelValueKey": "lineCoverageTermLabel"
+    },
+    {
+      "name":"lineCoverageSecondaryLabel",
+      "fieldID":"lineCoverageSecondaryLabel",
+      "labelValueKey": "lineCoverageSecondaryLabel"
+    },
+    {
+      "name":"vehicleCoverageSecondaryLabel",
+      "fieldID":"vehicleCoverageSecondaryLabel",
+      "labelValueKey": "vehicleCoverageSecondaryLabel"
+    },
+    {
+      "name":"apipSecondaryLabel",
+      "fieldID":"apipSecondaryLabel",
+      "labelValueKey": "apipSecondaryLabel"
+    },
+    {
+      "name":"ratePageCopyDeck",
+      "fieldID":"ratePageCopyDeck",
+      "labelValueKey": "ratePageCopyDeck"
+    },
+    {
+      "name":"lineCoverage",
+      "fieldID":"lineCoverage",
+      "coverageDisplayTypeValueKey": "lineCoverageDisplay"
+    },
+    {
+      "name":"lineCoverageTerm",
+      "fieldID":"lineCoverageTerm",
+      "coverageDisplayTypeValueKey": "lineCoverageTermDisplay"
+    },
+    {
+      "name":"vehicleCoverage",
+      "fieldID":"vehicleCoverage",
+      "coverageDisplayTypeValueKey": "vehicleCoverageDisplay"
+    },
+    {
+      "name": "specialEqType",
+      "fieldID": "specialEqType",
+      "validValueKey": "nonFactoryEquipment"
+    },
+    {
+      "name": "PAAPipCov_MIG",
+      "fieldID": "PAAPipCov_MIG",
+      "validValueKey": "apipPackages"
+    },
+    {
+      "name":"consumerDisclosureAgg",
+      "fieldID":"consumerDisclosureAgg",
+      "labelValueKey":"consumerDisclosureAgg"
+    },
+    {
+      "name":"consumerDisclosureAggBottom",
+      "fieldID":"consumerDisclosureAggBottom",
+      "labelValueKey":"consumerDisclosureAgg"
+    },
+	{
+      "name":"bundleCopyDeck",
+      "fieldID":"bundleCopyDeck",
+      "labelValueKey": "bundleCopyDeck"
+    },
+    {
+      "name":"priorInsurerName",
+      "fieldID":"priorInsurerName",
+      "labelValueKey":"priorInsurerName",
+      "messageValueKey":"priorInsurerName",
+      "validValueKey":"priorPolicyCarriers"
+    },
+    {
+       "name":"mercuryGODiscountLabel",
+       "fieldID":"mercuryGODiscountLabel",
+       "labelValueKey":"mercuryGODiscountLabel"
+    }
+  ],
+  "referToAgent":[
+    {
+      "name":"priorInsurerName",
+      "fieldID":"priorInsurerName",
+      "validValueKey":"priorPolicyCarriers"
+    }
+  ],
+  "additionalBuy":[
+    {
+      "name":"phoneNumber",
+      "fieldID":"phoneNumber",
+      "labelValueKey":"phoneNumber",
+      "messageValueKey":"phoneNumber"
+    },
+    {
+      "name":"email",
+      "fieldID":"email",
+      "labelValueKey":"email",
+      "messageValueKey":"email"
+    },
+    {
+      "name":"mailingAddress",
+      "fieldID":"mailingAddress",
+      "labelValueKey":"mailingAddress",
+      "messageValueKey":"mailingAddress"
+    },
+    {
+      "name":"aptUnit",
+      "fieldID":"aptUnit",
+      "labelValueKey":"aptUnit",
+      "messageValueKey":"aptUnit"
+    },
+    {
+      "name":"city",
+      "fieldID":"city",
+      "labelValueKey":"city",
+      "messageValueKey":"city"
+    },
+    {
+      "name": "state",
+      "fieldID": "state",
+      "validValueKey":"state"
+    },
+    {
+      "name":"zip",
+      "fieldID":"zip",
+      "labelValueKey":"zip",
+      "messageValueKey":"zip"
+    },
+    {
+      "name":"policyExpiration",
+      "fieldID":"policyExpiration",
+      "labelValueKey": "policyExpiration"
+    },
+    {
+      "name": "healthInsurer",
+      "fieldID": "healthInsurer",
+      "hideShowValueKey": "healthInsurer"
+    },
+    {
+      "name": "healthInsurancePNum",
+      "fieldID": "healthInsurancePNum",
+      "hideShowValueKey": "healthInsurancePNum"
+    },
+    {
+      "name": "pipExtnForOtherResidents",
+      "fieldID": "pipExtnForOtherResidents",
+      "hideShowValueKey": "pipExtnForOtherResidents"
+    },
+    {
+      "name": "pipExtnForOtherResidentLabel",
+      "fieldID": "pipExtnForOtherResidentLabel",
+      "labelValueKey": "pipExtnForOtherResidentLabel"
+    },
+    {
+      "name": "ahhBodyLabel",
+      "fieldID": "ahhBodyLabel",
+      "labelValueKey": "ahhBodyLabel"
+    },
+    {
+      "name": "driverTrainingDateLabel",
+      "fieldID": "driverTrainingDateLabel",
+      "labelValueKey": "driverTrainingDateLabel"
+    },
+    {
+      "name": "occupationIndustry",
+      "fieldID": "occupationIndustry",
+      "validValueKey": "occupationIndustry",
+      "hideShowValueKey": "occupationIndustry"
+    },
+    {
+      "name": "occupationType",
+      "fieldID": "occupationType",
+      "hideShowValueKey": "occupationType"
+    },
+    {
+      "name": "collegeNames",
+      "fieldID": "collegeNames",
+      "validValueKey": "collegeNames",
+      "hideShowValueKey": "collegeNames"
+    },
+    {
+      "name": "employerName",
+      "fieldID": "employerName",
+      "hideShowValueKey": "employerName"
+    },
+    {
+      "name": "vehiclePurchaseDateLabel",
+      "fieldID": "vehiclePurchaseDateLabel",
+      "labelValueKey": "vehiclePurchaseDateLabel"
+    },
+    {
+      "name": "vehiclePurchaseDateValidationLabel",
+      "fieldID": "vehiclePurchaseDateValidationLabel",
+      "labelValueKey": "vehiclePurchaseDateValidationLabel"
+    },
+    {
+      "name": "vehiclePurchaseDate",
+      "fieldID": "vehiclePurchaseDate",
+      "hideShowValueKey": "vehiclePurchaseDate"
+    },
+    {
+      "name": "vehicleOwnership",
+      "fieldID": "vehicleOwnership",
+      "hideShowValueKey": "vehicleOwnership"
+    },
+    {
+      "name": "vehicleOwnershipLabel",
+      "fieldID": "vehicleOwnershipLabel",
+      "labelValueKey": "vehicleOwnershipLabel"
+    },
+    {
+      "name": "tnTransportation",
+      "fieldID": "tnTransportation",
+      "hideShowValueKey": "tnTransportation"
+    },
+    {
+      "name": "tnTransportationLabel",
+      "fieldID": "tnTransportationLabel",
+      "labelValueKey": "tnTransportationLabel"
+    },
+    {
+      "name": "milesDrivenPerYear",
+      "fieldID": "milesDrivenPerYear",
+      "labelValueKey": "milesDrivenPerYear",
+      "hideShowValueKey":"milesDrivenPerYear"
+    },
+    {
+      "name": "numOfDaysPerWeek",
+      "fieldID": "numOfDaysPerWeek",
+      "validValueKey": "numOfDaysPerWeek",
+      "labelValueKey": "",
+      "hideShowValueKey":"numOfDaysPerWeek"
+    },
+    {
+      "name": "oneWayMilesToWork",
+      "fieldID": "oneWayMilesToWork",
+      "labelValueKey": "oneWayMilesToWork",
+      "hideShowValueKey":"oneWayMilesToWork"
+    },
+    {
+      "name":"nameSuffix",
+      "fieldID":"nameSuffix",
+      "validValueKey":"nameSuffix"
+    },
+    {
+      "name": "firstNameSecondaryLabel",
+      "fieldID": "firstNameSecondaryLabel",
+      "hideShowValueKey": "firstNameSecondaryLabel"
+    },
+    {
+      "name": "relationship",
+      "fieldID": "relationship",
+      "validValueKey": "relationship"
+    },
+    {
+      "name":"showOdometer",
+      "fieldID":"showOdometer",
+      "labelValueKey":"showOdometer"
+    },
+    {
+      "name": "verifyMileage",
+      "fieldID": "verifyMileage",
+      "hideShowValueKey":"verifyMileage"
+    },
+    {
+      "name": "usedForSalvaged",
+      "fieldID": "usedForSalvaged",
+      "hideShowValueKey":"usedForSalvaged"
+    },
+    {
+      "name":"tnDriver",
+      "fieldID":"tnDriver",
+      "hideShowValueKey":"tnDriver"
+    },
+    {
+      "name": "tNHours_MIG",
+      "fieldID": "tNHours_MIG",
+      "hideShowValueKey":"tNHours_MIG"
+    },
+    {
+      "name": "stateLicensed",
+      "fieldID": "stateLicensed",
+      "validValueKey": "stateLicensed"
+    }
+  ],
+  "history":[
+    {
+      "name":"regVehicleOwnershipLabel",
+      "fieldID":"regVehicleOwnershipLabel",
+      "labelValueKey":"regVehicleOwnershipLabel"
+    },
+    {
+      "name":"usedForTNTransport",
+      "fieldID":"usedForTNTransport",
+      "hideShowValueKey":"usedForTNTransport"
+    },
+    {
+      "name":"usedForTNPerson",
+      "fieldID":"usedForTNPerson",
+      "labelValueKey":"usedForTNPerson"
+    },
+    {
+      "name": "salvageAndModifications",
+      "fieldID": "salvageAndModifications",
+      "labelValueKey": "salvageAndModifications"
+    }
+  ],
+  "vehicleHistory":[
+    {
+      "name":"vehHistoryVehicleOwnershipLabel",
+      "fieldID":"vehHistoryVehicleOwnershipLabel",
+      "labelValueKey":"vehHistoryVehicleOwnershipLabel"
+    },
+    {
+      "name":"usedForTNTransport",
+      "fieldID":"usedForTNTransport",
+      "hideShowValueKey":"usedForTNTransport"
+    },
+    {
+      "name":"usedForTNPerson",
+      "fieldID":"usedForTNPerson",
+      "labelValueKey":"usedForTNPerson"
+    },
+    {
+      "name":"salvageAndModifications",
+      "fieldID":"salvageAndModifications",
+      "labelValueKey":"salvageAndModifications"
+    }
+
+
+  ]
+}

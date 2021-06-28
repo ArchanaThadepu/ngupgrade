@@ -1,0 +1,372 @@
+
+/* I884151 - Siderail Prod Implementaion, Redesign */
+@media only screen and (min-width: 320px) {
+  .tollFree,
+  .call,
+  .email {
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+  }
+  section#additionalInfo .email {
+    margin-bottom: 20px;
+    line-height: 22px;
+  }
+  header {
+    width: 100%;
+    padding: 0;
+    background-color: #006599;
+  }
+  header .row,
+  header .email.smallDesktop,
+  .hideHelpHeader #needHelpTab,
+  .hideHelpHeader #needHelpWrapper {
+    display: none;
+  }
+  header .row,
+  header .row.needsHelp,
+  header #needHelpTab,
+  header .email.largeDesktop,
+  footer .email.largeDesktop {
+    display: block;
+  }
+  header .tollFree div,
+  header h4 div,
+  footer .speakToAgent div,
+  footer #contactInfo h4 div {
+    display: inline-block;
+  }
+  header .tollFree a {
+    color: #fff;
+    text-decoration: none;
+  }
+  header .row h1,
+  header .row h4 {
+    color: #fff;
+    font-size: .85rem;
+    font-weight: normal;
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+  header .row h1 {
+    margin-top: 6px;
+  }
+  header .row h4 {
+    margin-bottom: 3px;
+  }
+  header .row .bannerNum {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+  }
+  header #logoWrapper {
+    width: 140px;
+    margin: 0;
+    padding-left: 8%;
+  }
+  header #headerWrapper {
+    padding: 20px 0;
+    background-color: #fff;
+  }
+  header .screenLogo {
+    width: 120px;
+    margin: 0;
+  }
+  header #needHelpTab {
+    position: relative;
+  }
+  header #needHelpTab > div {
+    display: block;
+    margin: 0 auto;
+    max-width: 750px;
+  }
+  header #needHelpTab span {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0 30px;
+    color: #000;
+    font-weight: bold;
+    border-bottom-right-radius: 10% 28%;
+    border-bottom-left-radius: 10% 28%;
+    float: right;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: -48px;
+    outline: none;
+  }
+  header .row .rowWrapper {
+    text-align: left;
+    padding-right: 8%;
+    padding-left: 8%;
+  }
+  header .row h1 span {
+    width: 25px;
+    height: 25px;
+    padding-right: 8px;
+  }
+  header .row h1.callAgent span {
+    background-size: 25px 25px;
+    top: 0;
+  }
+  header .row h4 {
+    display: inline-block;
+    vertical-align: baseline;
+    border: 0;
+    padding: 0;
+    line-height: 27px;
+  }
+  header .row h5 {
+    float: left;
+    margin: 0 2em .5em 0;
+    font-size: .7rem;
+  }
+  footer {
+    width: 100%;
+    padding: 25px 0;
+  }
+  footer .row:nth-of-type(2) {
+    margin-top: 20px;
+  }
+  footer .row .rowWrapper {
+    text-align: left;
+    padding-right: 8%;
+    padding-left: 8%;
+  }
+  footer .tollFree {
+    line-height: 16px;
+  }
+  footer #contactInfo > div:nth-of-type(1) {
+    display: block;
+    color: #000;
+    font-weight: normal;
+  }
+  footer .row h1,
+  footer .row h4 {
+    margin: 20px 0 0;
+    width: 100%;
+  }
+  footer .row h1.emailQuote {
+    margin-bottom: 0;
+    margin-top: 15px;
+  }
+  footer .row h1 span {
+    width: 35px;
+    height: 35px;
+    padding-right: 8px;
+  }
+  footer .row h1.callAgent span,
+  footer .row h1.emailQuote span {
+    background-size: 35px 35px;
+  }
+  footer .row h1.emailQuote span {
+    margin-top: -2px;
+  }
+  footer .row h4 {
+    display: inline-block;
+    vertical-align: baseline;
+    border: 0;
+    padding: 0;
+    line-height: 27px;
+  }
+  footer .row h5 {
+    float: left;
+    margin: 0 2em .5em 0;
+    font-size: .7rem;
+  }
+  footer .tollFree,
+  footer .call,
+  footer .email,
+  footer #contactInfo h4 {
+    font-size: .875rem;
+    color: #000;
+    margin-top: 4px;
+  }
+  footer #contactInfo h4 {
+    position: relative;
+    top: 3px;
+    margin-top: 0;
+  }
+  #contentWrapper {
+    padding-top: 63.5px;
+  }
+  #contentWrapper.needsHelp {
+    padding-top: 124.5px;
+  }
+}
+@media only screen and (min-width: 361px) {
+  header #contactInfo h1,
+  header #contactInfo h4 {
+    width: 50%;
+    margin: 6px 0;
+    padding: 0;
+    font-size: 0.76rem;
+  }
+  header #contactInfo h4 {
+    line-height: 1.6rem;
+    float: right;
+    text-align: right;
+  }
+  #needHelpWrapper {
+    line-height: 50px;
+  }
+  #contentWrapper.needsHelp {
+    padding-top: 101px;
+  }
+}
+@media only screen and (min-width: 481px) {
+  header .screenLogo {
+    width: 130px;
+  }
+  header .email.largeDesktop {
+    position: relative;
+    top: 2px;
+  }
+  footer .row .rowWrapper {
+    margin-left: 0;
+  }
+  footer .emailContent {
+    width: inherit;
+  }
+  footer .row h1.emailQuote span {
+    margin-top: 0;
+  }
+  footer .email.largeDesktop {
+    position: relative;
+    top: 2px;
+  }
+  footer .row h1 {
+    width: inherit;
+    float: left;
+    margin-top: 15px;
+    margin-right: 2em;
+  }
+  footer #contactInfo h1.emailQuote.ng-hide + h4 {
+    position: relative;
+    top: 15px;
+    margin-top: 0;
+    width: 50%;
+  }
+  footer #contactInfo h4 {
+    top: 7px;
+  }
+  #contentWrapper {
+    padding-top: 65.5px;
+  }
+  #contentWrapper.needsHelp {
+    padding-top: 103px;
+  }
+}
+@media only screen and (min-width: 681px) {
+  header #headerWrapper {
+    padding: 15px 0 19px 0;
+  }
+  header #logoWrapper {
+    padding-left: 0;
+    margin: 0 30px;
+  }
+  header #logoWrapper a {
+    position: relative;
+    left: 8%;
+  }
+  header #contactInfo {
+    margin-left: 8%;
+  }
+  header #contactInfo h1,
+  header #contactInfo h4 {
+    float: left;
+    text-align: left;
+    width: 35%;
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  header .row .rowWrapper,
+  footer .row .rowWrapper {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  footer .row .rowWrapper {
+    padding: 0;
+    max-width: 750px;
+    margin: 0 8%;
+    /*overflow: auto;*/
+  }
+  /* footer #contactInfo h4 {
+    width: inherit;
+    top: 18px;
+  }*/
+  footer #emailContent {
+    width: 88%;
+  }
+  #contentWrapper {
+    padding-top: 75.5px;
+  }
+  #contentWrapper.needsHelp {
+    padding-top: 117px;
+  }
+}
+@media only screen and (min-width: 801px) {
+  header #needHelpTab:not(.promoActive) span {
+    background-color: #fff;
+  }
+  header #needHelpTab span {
+    top: -56px;
+  }
+  header #contactInfo {
+    position: relative;
+    top: 19px;
+    margin-left: 0;
+  }
+  header .row h1.callAgent span {
+    background-size: 30px 30px;
+    top: -3px;
+    width: 30px;
+    height: 30px;
+  }
+  header #logoWrapper a {
+    left: 0;
+  }
+  header .screenLogo {
+    width: 200px;
+  }
+  footer .row .rowWrapper {
+    margin: 0 auto;
+  }
+  footer #contactInfo h4 {
+    width: inherit;
+    top: 18px;
+  }
+  footer .row h5:first-child {
+    max-width: 750px;
+    padding-left: 8%;
+  }
+  footer #emailWrapper {
+    width: 91%;
+  }
+  #needHelpWrapper {
+    height: 81px;
+  }
+  #contentWrapper {
+    padding-top: 77.5px;
+  }
+  #contentWrapper.needsHelp {
+    padding-top: 158px;
+  }
+  #footerContact {
+    max-width: 750px;
+    padding-left: 8%;
+  }
+}
+/* end I884151 */
+
+header #needHelpTab span img {
+  width: 27px;
+  height: 27px;
+  padding-right: 10px;
+}

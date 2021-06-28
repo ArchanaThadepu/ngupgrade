@@ -1,0 +1,498 @@
+{
+  "flowService": [
+    {
+      "currentView": "aboutYou",
+      "rules": [
+        {
+          "nextPage": "addressStandardization",
+          "value": "needMoreInfo"
+        },
+        {
+          "nextPage": "addressVerification",
+          "value": "verifyInfo"
+        },
+        {
+          "nextPage": "vehicles",
+          "value": "complete"
+        },
+        {
+          "nextPage": "rate",
+          "value": "validateRate"
+        },
+        {
+          "nextPage": "rentersBundle",
+          "value": "rentersBundle"
+        },
+        {
+          "nextPage": "mercuryGoEnrollment",
+          "value": "mercuryGoEnrollment"
+        }
+      ]
+    },
+    {
+      "currentView": "addressStandardization",
+      "rules": [
+        {
+          "nextPage": "vehicles",
+          "value": "complete"
+        },
+        {
+        	"nextPage": "addressVerification",
+        	"value": "verifyInfo"
+        },
+        {
+        	"nextPage": "vehicles",
+        	"value": "vehicles"
+        },
+        {
+          "nextPage": "preRate",
+          "value": "validateRate"
+        },
+        {
+        	"nextPage": "additionalBuy",
+        	"value": "additionalBuy"
+        },
+        {
+          "nextPage": "rentersBundle",
+          "value": "rentersBundle"
+        },
+        {
+          "nextPage": "mercuryGoEnrollment",
+          "value": "mercuryGoEnrollment"
+        }
+      ]
+    },
+    {
+      "currentView": "addressVerification",
+      "rules": [
+        {
+          "nextPage": "vehicles",
+          "value": "complete"
+        },
+        {
+          "nextPage": "addressStandardization",
+          "value": "verifyInfo"
+        },
+        {
+          "nextPage": "preRate",
+          "value": "validateRate"
+        },
+        {
+        	"nextPage": "additionalBuy",
+        	"value": "additionalBuy"
+        },
+        {
+          "nextPage": "rentersBundle",
+          "value": "rentersBundle"
+        },
+        {
+          "nextPage": "mercuryGoEnrollment",
+          "value": "mercuryGoEnrollment"
+        }
+      ]
+    },
+    {
+      "currentView": "vehicles",
+      "rules": [
+        {
+          "nextPage": "drivers",
+          "value": "complete"
+        },
+        {
+          "nextPage": "vehicleDetails",
+          "value": "incomplete"
+        },
+        {
+          "nextPage": "driverDiscovery",
+          "value": "needMoreInfo"
+        },
+        {
+          "nextPage": "preRate",
+          "value": "validateRate"
+        },
+        {
+          "nextPage": "driverAssignment",
+          "value": "driverAssignment"
+        },
+        {
+          "nextPage": "driverDetails",
+          "value": "driversNotConfirmed"
+        },
+        {
+          "nextPage": "rentersBundle",
+          "value": "rentersBundle"
+        }
+      ]
+    },
+    {
+      "currentView": "vehicleDetails",
+      "rules": [
+        {
+          "nextPage": "vehicles",
+          "value": "complete"
+        },
+        {
+          "nextPage": "vehicleDetails",
+          "value": "incomplete"
+        },
+        {
+          "nextPage": "preRate",
+          "value": "validateRate"
+        },
+        {
+          "nextPage": "vehicles",
+          "value": "editMode"
+        }
+      ]
+    },
+    {
+      "currentView": "driverDiscovery",
+      "rules": [
+        {
+          "nextPage": "drivers",
+          "value": "complete"
+        },
+        {
+          "nextPage": "driverDetails",
+          "value": "driversNotConfirmed"
+        },
+        {
+          "nextPage": "history",
+          "value": "abuycomplete"
+        },
+        {
+          "nextPage": "rateHasChanged",
+          "value": "abIncomplete"
+        },
+        {
+          "nextPage": "driverHistory",
+          "value": "abNeedMoreInfo"
+        }
+      ]
+    },
+    {
+      "currentView": "drivers",
+      "rules": [
+        {
+          "nextPage": "additionalInfo",
+          "value": "complete"
+        },
+        {
+          "nextPage": "driverDetails",
+          "value": "incomplete"
+        },
+        {
+          "nextPage": "excludedDriverDetails",
+          "value": "needMoreInfo"
+        },
+        {
+          "nextPage": "preRate",
+          "value": "validateRate"
+        },
+        {
+          "nextPage": "driverAssignment",
+          "value": "driverAssignment"
+        },
+        {
+          "nextPage": "rentersBundle",
+          "value": "rentersBundle"
+        },
+        {
+          "nextPage": "mercuryGoEnrollment",
+          "value": "mercuryGoEnrollment"
+        }
+      ]
+    },
+    {
+      "currentView": "driverDetails",
+      "rules": [
+        {
+          "nextPage": "drivers",
+          "value": "complete"
+        },
+        {
+          "nextPage": "excludedDriverDetails",
+          "value": "needMoreInfo"
+        },
+        {
+          "nextPage": "preRate",
+          "value": "validateRate"
+        },
+        {
+          "nextPage": "drivers",
+          "value": "editMode"
+        }
+      ]
+    },
+    {
+      "currentView": "excludedDriverDetails",
+      "rules": [
+        {
+          "nextPage": "drivers",
+          "value": "complete"
+        },
+        {
+          "nextPage": "drivers",
+          "value": "editMode"
+        }
+      ]
+    },
+    {
+      "currentView": "driverAssignment",
+      "rules": [
+        {
+          "nextPage": "rate",
+          "value": "complete"
+        },
+        {
+          "nextPage": "driverAssignment",
+          "value": "driverAssignment"
+        },
+        {
+          "nextPage": "rentersBundle",
+          "value": "rentersBundle"
+        }
+      ]
+    },
+    {
+      "currentView": "additionalInfo",
+      "rules": [
+        {
+          "nextPage": "rate",
+          "value": "complete"
+        },
+        {
+          "nextPage": "driverAssignment",
+          "value": "driverAssignment"
+        },
+        {
+          "nextPage": "mercuryGoEnrollment",
+          "value": "mercuryGoEnroll"
+        },
+        {
+          "nextPage": "rentersBundle",
+          "value": "rentersBundle"
+        }
+      ]
+    },  
+    {
+      "currentView": "rentersBundle",
+      "rules": [
+        {
+          "nextPage": "rate",
+          "value": "complete"
+        }
+      ]
+    },
+    {
+      "currentView": "mercuryGoEnrollment",
+      "rules": [
+        {
+          "nextPage": "rate",
+          "value": "complete"
+        }
+      ]
+    },
+    {
+      "currentView": "submitToAgentBtn",
+      "rules": [
+        {
+          "nextPage": "submitToAgent",
+          "value": "complete"
+        }
+      ]
+    },
+    {
+      "currentView": "submitToAgent",
+      "rules": [
+        {
+          "nextPage": "submitToAgentSummary",
+          "value": "complete"
+        }
+      ]
+    },
+    {
+      "currentView": "buyInstallments",
+      "rules": [
+        {
+          "nextPage": "additionalBuy",
+          "value": "complete"
+        },
+        {
+          "nextPage": "policyHolderContactInfo",
+          "value": "verifyInfo"
+        }
+      ]
+    },
+    {
+      "currentView": "paymentOptions",
+      "rules": [
+        {
+          "nextPage": "proceedToEsign",
+          "value": "complete"
+        },
+        {
+          "nextPage": "payment",
+          "value": "offlineEsign"
+        }
+      ]
+    },
+    {
+      "currentView": "buyPayInFull",
+      "rules": [
+        {
+          "nextPage": "additionalBuy",
+          "value": "complete"
+        },
+        {
+          "nextPage": "policyHolderContactInfo",
+          "value": "verifyInfo"
+        }
+      ]
+    },
+    {
+      "currentView": "policyHolderContactInfo",
+      "rules": [
+        {
+          "nextPage": "addressStandardization",
+          "value": "complete"
+        }
+      ]
+    },
+    {
+      "currentView": "additionalBuy",
+      "rules": [
+        {
+          "nextPage": "history",
+          "value": "complete"
+        },
+        {
+          "nextPage": "driverDiscovery",
+          "value": "needToShowADD"
+        },
+        {
+          "nextPage": "driverHistory",
+          "value": "needMoreInfo"
+        }
+      ]
+    },
+    {
+      "currentView": "rateHasChanged",
+      "rules": [
+        {
+          "nextPage": "history",
+          "value": "complete"
+        },
+        {
+          "nextPage": "driverHistory",
+          "value": "needMoreInfo"
+        }
+      ]
+    },
+    {
+      "currentView": "rateHasChangedToRatePage",
+      "rules": [
+        {
+          "nextPage": "rate",
+          "value": "complete"
+        }
+      ]
+    },
+    {
+      "currentView": "history",
+      "rules": [
+        {
+          "nextPage": "payment",
+          "value": "complete"
+        },
+        {
+          "nextPage": "paymentOptions",
+          "value": "needMoreInfo"
+        }
+      ]
+    },
+    {
+      "currentView": "driverHistory",
+      "rules": [
+        {
+          "nextPage": "vehicleHistory",
+          "value": "complete"
+        }
+      ]
+    },
+    {
+      "currentView": "vehicleHistory",
+      "rules": [
+        {
+          "nextPage": "proceedToEsign",
+          "value": "complete"
+        },
+        {
+          "nextPage": "paymentOptions",
+          "value": "needMoreInfo"
+        }
+      ]
+    },
+    {
+      "currentView": "proceedToEsign",
+      "rules": [
+        {
+          "nextPage": "esign",
+          "value": "complete"
+        }
+      ]
+    },
+    {
+      "currentView": "esign",
+      "rules": [
+        {
+          "nextPage": "esignStatus",
+          "value": "complete"
+        }
+      ]
+    },
+	{
+      "currentView": "esignStatus",
+      "rules": [
+        {
+          "nextPage": "payment",
+          "value": "complete"
+        },
+        {
+        	"nextPage": "paymentOptions",
+        	"value": "needMoreInfo"
+        },
+        {
+            "nextPage": "vehicleHistory",
+            "value": "verifyInfo"
+        },
+        {
+        	"nextPage": "esign",
+        	"value": "needEsignURL"
+        }
+      ]
+    },    
+    {
+      "currentView": "payment",
+      "rules": [
+        {
+          "nextPage": "paymentStatus",
+          "value": "complete"
+        }
+      ]
+    },
+	{
+      "currentView": "paymentStatus",
+      "rules": [
+        {
+          "nextPage": "confirmation",
+          "value": "complete"
+        },
+        {
+        	"nextPage": "proceedToEsign",
+        	"value": "needMoreInfo"
+        }
+      ]
+    }    
+  ]
+}

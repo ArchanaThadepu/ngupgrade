@@ -1,0 +1,10 @@
+diff a/Transcend-QB1/QB/configuration/config/GenerateConstraintValues.json b/Transcend-QB1/QB/configuration/config/GenerateConstraintValues.json	(rejected hunks)
+@@ -52,7 +52,7 @@
+               "NV": "^((\\d{10})|(\\d{12}))$",
+               "AL" : "^\\d{7}$",
+               "AK" : "^\\d{1,7}$",
+-              "AZ" : "^(([abdyABDY]\\d{8})|(\\d{9}))$",
++              "AZ" : "^(([abdyABDY]\\d{8})|(\\d{9})|[oO]\\d{8})$",
+               "AR" : "^\\d{8,9}$",
+               "CA" : "^[a-zA-Z]\\d{7}$",
+               "CO" : "^(([a-zA-Z]\\d{1,6})|(\\d{9}))$",

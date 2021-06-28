@@ -1,0 +1,161 @@
+
+/*-- Progression Header begin --*/
+
+/*-- progression header media queries --*/
+@media only screen and (min-width: 0px) {
+
+  #title.titleContainer,
+  .mmProgression {
+    margin: 0 auto 1em;
+  }
+
+  .mmProgression {
+    width: 90%;
+  }
+
+  .mmProgression .circleContainer {
+    width: 12%;
+    height: 4.25em;
+    float: left;
+    text-align: center;
+    margin-bottom: 0.75em;
+  }
+
+  .mmProgression .circleContainerNum {
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 100%;
+    width: 1em;
+    height: 1em;
+    background-color: #ccc;
+    margin: 0 auto;
+    padding: 10%;
+    border-radius: 50%;
+  }
+
+  .mmProgression .circleContainerText {
+    font-size: 12px;
+    color: #ccc;
+    width: 80%;
+    margin: 0.5em auto 0 auto;
+    line-height: 1.25em;
+  }
+
+  .mmProgression .dividers {
+    width: 10%;
+    height: 4.25em;
+    float: left;
+    text-align: center;
+    color: #bbb;
+    font-weight: bold;
+    line-height: 1.65em;
+  }
+
+  .mmProgression .dividers:after {
+    content: '-\00a0-';
+    position: relative;
+  }
+
+  .mmProgression .migClickable {
+    cursor: pointer;
+  }
+
+  .mmProgression .migActive .circleContainerNum {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ffc000;
+    border: 1px solid #ffc000;
+    border-radius: 50%;
+  }
+
+  .mmProgression .migActive .circleContainerText {
+    color: #000;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  .mmProgression .dividers {
+    line-height: 1.85em;
+  }
+
+  .mmProgression .dividers:after {
+    content: '-\00a0-';
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  #pageTitle.pageTitleContainer {
+    margin: 5% 0 2%;
+  }
+
+  .mmProgression .circleContainer {
+    margin-bottom: 0.75em;
+  }
+
+  .mmProgression .circleContainerNum {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .mmProgression .dividers {
+    line-height: 2.60em;
+  }
+
+  .mmProgression .dividers:after {
+    content: '-\00a0\00a0-\00a0\00a0-';
+  }
+}
+
+@media only screen and (min-width: 681px) {
+  .mmProgression .circleContainer {
+    margin-bottom: 0.75em;
+  }
+
+  .mmProgression .dividers {
+    line-height: 2.95em;
+  }
+
+  .mmProgression .dividers:after {
+    content: '-\00a0\00a0\00a0-\00a0\00a0\00a0-\00a0\00a0\00a0-';
+    bottom: 0.1em;
+  }
+}
+
+@media only screen and (min-width: 801px) {
+  #title.titleContainer,
+  .mmProgression {
+    margin: 0 auto 1.25em;
+  }
+
+  .mmProgression .circleContainer {
+    margin-bottom: 1.5em;
+  }
+
+  .mmProgression .circleContainerNum {
+    font-size: 25px;
+    padding: 11%;
+  }
+
+  .mmProgression .circleContainerText {
+    font-size: 0.78em;
+  }
+
+  .mmProgression .dividers {
+    line-height: 2.95em;
+  }
+
+  .mmProgression .dividers:after {
+    content: '-\00a0\00a0\00a0-\00a0\00a0\00a0-\00a0\00a0\00a0-\00a0\00a0\00a0-';
+  }
+}
+
+@media only screen and (min-width: 1281px) {
+
+  .mmProgression .dividers:after {
+    content: '-\00a0\00a0\00a0-\00a0\00a0\00a0-\00a0\00a0\00a0-';
+  }
+}
+/*-- Progression Header (end) --*/

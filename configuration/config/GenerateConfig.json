@@ -1,0 +1,3794 @@
+{
+  "local": {
+  	"sessionCheckInterval": 600000,
+  	"pageSessionTimeout": 870000,
+  	"esignWaitTime": 4000,
+  	"enableLogging": true,
+    "eventOrigin": "http://brdvlppp011:10606",
+    "bridgeURL": "https://qa49-buy.mercuryinsurance.com",
+    "mercuryGoFAQ": "https://qa1-www.mercuryinsurance.com/campaigns/go/faqs.html",
+    "compareNowPixel": "https://motor.comparepartnertest.com/motor/resourcetrack?",
+    "bannerAdEnabled": true,
+    "bannerAd": "Sy5I7bxRtW3kZaSTOe8pN2WF4IVt2Q",
+	"showNonProd": true,
+    "dtmEnabled": true,
+    "eloquaEnabled": false,
+    "googleAnalyticsEnabled": true,
+    "siteCatalystEnabled": true,
+    "sizmekEnabled": false,
+    "comparePixelTrackingEnabled": true,
+    "appDynamicsEnabled": false,
+    "teaLeafEnabled": false,
+    "ppaBundleEnabled": true,
+    "clickToCall": {
+      "enabled": true,
+      "code": [
+        {
+          "state": "CA",
+          "default": "1071694",
+          "agggl": "1071954",
+          "aggqn": "1071964",
+          "aggcn": "1071824",
+          "aggad": "1071974",
+          "aggck": "1076369",
+          "aggin": "1076379",
+          "aggio": "1077429",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "TX",
+          "default": "1071784",
+          "agggl": "1071834",
+          "aggqn": "1071844",
+          "aggcn": "1071854",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "FL",
+          "default": "1071754",
+          "agggl": "1071934",
+          "aggqn": "1071864",
+          "aggcn": "1071874",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "GA",
+          "default": "1071764",
+          "agggl": "1071944",
+          "aggqn": "1071884",
+          "aggcn": "1071894",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "IL",
+          "default": "1071724",
+          "agggl": "1071924",
+          "aggqn": "1071904",
+          "aggcn": "1071914",
+          "aggin": "129128",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "VA",
+          "default": "1071814",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "PA",
+          "default": "1071804",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NY",
+          "default": "1071794",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NJ",
+          "default": "1071774",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "MI",
+          "default": "1071744",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "AZ",
+          "default": "1071714",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NV",
+          "default": "1071704",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "OK",
+          "default": "1071734",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        }
+      ]
+    },
+    "contact": {
+      "numbers": [
+        {
+          "state": "CA",
+          "default": "(800) 443-1581",
+          "agggl": "(866) 268-8195",
+          "aggqn": "(800) 441-2158",
+          "aggcn": "(877) 738-6994",
+          "aggad": "(866) 619-7335",
+          "aggck": "(877) 738-6985",
+          "aggin": "(800) 552-9254",
+          "aggio": "(800) 313-8013",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 331-6108",
+          "aggasai-ca-20-11-lg-rf-p-n-10157-00" : "(855) 836-1786",
+          "aggasai-ca-20-11-lg-zb-p-n-10155-00" : "(866) 617-7335",
+          "aggasai-ca-21-05-lg-gf-p-n-10142-00" : "(855) 836-1785"
+        },
+        {
+          "state": "TX",
+          "default": "(866) 598-7335",
+          "agggl": "(888) 829-5810",
+          "aggqn": "(888) 219-4247",
+          "aggcn": "(866) 815-5779",
+		  "aggin": "(844) 498-1681",
+		  "aggas": "(800) 869-3972",
+		  "aggio": "(800) 956-8611",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-tx-21-05-lg-gf-p-n-10143-00" : "(855) 836-1785"
+        },
+        {
+          "state": "FL",
+          "default": "(888) 976-4247",
+          "agggl": "(800) 721-4139",
+          "aggqn": "(877) 461-2434",
+          "aggcn": "(800) 993-2774",
+		  "aggin": "(844) 498-1679",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-fl-21-05-lg-gf-p-n-10144-00" : "(855) 836-1785"
+        },
+        {
+          "state": "GA",
+          "default": "(800) 692-5132",
+          "agggl": "(800) 442-0955",
+          "aggqn": "(800) 398-0096",
+          "aggcn": "(866) 606-7335",
+		  "aggin": "(844) 498-1680",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-ga-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "IL",
+          "default": "(888) 668-4247",
+          "agggl": "(800) 621-8999",
+          "aggqn": "(866) 946-4247",
+          "aggcn": "(866) 629-7335",
+          "aggin": "(844) 380-6258",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-il-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "VA",
+          "default": "(877) 461-2442",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "PA",
+          "default": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NY",
+          "default": "(800) 589-5962",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NJ",
+          "default": "(800) 836-4805",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "MI",
+          "default": "(800) 764-2572",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "AZ",
+          "default": "(800) 477-2184",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NV",
+          "default": "(877) 215-2609",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "OK",
+          "default": "(800) 803-6169",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "DEFAULT",
+          "default": "(877) 215-2609"
+        }
+      ]
+    }
+  },
+  "dev45": {
+    "sessionCheckInterval": 600000,
+  	"pageSessionTimeout": 870000,
+  	"esignWaitTime": 4000,
+  	"enableLogging": true,
+    "eventOrigin": "http://brdvlppp011:10606",
+    "bridgeURL": "https://dev45-buy.mercuryinsurance.com",
+    "mercuryGoFAQ": "https://qa1-www.mercuryinsurance.com/campaigns/go/faqs.html",
+    "compareNowPixel": "https://motor.comparepartnertest.com/motor/resourcetrack?",
+    "bannerAdEnabled": true,
+    "bannerAd": "Sy5I7bxRtW3kZaSTOe8pN2WF4IVt2Q",
+	"showNonProd": true,
+    "dtmEnabled": true,
+    "eloquaEnabled": false,
+    "googleAnalyticsEnabled": true,
+    "siteCatalystEnabled": true,
+    "sizmekEnabled": false,
+    "comparePixelTrackingEnabled": true,
+    "appDynamicsEnabled": false,
+    "ppaBundleEnabled": true,
+    "teaLeafEnabled": false,
+    "clickToCall": {
+      "enabled": true,
+      "code": [
+        {
+          "state": "CA",
+          "default": "1071694",
+          "agggl": "1071954",
+          "aggqn": "1071964",
+          "aggcn": "1071824",
+          "aggad": "1071974",
+          "aggck": "1076369",
+          "aggin": "1076379",
+          "aggio": "1077429",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "TX",
+          "default": "1071784",
+          "agggl": "1071834",
+          "aggqn": "1071844",
+          "aggcn": "1071854",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "FL",
+          "default": "1071754",
+          "agggl": "1071934",
+          "aggqn": "1071864",
+          "aggcn": "1071874",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "GA",
+          "default": "1071764",
+          "agggl": "1071944",
+          "aggqn": "1071884",
+          "aggcn": "1071894",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "IL",
+          "default": "1071724",
+          "agggl": "1071924",
+          "aggqn": "1071904",
+          "aggcn": "1071914",
+          "aggin": "129128",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "VA",
+          "default": "1071814",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "PA",
+          "default": "1071804",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NY",
+          "default": "1071794",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NJ",
+          "default": "1071774",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "MI",
+          "default": "1071744",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "AZ",
+          "default": "1071714",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NV",
+          "default": "1071704",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "OK",
+          "default": "1071734",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        }
+      ]
+    },
+    "contact": {
+      "numbers": [
+        {
+          "state": "CA",
+          "default": "(800) 443-1581",
+          "agggl": "(866) 268-8195",
+          "aggqn": "(800) 441-2158",
+          "aggcn": "(877) 738-6994",
+          "aggad": "(866) 619-7335",
+          "aggck": "(877) 738-6985",
+          "aggin": "(800) 552-9254",
+          "aggio": "(800) 313-8013",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 331-6108",
+          "aggasai-ca-20-11-lg-rf-p-n-10157-00" : "(855) 836-1786",
+          "aggasai-ca-20-11-lg-zb-p-n-10155-00" : "(866) 617-7335",
+          "aggasai-ca-21-05-lg-gf-p-n-10142-00" : "(855) 836-1785"
+        },
+        {
+          "state": "TX",
+          "default": "(866) 598-7335",
+          "agggl": "(888) 829-5810",
+          "aggqn": "(888) 219-4247",
+          "aggcn": "(866) 815-5779",
+		  "aggin": "(844) 498-1681",
+		  "aggas": "(800) 869-3972",
+		  "aggio": "(800) 956-8611",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-tx-21-05-lg-gf-p-n-10143-00" : "(855) 836-1785"
+        },
+        {
+          "state": "FL",
+          "default": "(888) 976-4247",
+          "agggl": "(800) 721-4139",
+          "aggqn": "(877) 461-2434",
+          "aggcn": "(800) 993-2774",
+		  "aggin": "(844) 498-1679",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-fl-21-05-lg-gf-p-n-10144-00" : "(855) 836-1785"
+        },
+        {
+          "state": "GA",
+          "default": "(800) 692-5132",
+          "agggl": "(800) 442-0955",
+          "aggqn": "(800) 398-0096",
+          "aggcn": "(866) 606-7335",
+		  "aggin": "(844) 498-1680",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-ga-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "IL",
+          "default": "(888) 668-4247",
+          "agggl": "(800) 621-8999",
+          "aggqn": "(866) 946-4247",
+          "aggcn": "(866) 629-7335",
+          "aggin": "(844) 380-6258",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-il-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "VA",
+          "default": "(877) 461-2442",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "PA",
+          "default": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NY",
+          "default": "(800) 589-5962",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NJ",
+          "default": "(800) 836-4805",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "MI",
+          "default": "(800) 764-2572",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "AZ",
+          "default": "(800) 477-2184",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NV",
+          "default": "(877) 215-2609",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "OK",
+          "default": "(800) 803-6169",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "DEFAULT",
+          "default": "(877) 215-2609"
+        }
+      ]
+    }
+  },
+  "dev49": {
+    "sessionCheckInterval": 600000,
+  	"pageSessionTimeout": 870000,
+  	"esignWaitTime": 4000,
+  	"enableLogging": true,
+    "eventOrigin": "http://brdvlppp011:10606",
+    "bridgeURL": "https://qa49-buy.mercuryinsurance.com",
+    "mercuryGoFAQ": "https://qa1-www.mercuryinsurance.com/campaigns/go/faqs.html",
+    "compareNowPixel": "https://motor.comparepartnertest.com/motor/resourcetrack?",
+    "bannerAdEnabled": true,
+    "bannerAd": "Sy5I7bxRtW3kZaSTOe8pN2WF4IVt2Q",
+	"showNonProd": true,
+    "dtmEnabled": true,
+    "eloquaEnabled": false,
+    "googleAnalyticsEnabled": true,
+    "siteCatalystEnabled": true,
+    "sizmekEnabled": false,
+    "comparePixelTrackingEnabled": true,
+    "appDynamicsEnabled": false,
+    "ppaBundleEnabled": true,
+    "teaLeafEnabled": false,
+    "clickToCall": {
+      "enabled": true,
+      "code": [
+        {
+          "state": "CA",
+          "default": "1071694",
+          "agggl": "1071954",
+          "aggqn": "1071964",
+          "aggcn": "1071824",
+          "aggad": "1071974",
+          "aggck": "1076369",
+          "aggin": "1076379",
+          "aggio": "1077429",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "TX",
+          "default": "1071784",
+          "agggl": "1071834",
+          "aggqn": "1071844",
+          "aggcn": "1071854",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "FL",
+          "default": "1071754",
+          "agggl": "1071934",
+          "aggqn": "1071864",
+          "aggcn": "1071874",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "GA",
+          "default": "1071764",
+          "agggl": "1071944",
+          "aggqn": "1071884",
+          "aggcn": "1071894",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "IL",
+          "default": "1071724",
+          "agggl": "1071924",
+          "aggqn": "1071904",
+          "aggcn": "1071914",
+          "aggin": "129128",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "VA",
+          "default": "1071814",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "PA",
+          "default": "1071804",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NY",
+          "default": "1071794",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NJ",
+          "default": "1071774",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "MI",
+          "default": "1071744",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "AZ",
+          "default": "1071714",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NV",
+          "default": "1071704",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "OK",
+          "default": "1071734",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        }
+      ]
+    },
+    "contact": {
+      "numbers": [
+        {
+          "state": "CA",
+          "default": "(800) 443-1581",
+          "agggl": "(866) 268-8195",
+          "aggqn": "(800) 441-2158",
+          "aggcn": "(877) 738-6994",
+          "aggad": "(866) 619-7335",
+          "aggck": "(877) 738-6985",
+          "aggin": "(800) 552-9254",
+          "aggio": "(800) 313-8013",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 331-6108",
+          "aggasai-ca-20-11-lg-rf-p-n-10157-00" : "(855) 836-1786",
+          "aggasai-ca-20-11-lg-zb-p-n-10155-00" : "(866) 617-7335",
+          "aggasai-ca-21-05-lg-gf-p-n-10142-00" : "(855) 836-1785"
+        },
+        {
+          "state": "TX",
+          "default": "(866) 598-7335",
+          "agggl": "(888) 829-5810",
+          "aggqn": "(888) 219-4247",
+          "aggcn": "(866) 815-5779",
+		  "aggin": "(844) 498-1681",
+		  "aggas": "(800) 869-3972",
+		  "aggio": "(800) 956-8611",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-tx-21-05-lg-gf-p-n-10143-00" : "(855) 836-1785"
+        },
+        {
+          "state": "FL",
+          "default": "(888) 976-4247",
+          "agggl": "(800) 721-4139",
+          "aggqn": "(877) 461-2434",
+          "aggcn": "(800) 993-2774",
+		  "aggin": "(844) 498-1679",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-fl-21-05-lg-gf-p-n-10144-00" : "(855) 836-1785"
+        },
+        {
+          "state": "GA",
+          "default": "(800) 692-5132",
+          "agggl": "(800) 442-0955",
+          "aggqn": "(800) 398-0096",
+          "aggcn": "(866) 606-7335",
+		  "aggin": "(844) 498-1680",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-ga-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "IL",
+          "default": "(888) 668-4247",
+          "agggl": "(800) 621-8999",
+          "aggqn": "(866) 946-4247",
+          "aggcn": "(866) 629-7335",
+          "aggin": "(844) 380-6258",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-il-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "VA",
+          "default": "(877) 461-2442",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "PA",
+          "default": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NY",
+          "default": "(800) 589-5962",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NJ",
+          "default": "(800) 836-4805",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "MI",
+          "default": "(800) 764-2572",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "AZ",
+          "default": "(800) 477-2184",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NV",
+          "default": "(877) 215-2609",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "OK",
+          "default": "(800) 803-6169",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "DEFAULT",
+          "default": "(877) 215-2609"
+        }
+      ]
+    }
+  },
+  "dev50": {
+  	"sessionCheckInterval": 600000,
+  	"pageSessionTimeout": 870000,
+  	"esignWaitTime": 4000,
+  	"enableLogging": true,
+    "eventOrigin": "http://brdvlppp011:10606",
+    "bridgeURL": "https://dev50-buy.mercuryinsurance.com",
+    "mercuryGoFAQ": "https://qa1-www.mercuryinsurance.com/campaigns/go/faqs.html",
+    "compareNowPixel": "https://motor.comparepartnertest.com/motor/resourcetrack?",
+    "bannerAdEnabled": true,
+    "bannerAd": "Sy5I7bxRtW3kZaSTOe8pN2WF4IVt2Q",
+	"showNonProd": true,
+    "dtmEnabled": true,
+    "eloquaEnabled": false,
+    "googleAnalyticsEnabled": true,
+    "siteCatalystEnabled": true,
+    "sizmekEnabled": false,
+    "comparePixelTrackingEnabled": true,
+    "appDynamicsEnabled": false,
+    "ppaBundleEnabled": true,
+    "teaLeafEnabled": false,
+    "clickToCall": {
+      "enabled": true,
+      "code": [
+        {
+          "state": "CA",
+          "default": "1071694",
+          "agggl": "1071954",
+          "aggqn": "1071964",
+          "aggcn": "1071824",
+          "aggad": "1071974",
+          "aggck": "1076369",
+          "aggin": "1076379",
+          "aggio": "1077429",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "TX",
+          "default": "1071784",
+          "agggl": "1071834",
+          "aggqn": "1071844",
+          "aggcn": "1071854",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "FL",
+          "default": "1071754",
+          "agggl": "1071934",
+          "aggqn": "1071864",
+          "aggcn": "1071874",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "GA",
+          "default": "1071764",
+          "agggl": "1071944",
+          "aggqn": "1071884",
+          "aggcn": "1071894",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "IL",
+          "default": "1071724",
+          "agggl": "1071924",
+          "aggqn": "1071904",
+          "aggcn": "1071914",
+          "aggin": "129128",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "VA",
+          "default": "1071814",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "PA",
+          "default": "1071804",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NY",
+          "default": "1071794",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NJ",
+          "default": "1071774",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "MI",
+          "default": "1071744",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "AZ",
+          "default": "1071714",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NV",
+          "default": "1071704",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "OK",
+          "default": "1071734",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        }
+      ]
+    },
+    "contact": {
+      "numbers": [
+        {
+          "state": "CA",
+          "default": "(800) 443-1581",
+          "agggl": "(866) 268-8195",
+          "aggqn": "(800) 441-2158",
+          "aggcn": "(877) 738-6994",
+          "aggad": "(866) 619-7335",
+          "aggck": "(877) 738-6985",
+          "aggin": "(800) 552-9254",
+          "aggio": "(800) 313-8013",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 331-6108",
+          "aggasai-ca-20-11-lg-rf-p-n-10157-00" : "(855) 836-1786",
+          "aggasai-ca-20-11-lg-zb-p-n-10155-00" : "(866) 617-7335",
+          "aggasai-ca-21-05-lg-gf-p-n-10142-00" : "(855) 836-1785"
+        },
+        {
+          "state": "TX",
+          "default": "(866) 598-7335",
+          "agggl": "(888) 829-5810",
+          "aggqn": "(888) 219-4247",
+          "aggcn": "(866) 815-5779",
+		  "aggin": "(844) 498-1681",
+		  "aggas": "(800) 869-3972",
+		  "aggio": "(800) 956-8611",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-tx-21-05-lg-gf-p-n-10143-00" : "(855) 836-1785"
+        },
+        {
+          "state": "FL",
+          "default": "(888) 976-4247",
+          "agggl": "(800) 721-4139",
+          "aggqn": "(877) 461-2434",
+          "aggcn": "(800) 993-2774",
+		  "aggin": "(844) 498-1679",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-fl-21-05-lg-gf-p-n-10144-00" : "(855) 836-1785"
+        },
+        {
+          "state": "GA",
+          "default": "(800) 692-5132",
+          "agggl": "(800) 442-0955",
+          "aggqn": "(800) 398-0096",
+          "aggcn": "(866) 606-7335",
+		  "aggin": "(844) 498-1680",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-ga-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "IL",
+          "default": "(888) 668-4247",
+          "agggl": "(800) 621-8999",
+          "aggqn": "(866) 946-4247",
+          "aggcn": "(866) 629-7335",
+          "aggin": "(844) 380-6258",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-il-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "VA",
+          "default": "(877) 461-2442",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "PA",
+          "default": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NY",
+          "default": "(800) 589-5962",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NJ",
+          "default": "(800) 836-4805",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "MI",
+          "default": "(800) 764-2572",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "AZ",
+          "default": "(800) 477-2184",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NV",
+          "default": "(877) 215-2609",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "OK",
+          "default": "(800) 803-6169",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "DEFAULT",
+          "default": "(877) 215-2609"
+        }
+      ]
+    }
+  },
+  "qa45": {
+  	"sessionCheckInterval": 600000,
+  	"pageSessionTimeout": 870000,
+  	"esignWaitTime": 4000,
+  	"enableLogging": true,
+    "eventOrigin": "https://qa2-paynow.mercuryinsurance.com",
+    "bridgeURL": "https://qa45-buy.mercuryinsurance.com",
+    "mercuryGoFAQ": "https://qa1-www.mercuryinsurance.com/campaigns/go/faqs.html",
+    "compareNowPixel": "https://motor.comparepartnertest.com/motor/resourcetrack?",
+    "bannerAdEnabled": true,
+    "bannerAd": "Sy5I7bxRtW3kZaSTOe8pN2WF4IVt2Q",
+	"showNonProd": true,
+    "dtmEnabled": true,
+    "eloquaEnabled": false,
+    "googleAnalyticsEnabled": true,
+    "siteCatalystEnabled": true,
+    "sizmekEnabled": false,
+    "comparePixelTrackingEnabled": true,
+    "appDynamicsEnabled": false,
+    "ppaBundleEnabled": true,
+    "teaLeafEnabled": false,
+    "clickToCall": {
+      "enabled": true,
+      "code": [
+        {
+          "state": "CA",
+          "default": "1071694",
+          "agggl": "1071954",
+          "aggqn": "1071964",
+          "aggcn": "1071824",
+          "aggad": "1071974",
+          "aggck": "1076369",
+          "aggin": "1076379",
+          "aggio": "1077429",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "TX",
+          "default": "1071784",
+          "agggl": "1071834",
+          "aggqn": "1071844",
+          "aggcn": "1071854",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "FL",
+          "default": "1071754",
+          "agggl": "1071934",
+          "aggqn": "1071864",
+          "aggcn": "1071874",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "GA",
+          "default": "1071764",
+          "agggl": "1071944",
+          "aggqn": "1071884",
+          "aggcn": "1071894",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "IL",
+          "default": "1071724",
+          "agggl": "1071924",
+          "aggqn": "1071904",
+          "aggcn": "1071914",
+          "aggin": "129128",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "VA",
+          "default": "1071814",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "PA",
+          "default": "1071804",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NY",
+          "default": "1071794",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NJ",
+          "default": "1071774",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "MI",
+          "default": "1071744",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "AZ",
+          "default": "1071714",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NV",
+          "default": "1071704",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "OK",
+          "default": "1071734",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        }
+      ]
+    },
+    "contact": {
+      "numbers": [
+        {
+          "state": "CA",
+          "default": "(800) 443-1581",
+          "agggl": "(866) 268-8195",
+          "aggqn": "(800) 441-2158",
+          "aggcn": "(877) 738-6994",
+          "aggad": "(866) 619-7335",
+          "aggck": "(877) 738-6985",
+          "aggin": "(800) 552-9254",
+          "aggio": "(800) 313-8013",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 331-6108",
+          "aggasai-ca-20-11-lg-rf-p-n-10157-00" : "(855) 836-1786",
+          "aggasai-ca-20-11-lg-zb-p-n-10155-00" : "(866) 617-7335",
+          "aggasai-ca-21-05-lg-gf-p-n-10142-00" : "(855) 836-1785"
+        },
+        {
+          "state": "TX",
+          "default": "(866) 598-7335",
+          "agggl": "(888) 829-5810",
+          "aggqn": "(888) 219-4247",
+          "aggcn": "(866) 815-5779",
+		  "aggin": "(844) 498-1681",
+		  "aggas": "(800) 869-3972",
+		  "aggio": "(800) 956-8611",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-tx-21-05-lg-gf-p-n-10143-00" : "(855) 836-1785"
+        },
+        {
+          "state": "FL",
+          "default": "(888) 976-4247",
+          "agggl": "(800) 721-4139",
+          "aggqn": "(877) 461-2434",
+          "aggcn": "(800) 993-2774",
+		  "aggin": "(844) 498-1679",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-fl-21-05-lg-gf-p-n-10144-00" : "(855) 836-1785"
+        },
+        {
+          "state": "GA",
+          "default": "(800) 692-5132",
+          "agggl": "(800) 442-0955",
+          "aggqn": "(800) 398-0096",
+          "aggcn": "(866) 606-7335",
+		  "aggin": "(844) 498-1680",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-ga-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "IL",
+          "default": "(888) 668-4247",
+          "agggl": "(800) 621-8999",
+          "aggqn": "(866) 946-4247",
+          "aggcn": "(866) 629-7335",
+          "aggin": "(844) 380-6258",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-il-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "VA",
+          "default": "(877) 461-2442",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "PA",
+          "default": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NY",
+          "default": "(800) 589-5962",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NJ",
+          "default": "(800) 836-4805",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "MI",
+          "default": "(800) 764-2572",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "AZ",
+          "default": "(800) 477-2184",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NV",
+          "default": "(877) 215-2609",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "OK",
+          "default": "(800) 803-6169",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "DEFAULT",
+          "default": "(877) 215-2609"
+        }
+      ]
+    }
+  },
+  "qa46": {
+  	"sessionCheckInterval": 600000,
+  	"pageSessionTimeout": 870000,
+  	"esignWaitTime": 4000,
+  	"enableLogging": true,
+    "eventOrigin": "https://qa1-paynow.mercuryinsurance.com",
+    "bridgeURL": "https://qa46-buy.mercuryinsurance.com",
+    "mercuryGoFAQ": "https://qa1-www.mercuryinsurance.com/campaigns/go/faqs.html",
+    "compareNowPixel": "https://motor.comparepartnertest.com/motor/resourcetrack?",
+    "bannerAdEnabled": true,
+    "bannerAd": "Sy5I7bxRtW3kZaSTOe8pN2WF4IVt2Q",
+	"showNonProd": true,
+    "dtmEnabled": true,
+    "eloquaEnabled": false,
+    "googleAnalyticsEnabled": true,
+    "siteCatalystEnabled": true,
+    "sizmekEnabled": false,
+    "comparePixelTrackingEnabled": true,
+    "appDynamicsEnabled": false,
+    "ppaBundleEnabled": true,
+    "teaLeafEnabled": false,
+    "clickToCall": {
+      "enabled": true,
+      "code": [
+        {
+          "state": "CA",
+          "default": "1071694",
+          "agggl": "1071954",
+          "aggqn": "1071964",
+          "aggcn": "1071824",
+          "aggad": "1071974",
+          "aggck": "1076369",
+          "aggin": "1076379",
+          "aggio": "1077429",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "TX",
+          "default": "1071784",
+          "agggl": "1071834",
+          "aggqn": "1071844",
+          "aggcn": "1071854",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "FL",
+          "default": "1071754",
+          "agggl": "1071934",
+          "aggqn": "1071864",
+          "aggcn": "1071874",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "GA",
+          "default": "1071764",
+          "agggl": "1071944",
+          "aggqn": "1071884",
+          "aggcn": "1071894",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "IL",
+          "default": "1071724",
+          "agggl": "1071924",
+          "aggqn": "1071904",
+          "aggcn": "1071914",
+          "aggin": "129128",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "VA",
+          "default": "1071814",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "PA",
+          "default": "1071804",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NY",
+          "default": "1071794",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NJ",
+          "default": "1071774",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "MI",
+          "default": "1071744",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "AZ",
+          "default": "1071714",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NV",
+          "default": "1071704",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "OK",
+          "default": "1071734",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        }
+      ]
+    },
+    "contact": {
+      "numbers": [
+        {
+          "state": "CA",
+          "default": "(800) 443-1581",
+          "agggl": "(866) 268-8195",
+          "aggqn": "(800) 441-2158",
+          "aggcn": "(877) 738-6994",
+          "aggad": "(866) 619-7335",
+          "aggck": "(877) 738-6985",
+          "aggin": "(800) 552-9254",
+          "aggio": "(800) 313-8013",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 331-6108",
+          "aggasai-ca-20-11-lg-rf-p-n-10157-00" : "(855) 836-1786",
+          "aggasai-ca-20-11-lg-zb-p-n-10155-00" : "(866) 617-7335",
+          "aggasai-ca-21-05-lg-gf-p-n-10142-00" : "(855) 836-1785"
+        },
+        {
+          "state": "TX",
+          "default": "(866) 598-7335",
+          "agggl": "(888) 829-5810",
+          "aggqn": "(888) 219-4247",
+          "aggcn": "(866) 815-5779",
+		  "aggin": "(844) 498-1681",
+		  "aggas": "(800) 869-3972",
+		  "aggio": "(800) 956-8611",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-tx-21-05-lg-gf-p-n-10143-00" : "(855) 836-1785"
+        },
+        {
+          "state": "FL",
+          "default": "(888) 976-4247",
+          "agggl": "(800) 721-4139",
+          "aggqn": "(877) 461-2434",
+          "aggcn": "(800) 993-2774",
+		  "aggin": "(844) 498-1679",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-fl-21-05-lg-gf-p-n-10144-00" : "(855) 836-1785"
+        },
+        {
+          "state": "GA",
+          "default": "(800) 692-5132",
+          "agggl": "(800) 442-0955",
+          "aggqn": "(800) 398-0096",
+          "aggcn": "(866) 606-7335",
+		  "aggin": "(844) 498-1680",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-ga-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "IL",
+          "default": "(888) 668-4247",
+          "agggl": "(800) 621-8999",
+          "aggqn": "(866) 946-4247",
+          "aggcn": "(866) 629-7335",
+          "aggin": "(844) 380-6258",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-il-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "VA",
+          "default": "(877) 461-2442",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "PA",
+          "default": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NY",
+          "default": "(800) 589-5962",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NJ",
+          "default": "(800) 836-4805",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "MI",
+          "default": "(800) 764-2572",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "AZ",
+          "default": "(800) 477-2184",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NV",
+          "default": "(877) 215-2609",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "OK",
+          "default": "(800) 803-6169",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "DEFAULT",
+          "default": "(877) 215-2609"
+        }
+      ]
+    }
+  },
+  "qa47": {
+  	"sessionCheckInterval": 600000,
+  	"pageSessionTimeout": 870000,
+  	"esignWaitTime": 4000,
+  	"enableLogging": true,
+    "eventOrigin": "https://qa1-paynow.mercuryinsurance.com",
+    "bridgeURL": "https://qa47-buy.mercuryinsurance.com",
+    "mercuryGoFAQ": "https://qa1-www.mercuryinsurance.com/campaigns/go/faqs.html",
+    "compareNowPixel": "https://motor.comparepartnertest.com/motor/resourcetrack?",
+    "bannerAdEnabled": true,
+    "bannerAd": "Sy5I7bxRtW3kZaSTOe8pN2WF4IVt2Q",
+	"showNonProd": true,
+    "dtmEnabled": true,
+    "eloquaEnabled": false,
+    "googleAnalyticsEnabled": true,
+    "siteCatalystEnabled": true,
+    "sizmekEnabled": false,
+    "comparePixelTrackingEnabled": true,
+    "appDynamicsEnabled": false,
+    "ppaBundleEnabled": true,
+    "teaLeafEnabled": false,
+    "clickToCall": {
+      "enabled": true,
+      "code": [
+        {
+          "state": "CA",
+          "default": "1071694",
+          "agggl": "1071954",
+          "aggqn": "1071964",
+          "aggcn": "1071824",
+          "aggad": "1071974",
+          "aggck": "1076369",
+          "aggin": "1076379",
+          "aggio": "1077429",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "TX",
+          "default": "1071784",
+          "agggl": "1071834",
+          "aggqn": "1071844",
+          "aggcn": "1071854",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "FL",
+          "default": "1071754",
+          "agggl": "1071934",
+          "aggqn": "1071864",
+          "aggcn": "1071874",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "GA",
+          "default": "1071764",
+          "agggl": "1071944",
+          "aggqn": "1071884",
+          "aggcn": "1071894",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "IL",
+          "default": "1071724",
+          "agggl": "1071924",
+          "aggqn": "1071904",
+          "aggcn": "1071914",
+          "aggin": "129128",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "VA",
+          "default": "1071814",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "PA",
+          "default": "1071804",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NY",
+          "default": "1071794",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NJ",
+          "default": "1071774",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "MI",
+          "default": "1071744",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "AZ",
+          "default": "1071714",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NV",
+          "default": "1071704",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "OK",
+          "default": "1071734",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        }
+      ]
+    },
+    "contact": {
+      "numbers": [
+        {
+          "state": "CA",
+          "default": "(800) 443-1581",
+          "agggl": "(866) 268-8195",
+          "aggqn": "(800) 441-2158",
+          "aggcn": "(877) 738-6994",
+          "aggad": "(866) 619-7335",
+          "aggck": "(877) 738-6985",
+          "aggin": "(800) 552-9254",
+          "aggio": "(800) 313-8013",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 331-6108",
+          "aggasai-ca-20-11-lg-rf-p-n-10157-00" : "(855) 836-1786",
+          "aggasai-ca-20-11-lg-zb-p-n-10155-00" : "(866) 617-7335",
+          "aggasai-ca-21-05-lg-gf-p-n-10142-00" : "(855) 836-1785"
+        },
+        {
+          "state": "TX",
+          "default": "(866) 598-7335",
+          "agggl": "(888) 829-5810",
+          "aggqn": "(888) 219-4247",
+          "aggcn": "(866) 815-5779",
+		  "aggin": "(844) 498-1681",
+		  "aggas": "(800) 869-3972",
+		  "aggio": "(800) 956-8611",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-tx-21-05-lg-gf-p-n-10143-00" : "(855) 836-1785"
+        },
+        {
+          "state": "FL",
+          "default": "(888) 976-4247",
+          "agggl": "(800) 721-4139",
+          "aggqn": "(877) 461-2434",
+          "aggcn": "(800) 993-2774",
+		  "aggin": "(844) 498-1679",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-fl-21-05-lg-gf-p-n-10144-00" : "(855) 836-1785"
+        },
+        {
+          "state": "GA",
+          "default": "(800) 692-5132",
+          "agggl": "(800) 442-0955",
+          "aggqn": "(800) 398-0096",
+          "aggcn": "(866) 606-7335",
+		  "aggin": "(844) 498-1680",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-ga-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "IL",
+          "default": "(888) 668-4247",
+          "agggl": "(800) 621-8999",
+          "aggqn": "(866) 946-4247",
+          "aggcn": "(866) 629-7335",
+          "aggin": "(844) 380-6258",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-il-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "VA",
+          "default": "(877) 461-2442",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "PA",
+          "default": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NY",
+          "default": "(800) 589-5962",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NJ",
+          "default": "(800) 836-4805",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "MI",
+          "default": "(800) 764-2572",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "AZ",
+          "default": "(800) 477-2184",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NV",
+          "default": "(877) 215-2609",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "OK",
+          "default": "(800) 803-6169",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "DEFAULT",
+          "default": "(877) 215-2609"
+        }
+      ]
+    }
+  },
+  "qa48": {
+  	"sessionCheckInterval": 600000,
+  	"pageSessionTimeout": 870000,
+  	"esignWaitTime": 4000,
+  	"enableLogging": true,
+    "eventOrigin": "https://qa1-paynow.mercuryinsurance.com",
+    "bridgeURL": "https://qa48-buy.mercuryinsurance.com",
+    "mercuryGoFAQ": "https://qa1-www.mercuryinsurance.com/campaigns/go/faqs.html",
+    "compareNowPixel": "https://motor.comparepartnertest.com/motor/resourcetrack?",
+    "bannerAdEnabled": true,
+    "bannerAd": "Sy5I7bxRtW3kZaSTOe8pN2WF4IVt2Q",
+	"showNonProd": true,
+    "dtmEnabled": true,
+    "eloquaEnabled": false,
+    "googleAnalyticsEnabled": true,
+    "siteCatalystEnabled": true,
+    "sizmekEnabled": false,
+    "comparePixelTrackingEnabled": true,
+    "appDynamicsEnabled": false,
+    "ppaBundleEnabled": true,
+    "teaLeafEnabled": false,
+    "clickToCall": {
+      "enabled": true,
+      "code": [
+        {
+          "state": "CA",
+          "default": "1071694",
+          "agggl": "1071954",
+          "aggqn": "1071964",
+          "aggcn": "1071824",
+          "aggad": "1071974",
+          "aggck": "1076369",
+          "aggin": "1076379",
+          "aggio": "1077429",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "TX",
+          "default": "1071784",
+          "agggl": "1071834",
+          "aggqn": "1071844",
+          "aggcn": "1071854",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "FL",
+          "default": "1071754",
+          "agggl": "1071934",
+          "aggqn": "1071864",
+          "aggcn": "1071874",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "GA",
+          "default": "1071764",
+          "agggl": "1071944",
+          "aggqn": "1071884",
+          "aggcn": "1071894",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "IL",
+          "default": "1071724",
+          "agggl": "1071924",
+          "aggqn": "1071904",
+          "aggcn": "1071914",
+          "aggin": "129128",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "VA",
+          "default": "1071814",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "PA",
+          "default": "1071804",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NY",
+          "default": "1071794",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NJ",
+          "default": "1071774",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "MI",
+          "default": "1071744",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "AZ",
+          "default": "1071714",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NV",
+          "default": "1071704",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "OK",
+          "default": "1071734",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        }
+      ]
+    },
+    "contact": {
+      "numbers": [
+        {
+          "state": "CA",
+          "default": "(800) 443-1581",
+          "agggl": "(866) 268-8195",
+          "aggqn": "(800) 441-2158",
+          "aggcn": "(877) 738-6994",
+          "aggad": "(866) 619-7335",
+          "aggck": "(877) 738-6985",
+          "aggin": "(800) 552-9254",
+          "aggio": "(800) 313-8013",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 331-6108",
+          "aggasai-ca-20-11-lg-rf-p-n-10157-00" : "(855) 836-1786",
+          "aggasai-ca-20-11-lg-zb-p-n-10155-00" : "(866) 617-7335",
+          "aggasai-ca-21-05-lg-gf-p-n-10142-00" : "(855) 836-1785"
+        },
+        {
+          "state": "TX",
+          "default": "(866) 598-7335",
+          "agggl": "(888) 829-5810",
+          "aggqn": "(888) 219-4247",
+          "aggcn": "(866) 815-5779",
+		  "aggin": "(844) 498-1681",
+		  "aggas": "(800) 869-3972",
+		  "aggio": "(800) 956-8611",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-tx-21-05-lg-gf-p-n-10143-00" : "(855) 836-1785"
+        },
+        {
+          "state": "FL",
+          "default": "(888) 976-4247",
+          "agggl": "(800) 721-4139",
+          "aggqn": "(877) 461-2434",
+          "aggcn": "(800) 993-2774",
+		  "aggin": "(844) 498-1679",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-fl-21-05-lg-gf-p-n-10144-00" : "(855) 836-1785"
+        },
+        {
+          "state": "GA",
+          "default": "(800) 692-5132",
+          "agggl": "(800) 442-0955",
+          "aggqn": "(800) 398-0096",
+          "aggcn": "(866) 606-7335",
+		  "aggin": "(844) 498-1680",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-ga-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "IL",
+          "default": "(888) 668-4247",
+          "agggl": "(800) 621-8999",
+          "aggqn": "(866) 946-4247",
+          "aggcn": "(866) 629-7335",
+          "aggin": "(844) 380-6258",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-il-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "VA",
+          "default": "(877) 461-2442",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "PA",
+          "default": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NY",
+          "default": "(800) 589-5962",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NJ",
+          "default": "(800) 836-4805",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "MI",
+          "default": "(800) 764-2572",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "AZ",
+          "default": "(800) 477-2184",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NV",
+          "default": "(877) 215-2609",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "OK",
+          "default": "(800) 803-6169",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "DEFAULT",
+          "default": "(877) 215-2609"
+        }
+      ]
+    }
+  },
+  "qa49": {
+  	"sessionCheckInterval": 600000,
+  	"pageSessionTimeout": 870000,
+  	"esignWaitTime": 4000,
+  	"enableLogging": true,
+    "eventOrigin": "https://qa3-paynow.mercuryinsurance.com",
+    "bridgeURL": "https://qa49-buy.mercuryinsurance.com",
+    "mercuryGoFAQ": "https://qa1-www.mercuryinsurance.com/campaigns/go/faqs.html",
+    "compareNowPixel": "https://motor.comparepartnertest.com/motor/resourcetrack?",
+    "bannerAdEnabled": true,
+    "bannerAd": "Sy5I7bxRtW3kZaSTOe8pN2WF4IVt2Q",
+	"showNonProd": true,
+    "dtmEnabled": true,
+    "eloquaEnabled": false,
+    "googleAnalyticsEnabled": true,
+    "siteCatalystEnabled": true,
+    "sizmekEnabled": false,
+    "comparePixelTrackingEnabled": true,
+    "appDynamicsEnabled": false,
+    "teaLeafEnabled": false,
+    "ppaBundleEnabled": true,
+    "clickToCall": {
+      "enabled": true,
+      "code": [
+        {
+          "state": "CA",
+          "default": "1071694",
+          "agggl": "1071954",
+          "aggqn": "1071964",
+          "aggcn": "1071824",
+          "aggad": "1071974",
+          "aggck": "1076369",
+          "aggin": "1076379",
+          "aggio": "1077429",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "TX",
+          "default": "1071784",
+          "agggl": "1071834",
+          "aggqn": "1071844",
+          "aggcn": "1071854",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "FL",
+          "default": "1071754",
+          "agggl": "1071934",
+          "aggqn": "1071864",
+          "aggcn": "1071874",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "GA",
+          "default": "1071764",
+          "agggl": "1071944",
+          "aggqn": "1071884",
+          "aggcn": "1071894",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "IL",
+          "default": "1071724",
+          "agggl": "1071924",
+          "aggqn": "1071904",
+          "aggcn": "1071914",
+          "aggin": "129128",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "VA",
+          "default": "1071814",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "PA",
+          "default": "1071804",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NY",
+          "default": "1071794",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NJ",
+          "default": "1071774",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "MI",
+          "default": "1071744",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "AZ",
+          "default": "1071714",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NV",
+          "default": "1071704",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "OK",
+          "default": "1071734",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        }
+      ]
+    },
+    "contact": {
+      "numbers": [
+        {
+          "state": "CA",
+          "default": "(800) 443-1581",
+          "agggl": "(866) 268-8195",
+          "aggqn": "(800) 441-2158",
+          "aggcn": "(877) 738-6994",
+          "aggad": "(866) 619-7335",
+          "aggck": "(877) 738-6985",
+          "aggin": "(800) 552-9254",
+          "aggio": "(800) 313-8013",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 331-6108",
+          "aggasai-ca-20-11-lg-rf-p-n-10157-00" : "(855) 836-1786",
+          "aggasai-ca-20-11-lg-zb-p-n-10155-00" : "(866) 617-7335",
+          "aggasai-ca-21-05-lg-gf-p-n-10142-00" : "(855) 836-1785"
+        },
+        {
+          "state": "TX",
+          "default": "(866) 598-7335",
+          "agggl": "(888) 829-5810",
+          "aggqn": "(888) 219-4247",
+          "aggcn": "(866) 815-5779",
+		  "aggin": "(844) 498-1681",
+		  "aggas": "(800) 869-3972",
+		  "aggio": "(800) 956-8611",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-tx-21-05-lg-gf-p-n-10143-00" : "(855) 836-1785"
+        },
+        {
+          "state": "FL",
+          "default": "(888) 976-4247",
+          "agggl": "(800) 721-4139",
+          "aggqn": "(877) 461-2434",
+          "aggcn": "(800) 993-2774",
+		  "aggin": "(844) 498-1679",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-fl-21-05-lg-gf-p-n-10144-00" : "(855) 836-1785"
+        },
+        {
+          "state": "GA",
+          "default": "(800) 692-5132",
+          "agggl": "(800) 442-0955",
+          "aggqn": "(800) 398-0096",
+          "aggcn": "(866) 606-7335",
+		  "aggin": "(844) 498-1680",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-ga-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "IL",
+          "default": "(888) 668-4247",
+          "agggl": "(800) 621-8999",
+          "aggqn": "(866) 946-4247",
+          "aggcn": "(866) 629-7335",
+          "aggin": "(844) 380-6258",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-il-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "VA",
+          "default": "(877) 461-2442",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "PA",
+          "default": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NY",
+          "default": "(800) 589-5962",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NJ",
+          "default": "(800) 836-4805",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "MI",
+          "default": "(800) 764-2572",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "AZ",
+          "default": "(800) 477-2184",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NV",
+          "default": "(877) 215-2609",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "OK",
+          "default": "(800) 803-6169",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "DEFAULT",
+          "default": "(877) 215-2609"
+        }
+      ]
+    }
+  },
+  "qa50": {
+  	"sessionCheckInterval": 600000,
+  	"pageSessionTimeout": 870000,
+  	"esignWaitTime": 4000,
+  	"enableLogging": true,
+    "eventOrigin": "https://qa3-paynow.mercuryinsurance.com",
+    "bridgeURL": "https://qa50-buy.mercuryinsurance.com",
+    "mercuryGoFAQ": "https://qa1-www.mercuryinsurance.com/campaigns/go/faqs.html",
+    "compareNowPixel": "https://motor.comparepartnertest.com/motor/resourcetrack?",
+    "bannerAdEnabled": true,
+    "bannerAd": "Sy5I7bxRtW3kZaSTOe8pN2WF4IVt2Q",
+	"showNonProd": true,
+    "dtmEnabled": true,
+    "eloquaEnabled": false,
+    "googleAnalyticsEnabled": true,
+    "siteCatalystEnabled": true,
+    "sizmekEnabled": false,
+    "comparePixelTrackingEnabled": true,
+    "appDynamicsEnabled": false,
+    "ppaBundleEnabled": true,
+    "teaLeafEnabled": false,
+    "clickToCall": {
+      "enabled": true,
+      "code": [
+        {
+          "state": "CA",
+          "default": "1071694",
+          "agggl": "1071954",
+          "aggqn": "1071964",
+          "aggcn": "1071824",
+          "aggad": "1071974",
+          "aggck": "1076369",
+          "aggin": "1076379",
+          "aggio": "1077429",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "TX",
+          "default": "1071784",
+          "agggl": "1071834",
+          "aggqn": "1071844",
+          "aggcn": "1071854",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "FL",
+          "default": "1071754",
+          "agggl": "1071934",
+          "aggqn": "1071864",
+          "aggcn": "1071874",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "GA",
+          "default": "1071764",
+          "agggl": "1071944",
+          "aggqn": "1071884",
+          "aggcn": "1071894",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "IL",
+          "default": "1071724",
+          "agggl": "1071924",
+          "aggqn": "1071904",
+          "aggcn": "1071914",
+          "aggin": "129128",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "VA",
+          "default": "1071814",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "PA",
+          "default": "1071804",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NY",
+          "default": "1071794",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NJ",
+          "default": "1071774",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "MI",
+          "default": "1071744",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "AZ",
+          "default": "1071714",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NV",
+          "default": "1071704",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "OK",
+          "default": "1071734",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        }
+      ]
+    },
+    "contact": {
+      "numbers": [
+        {
+          "state": "CA",
+          "default": "(800) 443-1581",
+          "agggl": "(866) 268-8195",
+          "aggqn": "(800) 441-2158",
+          "aggcn": "(877) 738-6994",
+          "aggad": "(866) 619-7335",
+          "aggck": "(877) 738-6985",
+          "aggin": "(800) 552-9254",
+          "aggio": "(800) 313-8013",
+           "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 331-6108",
+          "aggasai-ca-20-11-lg-rf-p-n-10157-00" : "(855) 836-1786",
+          "aggasai-ca-20-11-lg-zb-p-n-10155-00" : "(866) 617-7335",
+          "aggasai-ca-21-05-lg-gf-p-n-10142-00" : "(855) 836-1785"
+        },
+        {
+          "state": "TX",
+          "default": "(866) 598-7335",
+          "agggl": "(888) 829-5810",
+          "aggqn": "(888) 219-4247",
+          "aggcn": "(866) 815-5779",
+		  "aggin": "(844) 498-1681",
+		  "aggas": "(800) 869-3972",
+		  "aggio": "(800) 956-8611",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-tx-21-05-lg-gf-p-n-10143-00" : "(855) 836-1785"
+        },
+        {
+          "state": "FL",
+          "default": "(888) 976-4247",
+          "agggl": "(800) 721-4139",
+          "aggqn": "(877) 461-2434",
+          "aggcn": "(800) 993-2774",
+		  "aggin": "(844) 498-1679",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-fl-21-05-lg-gf-p-n-10144-00" : "(855) 836-1785"
+        },
+        {
+          "state": "GA",
+          "default": "(800) 692-5132",
+          "agggl": "(800) 442-0955",
+          "aggqn": "(800) 398-0096",
+          "aggcn": "(866) 606-7335",
+		  "aggin": "(844) 498-1680",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-ga-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "IL",
+          "default": "(888) 668-4247",
+          "agggl": "(800) 621-8999",
+          "aggqn": "(866) 946-4247",
+          "aggcn": "(866) 629-7335",
+          "aggin": "(844) 380-6258",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-il-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "VA",
+          "default": "(877) 461-2442",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "PA",
+          "default": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NY",
+          "default": "(800) 589-5962",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NJ",
+          "default": "(800) 836-4805",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "MI",
+          "default": "(800) 764-2572",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "AZ",
+          "default": "(800) 477-2184",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NV",
+          "default": "(877) 215-2609",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "OK",
+          "default": "(800) 803-6169",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "DEFAULT",
+          "default": "(877) 215-2609"
+        }
+      ]
+    }
+  },
+  "stage": {
+  	"sessionCheckInterval": 600000,
+  	"pageSessionTimeout": 870000,
+  	"esignWaitTime": 4000,
+  	"enableLogging": true,
+    "eventOrigin": "https://stg-paynow.mercuryinsurance.com",
+    "bridgeURL": "https://stg-buy.mercuryinsurance.com",
+    "mercuryGoFAQ": "https://qa1-www.mercuryinsurance.com/campaigns/go/faqs.html",
+    "compareNowPixel": "https://motor.comparepartnertest.com/motor/resourcetrack?",
+    "bannerAdEnabled": true,
+    "bannerAd": "Sy5I7bxRtW3kZaSTOe8pN2WF4IVt2Q",
+	"showNonProd": false,
+    "dtmEnabled": true,
+    "eloquaEnabled": false,
+    "googleAnalyticsEnabled": true,
+    "siteCatalystEnabled": true,
+    "sizmekEnabled": false,
+    "comparePixelTrackingEnabled": true,
+    "appDynamicsEnabled": false,
+    "ppaBundleEnabled": true,
+    "teaLeafEnabled": false,
+    "clickToCall": {
+      "enabled": true,
+      "code": [
+        {
+          "state": "CA",
+          "default": "1071694",
+          "agggl": "1071954",
+          "aggqn": "1071964",
+          "aggcn": "1071824",
+          "aggad": "1071974",
+          "aggck": "1076369",
+          "aggin": "1076379",
+          "aggio": "1077429",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "TX",
+          "default": "1071784",
+          "agggl": "1071834",
+          "aggqn": "1071844",
+          "aggcn": "1071854",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "FL",
+          "default": "1071754",
+          "agggl": "1071934",
+          "aggqn": "1071864",
+          "aggcn": "1071874",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "GA",
+          "default": "1071764",
+          "agggl": "1071944",
+          "aggqn": "1071884",
+          "aggcn": "1071894",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "IL",
+          "default": "1071724",
+          "agggl": "1071924",
+          "aggqn": "1071904",
+          "aggcn": "1071914",
+          "aggin": "129128",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "VA",
+          "default": "1071814",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "PA",
+          "default": "1071804",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NY",
+          "default": "1071794",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NJ",
+          "default": "1071774",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "MI",
+          "default": "1071744",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "AZ",
+          "default": "1071714",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NV",
+          "default": "1071704",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "OK",
+          "default": "1071734",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        }
+      ]
+    },
+    "contact": {
+      "numbers": [
+        {
+          "state": "CA",
+          "default": "(800) 443-1581",
+          "agggl": "(866) 268-8195",
+          "aggqn": "(800) 441-2158",
+          "aggcn": "(877) 738-6994",
+          "aggad": "(866) 619-7335",
+          "aggck": "(877) 738-6985",
+          "aggin": "(800) 552-9254",
+          "aggio": "(800) 313-8013",
+           "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 331-6108",
+          "aggasai-ca-20-11-lg-rf-p-n-10157-00" : "(855) 836-1786",
+          "aggasai-ca-20-11-lg-zb-p-n-10155-00" : "(866) 617-7335",
+          "aggasai-ca-21-05-lg-gf-p-n-10142-00" : "(855) 836-1785"
+        },
+        {
+          "state": "TX",
+          "default": "(866) 598-7335",
+          "agggl": "(888) 829-5810",
+          "aggqn": "(888) 219-4247",
+          "aggcn": "(866) 815-5779",
+		  "aggin": "(844) 498-1681",
+		  "aggas": "(800) 869-3972",
+		  "aggio": "(800) 956-8611",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-tx-21-05-lg-gf-p-n-10143-00" : "(855) 836-1785"
+        },
+        {
+          "state": "FL",
+          "default": "(888) 976-4247",
+          "agggl": "(800) 721-4139",
+          "aggqn": "(877) 461-2434",
+          "aggcn": "(800) 993-2774",
+		  "aggin": "(844) 498-1679",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-fl-21-05-lg-gf-p-n-10144-00" : "(855) 836-1785"
+        },
+        {
+          "state": "GA",
+          "default": "(800) 692-5132",
+          "agggl": "(800) 442-0955",
+          "aggqn": "(800) 398-0096",
+          "aggcn": "(866) 606-7335",
+		  "aggin": "(844) 498-1680",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-ga-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "IL",
+          "default": "(888) 668-4247",
+          "agggl": "(800) 621-8999",
+          "aggqn": "(866) 946-4247",
+          "aggcn": "(866) 629-7335",
+          "aggin": "(844) 380-6258",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-il-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "VA",
+          "default": "(877) 461-2442",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "PA",
+          "default": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NY",
+          "default": "(800) 589-5962",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NJ",
+          "default": "(800) 836-4805",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "MI",
+          "default": "(800) 764-2572",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "AZ",
+          "default": "(800) 477-2184",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NV",
+          "default": "(877) 215-2609",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "OK",
+          "default": "(800) 803-6169",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "DEFAULT",
+          "default": "(877) 215-2609"
+        }
+      ]
+    }
+  },
+  "prod": {
+  	"sessionCheckInterval": 600000,
+  	"pageSessionTimeout": 870000,
+  	"esignWaitTime": 4000,
+  	"enableLogging": false,
+    "eventOrigin": "https://paynow.mercuryinsurance.com",
+    "bridgeURL": "https://buy.mercuryinsurance.com",
+    "mercuryGoFAQ": "https://www.mercuryinsurance.com/go/faqs.html",
+    "compareNowPixel": "https://motor.compare.com/motor/resourcetrack?",
+    "bannerAdEnabled": true,
+    "bannerAd": "Sy5I7bxRtW3kZaSTOe8pN2WF4IVt2Q",
+	"showNonProd": false,
+    "dtmEnabled": true,
+    "eloquaEnabled": false,
+    "googleAnalyticsEnabled": true,
+    "siteCatalystEnabled": true,
+    "sizmekEnabled": false,
+    "comparePixelTrackingEnabled": true,
+    "appDynamicsEnabled": false,
+    "ppaBundleEnabled": true,
+    "teaLeafEnabled": false,
+    "clickToCall": {
+      "enabled": true,
+      "code": [
+        {
+          "state": "CA",
+          "default": "1071694",
+          "agggl": "1071954",
+          "aggqn": "1071964",
+          "aggcn": "1071824",
+          "aggad": "1071974",
+          "aggck": "1076369",
+          "aggin": "1076379",
+          "aggio": "1077429",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "TX",
+          "default": "1071784",
+          "agggl": "1071834",
+          "aggqn": "1071844",
+          "aggcn": "1071854",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "FL",
+          "default": "1071754",
+          "agggl": "1071934",
+          "aggqn": "1071864",
+          "aggcn": "1071874",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "GA",
+          "default": "1071764",
+          "agggl": "1071944",
+          "aggqn": "1071884",
+          "aggcn": "1071894",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "IL",
+          "default": "1071724",
+          "agggl": "1071924",
+          "aggqn": "1071904",
+          "aggcn": "1071914",
+          "aggin": "129128",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "VA",
+          "default": "1071814",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "PA",
+          "default": "1071804",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NY",
+          "default": "1071794",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NJ",
+          "default": "1071774",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "MI",
+          "default": "1071744",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "AZ",
+          "default": "1071714",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "NV",
+          "default": "1071704",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        },
+        {
+          "state": "OK",
+          "default": "1071734",
+          "lgad" : "1074219",
+          "lgma" : "1074239",
+          "lgqn" : "1074229",
+          "lgkt" : "1074917"
+        }
+      ]
+    },
+    "contact": {
+      "numbers": [
+        {
+          "state": "CA",
+          "default": "(800) 443-1581",
+          "agggl": "(866) 268-8195",
+          "aggqn": "(800) 441-2158",
+          "aggcn": "(877) 738-6994",
+          "aggad": "(866) 619-7335",
+          "aggck": "(877) 738-6985",
+          "aggin": "(800) 552-9254",
+          "aggio": "(800) 313-8013",
+           "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 331-6108",
+          "aggasai-ca-20-11-lg-rf-p-n-10157-00" : "(855) 836-1786",
+          "aggasai-ca-20-11-lg-zb-p-n-10155-00" : "(866) 617-7335",
+          "aggasai-ca-21-05-lg-gf-p-n-10142-00" : "(855) 836-1785"
+        },
+        {
+          "state": "TX",
+          "default": "(866) 598-7335",
+          "agggl": "(888) 829-5810",
+          "aggqn": "(888) 219-4247",
+          "aggcn": "(866) 815-5779",
+		  "aggin": "(844) 498-1681",
+		  "aggas": "(800) 869-3972",
+		  "aggio": "(800) 956-8611",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-tx-21-05-lg-gf-p-n-10143-00" : "(855) 836-1785"
+        },
+        {
+          "state": "FL",
+          "default": "(888) 976-4247",
+          "agggl": "(800) 721-4139",
+          "aggqn": "(877) 461-2434",
+          "aggcn": "(800) 993-2774",
+		  "aggin": "(844) 498-1679",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-fl-21-05-lg-gf-p-n-10144-00" : "(855) 836-1785"
+        },
+        {
+          "state": "GA",
+          "default": "(800) 692-5132",
+          "agggl": "(800) 442-0955",
+          "aggqn": "(800) 398-0096",
+          "aggcn": "(866) 606-7335",
+		  "aggin": "(844) 498-1680",
+		  "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-ga-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "IL",
+          "default": "(888) 668-4247",
+          "agggl": "(800) 621-8999",
+          "aggqn": "(866) 946-4247",
+          "aggcn": "(866) 629-7335",
+          "aggin": "(844) 380-6258",
+          "aggas": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235",
+          "aggasai-us-20-11-lg-za-p-n-10156-00" : "(866) 617-7335",
+          "aggasai-il-21-05-lg-gf-p-n-10145-00" : "(855) 836-1785"
+        },
+        {
+          "state": "VA",
+          "default": "(877) 461-2442",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "PA",
+          "default": "(800) 869-3972",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NY",
+          "default": "(800) 589-5962",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NJ",
+          "default": "(800) 836-4805",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "MI",
+          "default": "(800) 764-2572",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "AZ",
+          "default": "(800) 477-2184",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "NV",
+          "default": "(877) 215-2609",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "OK",
+          "default": "(800) 803-6169",
+          "lgad" : "(866) 268-8193",
+          "lgma" : "(855) 247-5736",
+          "lgqn" : "(855) 534-4247",
+          "lgkt" : "(866) 457-5511",
+          "urm"  : "(844) 838-1235"
+        },
+        {
+          "state": "DEFAULT",
+          "default": "(877) 215-2609"
+        }
+      ]
+    }
+  }
+}

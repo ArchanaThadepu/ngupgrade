@@ -1,0 +1,11 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 92%;
+  padding: 14px 4% 14px 4%;
+  background: #660000;
+  /*background-image: radial-gradient(center bottom, circle cover, #8D110E, #520a0d);*/
+  /*background-image: -webkit-radial-gradient(center bottom, circle cover, #8D110E, #520a0d);*/
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#9b0e04', endColorstr='#290100');
+  z-index: 9999;
+}

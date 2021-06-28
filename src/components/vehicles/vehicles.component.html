@@ -1,0 +1,134 @@
+<!--<section id="vehicles">-->
+<!--  &lt;!&ndash; <mig-edit-menu page="vehicles"></mig-edit-menu> &ndash;&gt;-->
+<!--  <div class="content">-->
+<!--    <div id="pageTitle" class="pageTitleContainer">-->
+<!--      <div id="title" class="titleContainer">-->
+
+<!--        <h1>Vehicle Summary</h1>-->
+<!--      </div>-->
+
+<!--      <mig-progression-header page="vehicles"></mig-progression-header>-->
+
+<!--      &lt;!&ndash;<h3 ng-if="isVinPrefillHit">We found the following vehicles at your address. Select the ones you would like included in your quote.</h3>&ndash;&gt;-->
+<!--      <h3>Add Vehicle Information.</h3>-->
+<!--      <h3>A check mark indicates the vehicles included in your quote.</h3>-->
+<!--      <h3>We found the following vehicles at your address. Please indicate which ones you would like included in your quote.</h3>-->
+<!--    </div>-->
+<!--    <form id="vehiclesForm" #vehiclesForm="ngForm"  name="vehiclesForm" (ngSubmit)="submit();" novalidate>-->
+<!--      <div id="formGroup" class="summary">-->
+<!--        <div class="globalErrorMsg" *ngIf="submitted">-->
+<!--          <div class="warning"></div>-->
+<!--          <h3>Please correct the information highlighted below.</h3>-->
+<!--        </div>-->
+<!--        <div class="globalErrorMsg" *ngIf="noVehiclesSelected">-->
+<!--          <div class="warning"></div>-->
+<!--          <h3>You must add at least one vehicle to this quote.</h3>-->
+<!--        </div>-->
+<!--        <div class="globalErrorMsg" *ngIf="maxVehiclesSelected">-->
+<!--          <div class="warning"></div>-->
+<!--          <h3>You can only select up to 10 vehicles.</h3>-->
+<!--        </div>-->
+<!--        <div class="globalErrorMsg" *ngIf="errors.length>0">-->
+<!--          <div class="warning"></div>-->
+<!--          <h3 ng-repeat="error in errors">{{error.getMessage()}}</h3>-->
+<!--        </div>-->
+<!--        <div id="inputWrapper">-->
+<!--          &lt;!&ndash;div class="detail" data-ng-repeat="vehicle in vehicles">-->
+<!--            <input type="checkbox" id="{{'vehicle'+vehicle.index}}" name="vehicle"-->
+<!--            ng-model="veh.vehicle[vehicle.index]"-->
+<!--                        ng-init="vehicle.selected ? veh.vehicle[vehicle.index]=true : veh.vehicle[vehicle.index]=false" ng-click="updateVehicleSelected(vehicle.index, vehicle.selected);"/>-->
+<!--            <label for="{{'vehicle'+vehicle.index}}" >{{vehicle.year+" "+vehicle.make+" "+vehicle.model+" "+vehicle.bodyType}}</label>-->
+<!--            <div ng-hide="vehicle.selected" class="delete" ng-click="delete('vehicle', vehicle.index)"></div>-->
+<!--            <div ng-if="vehicle.completed && vehicle.selected" class="edit" ng-click="edit('vehicle', vehicle.index)">Edit</div>-->
+<!--          </div&ndash;&gt;-->
+<!--          &lt;!&ndash;<div class="detail" data-ng-repeat="vehicle in vehicles">-->
+<!--                    <input type="checkbox" id="{{'vehicle'+vehicle.index}}" ng-model="vehicle.selected"-->
+<!--                        ng-click="showHide(vehicle.index, vehicle.selected, vehicle);"/>-->
+<!--                        <div class="select">-->
+<!--                          <label for="{{'vehicle'+vehicle.index}}"><div class="checkboxIcon" ng-class="{checked: vehicle.selected}"></div></label>-->
+<!--                        </div>-->
+<!--                        <div class="labels">-->
+<!--                       <label for="{{'vehicle'+vehicle.index}}">-->
+<!--                              <span>{{vehicle.year+" "+vehicle.make+" "+vehicle.model+" "+vehicle.bodyType_Ext}}</span>-->
+<!--                            </label>-->
+<!--                        </div>-->
+<!--                        <div class="modify" mig-close-slider-when-tap-outside>-->
+<!--                            <div ng-hide="vehicle.selected" class="delete" ng-class="{click: openSlider === true}" ng-click="openSlider = true; bindTapListener()"></div>-->
+<!--                            <div class="deletePanel" ng-class="{open: openSlider === true, close: openSlider === false, remove: openSlider === null}">-->
+<!--                                <div class="cancelSlider" ng-click="openSlider = false; unbindTapListener();">-->
+<!--                                    <div class="deleteTable">-->
+<!--                                        <div class="deleteCell">Cancel</div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="deleteSlider" ng-click="openSlider = null; delete('vehicle', vehicle.index); unbindTapListener();">-->
+<!--                                    <div class="deleteTable">-->
+<!--                                        <div class="deleteCell">Delete</div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div ng-show="vehicle.completed && vehicle.selected" class="edit" ng-click="edit('vehicle', vehicle.index)"></div>-->
+<!--                        </div>-->
+<!--            </div>&ndash;&gt;-->
+<!--          <div ng-repeat="vehicle in vehicles">-->
+<!--            <div class="detail">-->
+<!--              <input type="checkbox" id="{{'vehicle'+vehicle.index}}" ng-model="vehicle.completed" />-->
+<!--              <div class="select">-->
+<!--                <label ng-if="vehicle.completed">-->
+<!--                  <div class="checkboxIcon checked"></div>-->
+<!--                </label>-->
+<!--              </div>-->
+<!--              <div class="labels">-->
+<!--                <label>-->
+<!--                  <span>{{vehicle.year+" "+vehicle.make+" "+vehicle.model+" "+vehicle.bodyType_Ext}}</span>-->
+<!--                </label>-->
+<!--              </div>-->
+<!--              <div class="atqBtn btnNavDesktop" ng-if="!vehicle.completed">-->
+<!--                <div class="button blue" ng-click="addToQuote(vehicle)">Add to Quote</div>-->
+<!--              </div>-->
+<!--              <div class="modify" ng-if="vehicle.completed">-->
+<!--                <div class="delete removeVehicle" ng-click="addToParkingLot(vehicle)"></div>-->
+<!--                &lt;!&ndash;<div class="edit" ng-click="edit('vehicle', vehicle.index)"></div>&ndash;&gt;-->
+<!--                <div class="btnWrapper btnNavDesktop"><div class="button white" ng-click="edit('vehicle', vehicle.index)">Edit</div></div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="atqBtn btnNavMobile">-->
+<!--              <div class="btnDetail">-->
+<!--                <div class="btnSpace"></div>-->
+<!--                <div class="btnWrapper">-->
+<!--                  <div ng-if="!vehicle.completed" class="button blue" ng-click="addToQuote(vehicle)">Add to Quote</div>-->
+<!--                  <div ng-if="vehicle.completed" class="button white" ng-click="edit('vehicle', vehicle.index)">Edit</div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+<!--          <div class="add" ng-hide="showAddVehicle">-->
+<!--            <input type="checkbox" id="add" name="add" ng-click="defaultValues(addVehicle);startAddVehicle()" />-->
+<!--            <label for="add" tabindex="0" role="button" ng-keydown="addVehicleKeyPress($event, addVehicle)">{{vehicles.length > 0 ? "Add another vehicle" : "Add a vehicle"}}</label>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div data-ng-include="'../js/src/mercury/views/rightContent.html'"></div>-->
+<!--      <div class="button-wrapper" ng-hide="showAddVehicle">-->
+<!--        <div class="buttons">-->
+<!--          <input type="button" class="gray desktop" value="Back" ng-click="back()" ng-if="!updateQuote && !menuEditMode || !updateQuote && percentComplete < 100" />-->
+<!--          <input type="submit" class="orange" value="Save and Continue" ng-if="!vehiclesComplete || !updateQuote && percentComplete < 100" />-->
+<!--          <input type="submit" class="green" value="Update Quote" ng-click="resetEditUnchanged(false, vehiclesForm.$valid)" ng-if="vehiclesComplete && !editUnchanged && percentComplete == 100" />-->
+<!--          <input type="button" class="gray" value="Return to Quote Details" ng-click="returnToQuote()" ng-if="updateQuote && editUnchanged" />-->
+<!--          <input type="button" class="gray mobile" value="Back" ng-click="back()" ng-if="!updateQuote && !menuEditMode || !updateQuote && percentComplete < 100" />-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </form>-->
+
+
+
+<!--    &lt;!&ndash;        <form name="myForm" style="float: left">-->
+<!--            <input style="display:block" type="checkbox" id="test1" name="test" ng-init="checkboxModel.value1=true" ng-model="checkboxModel.value1">-->
+<!--            value1 = {{checkboxModel.value1}}-->
+<!--            </form>-->
+<!--            &ndash;&gt;-->
+
+
+<!--    <div id="addNewVehicleContainer"></div>-->
+<!--  </div>-->
+<!--</section>-->

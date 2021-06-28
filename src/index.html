@@ -1,13 +1,197 @@
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--  <meta charset="utf-8">-->
+<!--  <title>QBNg10</title>-->
+<!--  <base href="/">-->
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1">-->
+<!--  <link rel="icon" type="image/x-icon" href="favicon.ico">-->
+<!--</head>-->
+<!--<body>-->
+<!--  <app-root></app-root>-->
+<!--</body>-->
+<!--</html>-->
+
 <!doctype html>
-<html lang="en">
+<html class="app-loading">
 <head>
-  <meta charset="utf-8">
-  <title>QBNg10</title>
   <base href="/">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+    // $(function () {
+    //   $("#buildNumber").load("build.html");
+    //   console.log("after build load");
+    // });
+  </script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>Quote & Buy</title>
+
+  <link rel="stylesheet" href="assets/styles/css/application.css">
+  <link rel="stylesheet" href="assets/styles/css/styles.css">
+  <style>html {
+    display: none;
+  }</style>
+  <script type="text/javascript">
+    if (self === top) {
+      document.documentElement.style.display = 'block';
+    } else {
+      if (window.postMessage && window.addEventListener) {
+        let breakout = setTimeout(function () {
+          window.top.location = window.self.location.href;
+        }, 100);
+        window.addEventListener('message', function (event) {
+          if (event.data === 'isDecibelInsight' && event.origin.indexOf('app.decibelinsight.com') !== -1) {
+            clearTimeout(breakout);
+          }
+        }, false);
+        window.top.postMessage('checkDecibelInsight', '*');
+      } else {
+        window.top.location = window.self.location.href;
+      }
+    }
+
+    let host = window.location.hostname.split(".");
+    switch (host[0]) {
+      case 'buy':
+        document.write('\x3Cscript type="text/javascript" src="//assets.adobedtm.com/c63f9b5325dfc63ab392d87bd8891b1db8390c1c/satelliteLib-32fe0f5679804e0363807e1a037697ef7a56bb12.js">\x3C/script>');
+        break;
+      default:
+        document.write('\x3Cscript type="text/javascript" src="//assets.adobedtm.com/c63f9b5325dfc63ab392d87bd8891b1db8390c1c/satelliteLib-32fe0f5679804e0363807e1a037697ef7a56bb12-staging.js">\x3C/script>');
+        break;
+    }
+  </script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+  <!--<script type="text/javascript" src="../js/adrum.js"></script>-->
+  <!--<script type="text/javascript" src="../js/appDynamics.js"></script>-->
 </head>
+
 <body>
-  <app-root></app-root>
+
+<app-root></app-root>
+
+
 </body>
 </html>
+<script>
+  $(document).ready(function () {
+    $('#quoteidretrieval').show();
+    $('#dobretrieval').hide();
+    $("#launchBtn").click(function () {
+      let url = "mercury.html#/create?zip=" + $("#quotezip").val() + "&state=" + $("#quotestate option:selected").text();
+      if ($("#startDate").val() !== "") {
+        url += "&startDate=" + $("#startDate").val();
+      }
+
+      if ($("#policySubSource").val() !== "") {
+        url += "&pss=" + $("#policySubSource").val();
+      }
+
+      if ($("#bundleType").val() !== "None") {
+        url += "&lob=" + $("#bundleType option:selected").val();
+      }
+      window.location = url;
+      event.preventDefault();
+    })
+
+    $("#retrievalType").click(function () {
+      if ($("#retrievalType").val() === "quoteid") {
+        $('#quoteidretrieval').show();
+        $('#dobretrieval').hide();
+        $("#dateOfBirth").val('');
+      }
+      if ($("#retrievalType").val() === "dateofbirth") {
+        $('#dobretrieval').show();
+        $('#quoteidretrieval').hide();
+        $("#quotenum").val('');
+      }
+    });
+
+    $("#quotenum").change(function () {
+      $("#quotestate").val($(this).val().substr(0, 2))
+    })
+
+    $("#retrieveBtn").click(function () {
+      let url = null;
+
+      if (($("#quotenum").val() === null || $.trim($("#quotenum").val()) === "")
+        && $("#dateOfBirth").val() !== null && $.trim($("#dateOfBirth").val()) !== ""
+        && $("#dateOfBirth").val().length === 10) {
+        let month = $("#dateOfBirth").val().substr(0, 2);
+        let date = $("#dateOfBirth").val().substr(3, 2);
+        let year1 = $("#dateOfBirth").val().substr(6, 2);
+        let year2 = $("#dateOfBirth").val().substr(8, 2);
+
+        let dob = "12" + month + "15" + date + "05" + year1 + "20" + year2 + "19"
+
+        url = "mercury.html#/retrieve?zip=" + $.trim($("#quotezip").val()) + "&state=" + $("#quotestate option:selected").text()
+          + "&B2C=" + dob
+          + "&em=" + $.trim($("#email").val())
+          + "&ln=" + $.trim($("#lastName").val());
+        //alert(url);
+      } else {
+        url = "mercury.html#/retrieve?zip=" + $.trim($("#quotezip").val()) + "&state=" + $("#quotestate option:selected").text()
+          + "&quoteID=" + $.trim($("#quotenum").val())
+          + "&em=" + $.trim($("#email").val())
+          + "&ln=" + $.trim($("#lastName").val());
+        //alert(url);
+      }
+      window.location = url;
+      event.preventDefault();
+    })
+
+
+    $("#encodeURL").click(function () {
+      let googleURL = $("#googleURL").val();
+      let encodedURL = null;
+      if (googleURL !== "") {
+        $.ajax({
+          type: "GET",
+          data: {"googleURL": googleURL},
+          url: gw.cfg.appContext + "/rest/login/encodeurl",
+          success: function (response) {
+            encodedURL = response.data;
+          },
+          async: false
+        });
+      }
+      //alert("data ::"+encodedURL);
+
+      $("#encodedURL").val(encodedURL);
+    })
+
+    $("#decodeURL").click(function () {
+      var googleURL = $("#googleURL").val();
+      var encodedURL = null;
+      if (googleURL !== "") {
+        $.ajax({
+          type: "GET",
+          data: {"token": googleURL},
+          url: gw.cfg.appContext + "/rest/login/decodeurl",
+          success: function (response) {
+            encodedURL = response.data;
+          },
+          async: false
+        });
+      }
+      //alert("data ::"+encodedURL);
+
+      $("#encodedURL").val(encodedURL);
+    })
+
+    $("#retrieveGoogBtn").click(function () {
+      var url = $("#aggURL").val()
+      // alert(url);
+      window.location = url;
+      event.preventDefault();
+    })
+
+    $('a[href="#sign_up"]').click(function () {
+      alert('Sign new href executed.');
+    });
+    console.log("after init()");
+  });
+</script>
+

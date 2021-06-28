@@ -1,0 +1,402 @@
+{	
+    "nonFactoryEquipmentLabel": [{"value": {"default":{"value":"Does this vehicle have any custom (non-factory) equipment?"}},"rateLevel": "ALL", "state": ["VA"]}],
+    "addNonFactoryEquipmentButton": [{"value": {"default":{"value":"Add non-factory equipment"}},"rateLevel": "ALL", "state": ["ALL"]}, {"value": {"default":{"value":"Add custom (non-factory) equipment"}},"rateLevel": "ALL", "state": ["VA"]}],
+    "nfeqTypeLabel": [{"value":{"default":{"value":"Custom (non-factory) equipment type"}},"rateLevel": "ALL", "state": ["VA"]}],
+    "matureOrDefensiveDriverLabel": [
+      {"value": {"default":{"value":"Does this driver qualify for the Defensive Driver discount?"},"insured":{"value":"Do you qualify for the Defensive Driver discount?"}},"rateLevel": "ALL", "state": ["OK","GA","NJ","NY"]},
+      {"value": {"default":{"value":"Does this driver qualify for the Defensive Driving Course discount?"}, "insured":{"value":"Do you qualify for the Defensive Driving Course discount?"}},"rateLevel": "ALL", "state": ["IL"]},
+      {"value": {"default":{"value":"Does this driver qualify for the Mature Driver discount?"}, "insured":{"value":"Do you qualify for the Mature Driver discount?"}},"rateLevel": "ALL", "state": ["NV","AZ","FL","CA","VA","PA"]}
+    ],
+    "peopleSummaryCopyDeck": [
+      {"value": {"default":{"value":"You must include anyone who drives a vehicle on this quote, whether or not they live in your household. <p>You must also include everyone who lives in your household, aged 15 or older, whether or not they are licensed to drive, and whether or not they drive any of the vehicles to be listed on this quote.</p>"}},"rateLevel": "ALL", "state": ["NV","AZ","IL","MI","CA","FL","TX","OK","VA","GA"]},
+      {"value": {"default":{"value":"You must include anyone who drives a vehicle on this quote, whether or not they live in your household. <p>You must also include everyone who lives in your household, aged 16 or older, whether or not they are licensed to drive, and whether or not they drive any of the vehicles to be listed on this quote.</p>"}},"rateLevel": "ALL", "state": ["NJ","NY","PA"]}
+    ],
+    "hasMercuryPolicyLabel": [
+      {"value": {"default":{"value":"Do you have any of the following policies with Mercury?"},
+        "M":{"value":"Do you or your spouse have any of the following policies with Mercury?"},
+        "C":{"value":"Do you or your partner have any of the following policies with Mercury?"},
+        "CU":{"value":"Do you or your partner have any of the following policies with Mercury?"}
+      },"rateLevel": "ALL", "state": ["ALL"]}
+    ],
+    "hasContinueInsuranceLabel": [
+      {"value": {"default":{"value":"Have you had insurance continuously for the last 6 months?"},
+        "M":{"value":"Have you and your spouse had insurance continuously for the last 6 months?"},
+        "C":{"value":"Have you and your partner had insurance continuously for the last 6 months?"},
+        "CU":{"value":"Have you and your partner had insurance continuously for the last 6 months?"}
+      },"rateLevel": "ALL", "state": ["ALL"]}
+    ],
+    "recentInsurancePeriodLabel": [
+      {"value": {"default":{"value":"How long have you been with your most recent insurance company?"},
+        "M":{"value":"How long have you and your spouse been with your most recent insurance company?"},
+        "C":{"value":"How long have you and your partner been with your most recent insurance company?"},
+        "CU":{"value":"How long have you and your partner been with your most recent insurance company?"}
+      },"rateLevel": "ALL", "state": ["ALL"]}
+    ],
+    "recentWithoutInsurancePeriodLabel": [
+      {"value": {"default":{"value":"How long were you without insurance in the last six months?"},
+        "M":{"value":"How long were you and your spouse without insurance in the last six months?"},
+        "C":{"value":"How long were you and your partner without insurance in the last six months?"},
+        "CU":{"value":"How long were you and your partner without insurance in the last six months?"}
+      },"rateLevel": "ALL", "state": ["ALL"]}
+    ],
+    "mostRecentInsurancePeriodLabel": [
+      {"value": {"default":{"value":"How long have you been with your most recent insurance company?"},
+        "M":{"value":"How long have you and your spouse been with your most recent insurance company?"},
+        "C":{"value":"How long have you and your partner been with your most recent insurance company?"},
+        "CU":{"value":"How long have you and your partner been with your most recent insurance company?"}
+      },"rateLevel": "ALL", "state": ["ALL"]}
+    ],
+    "nonFactoryEquipmentSecondaryLabel": [
+      {"value": {"default":{"value":"Please list any non-factory equipment for this vehicle up to a total of $10,000."}},"rateLevel": "ALL", "state": ["ALL"]},
+      {"value": {"default":{"value":"Please list any non-factory equipment for this vehicle up to a total of $2,500."}},"rateLevel": "ALL", "state": ["CA"]},
+      {"value": {"default":{"value":"Please list any custom (non-factory) equipment for this vehicle up to a total of $10,000."}},"rateLevel": "ALL", "state": ["VA"]}],
+    "firstNameValidationMsg": [{"value": {"default":{"value":"Please enter this driver's first name."},"insured":{"value":"Please enter your first name."}},"rateLevel": "ALL", "state": ["ALL"]}],
+    "lastNameValidationMsg": [{"value": {"default":{"value":"Please enter this driver's last name."},"insured":{"value":"Please enter your last name."}},"rateLevel": "ALL", "state": ["ALL"]}],
+    "maritalStatusValidationMsg": [{"value": {"default":{"value":"Please select this driver's martial status."},"insured":{"value":"Please select your martial status."}},"rateLevel": "ALL", "state": ["ALL"]}],
+    "licenseStatusValidationMsg": [{"value": {"default":{"value":"Please select this driver's license status."},"insured":{"value":"Please select your license status."}},"rateLevel": "ALL", "state": ["ALL"]}],
+    "stateLicensedValidationMsg": [{"value": {"default":{"value":"Please select the state this driver is licensed in.."},"insured":{"value":"Please select the state you are licensed in."}},"rateLevel": "ALL", "state": ["ALL"]}],
+    "countryLicensedValidationMsg": [{"value": {"default":{"value":"Please select the country this driver is licensed in.."},"insured":{"value":"Please select the country you are licensed in."}},"rateLevel": "ALL", "state": ["ALL"]}],
+    "ageFirstLicensedLabel": [
+      {"value": {"default":{"value":"How old was this driver when they got their first driver's license?"},"insured":{"value":"How old were you when you got your first driver's license?"}},"rateLevel": "ALL", "state": ["ALL"]}
+    ],
+    "driverFilingLabel": [
+      {"value": {"default":{"value":"Does this driver require an SR22?"},"insured":{"value":"Do you require an SR22?"}},"rateLevel": "ALL", "state": ["NV","AZ","IL","MI","GA","TX"]},
+      {"value": {"default":{"value":"Does this driver require an SR22 or FR44?"}, "insured":{"value":"Do you require an SR22 or FR44?"}},"rateLevel": "ALL", "state": ["FL","VA"]},
+      {"value": {"default":{"value":"Does this driver require an SR22 or SR1P?"}, "insured":{"value":"Do you require an SR22 or SR1P?"}},"rateLevel": "ALL", "state": ["CA"]}
+    ],
+    "associationLabel": [
+      {"value": {"default":{"value":"Are you a member of AAA?"},"M":{"value":"Are you or your spouse a member of AAA?"},"C":{"value":"Are you or your partner a member of AAA?"}},"rateLevel": "ALL", "state": ["MI","PA","GA"]},
+      {"value": {
+        "default":{"value":"Are you a member of any one or more of the following  associations?"},
+        "M":{"value":"Are you or your spouse a member of any one or more of the following  associations?"},
+        "CU":{"value":"Are you or your partner a member of any one or more of the following  associations?"}},"rateLevel": "ALL", "state": ["NJ"]}
+    ],
+    "primaryVehicleLabel": [{"value": {"default":{"value":"Which vehicle does this driver use the most?"},"insured":{"value":"Which vehicle do you use the most?"}},"rateLevel": "ALL", "state": ["ALL"]}],
+    "primaryVehicleValidationMsg": [{"value": {"default":{"value":"Please select the vehicle this driver uses the most."},"insured":{"value":"Please select the vehicle that you use the most."}},"rateLevel": "ALL", "state": ["ALL"]}],
+    "seniorDriverLabel": [{"value": {"default":{"value":"Does this driver drive less than 3,000 miles per year?"},"insured":{"value":"Do you drive less than 3,000 miles per year?"}},"rateLevel": "ALL", "state": ["MI"]}],
+    "pipClaimsLabel": [{"value": {"default":{"value":"How many PIP claims has this driver had in the last 3 years?"},"insured":{"value":"How many PIP claims have you had in the last 3 years?"}},"rateLevel": "ALL", "state": ["ALL"]}],
+    "goodStudentLabel": [{"value": {"default":{"value":"Does this driver qualify for the Good Student discount?"},"insured":{"value":"Do you qualify for the Good Student discount?"}},"rateLevel": "ALL", "state": ["ALL"]}],
+    "suspendedRevokedLabel": [{"value": {"default":{"value":"Has this driver had a suspended or revoked license in the last 3 years?"},"insured":{"value":"Have you had a suspended or revoked license in the last 3 years?"}},"rateLevel": "ALL", "state": ["ALL"]}],
+    "groupDiscountLabel": [{"value": {"default":{"value":"Is this driver a current member of any of the following professional groups or associations?"},"insured":{"value":"Are you a current member of any of the following professional groups or associations?"}},"rateLevel": "ALL", "state": ["ALL"]}],
+    "accidentViolationsLabel": [
+      {"value": {"default":{"value":"Has this driver had:"},"insured":{"value":"Have you had:"}},"rateLevel": "ALL", "state": ["CA"]},
+      {"value": {"default":{"value":"Has this driver had any:"},"insured":{"value":"Have you had any:"}},"rateLevel": "ALL", "state": ["NV","AZ","IL","MI","FL","GA","NJ","TX","NY","VA","PA"]},
+      {"value": {"default":{"value":"Has this driver had any of the following in the last 3 years?"},"insured":{"value":"Have you had any of the following in the last 3 years?"}},"rateLevel": "ALL", "state": ["OK"]}
+    ],
+    "accidentViolationsSecondaryLabel": [
+      {"value": {"default":{"value":"<li>Alcohol or drug-related driving violations in the last 3 years?</li><li>Accidents in the last 5 years?</li><li>Other driving violations in the last 3 years?</li>"}},"rateLevel": "ALL", "state": ["NV","AZ","IL","MI","FL","GA","NJ","TX","VA","PA"]},
+      {"value": {"default":{"value":"<li>Alcohol or drug-related driving violations in the last 3 years and 4 months?</li><li>Accidents in the last 5 years and 4 months?</li><li>Other driving violations in the last 3 years and 4 months?</li>"}},"rateLevel": "ALL", "state": ["NY"]},
+      {"value": {"default":{"value":"<li>Alcohol or drug violations</li><li>Accidents</li><li>Other driving violations</li>"}},"rateLevel": "ALL", "state": ["OK"]},
+      {"value": {"default":{"value":"<li>Any driving violations, DWIs, or felony convictions in the last 10 years?</li><li>Any accidents or claims in the last 3 years?</li>"}},"rateLevel": "ALL", "state": ["CA"]}
+    ],
+   "invalidStatePromotionCodeMsg": [
+      {"value": {"default":{"value":"The promotion for the code entered is not valid for NV. Please check to ensure you have entered the correct code or clear the field to continue."}},"rateLevel": "ALL", "state": ["NV"]},
+      {"value": {"default":{"value":"The promotion for the code entered is not valid for AZ. Please check to ensure you have entered the correct code or clear the field to continue."}},"rateLevel": "ALL", "state": ["AZ"]},
+      {"value": {"default":{"value":"The promotion for the code entered is not valid for OK. Please check to ensure you have entered the correct code or clear the field to continue."}},"rateLevel": "ALL", "state": ["OK"]},
+      {"value": {"default":{"value":"The promotion for the code entered is not valid for IL. Please check to ensure you have entered the correct code or clear the field to continue."}},"rateLevel": "ALL", "state": ["IL"]},
+      {"value": {"default":{"value":"The promotion for the code entered is not valid for MI. Please check to ensure you have entered the correct code or clear the field to continue."}},"rateLevel": "ALL", "state": ["MI"]},
+      {"value": {"default":{"value":"The promotion for the code entered is not valid for TX. Please check to ensure you have entered the correct code or clear the field to continue."}},"rateLevel": "ALL", "state": ["TX"]},
+      {"value": {"default":{"value":"The promotion for the code entered is not valid for FL. Please check to ensure you have entered the correct code or clear the field to continue."}},"rateLevel": "ALL", "state": ["FL"]},
+      {"value": {"default":{"value":"The promotion for the code entered is not valid for NJ. Please check to ensure you have entered the correct code or clear the field to continue."}},"rateLevel": "ALL", "state": ["NJ"]},
+      {"value": {"default":{"value":"The promotion for the code entered is not valid for GA. Please check to ensure you have entered the correct code or clear the field to continue."}},"rateLevel": "ALL", "state": ["GA"]},
+      {"value": {"default":{"value":"The promotion for the code entered is not valid for CA. Please check to ensure you have entered the correct code or clear the field to continue."}},"rateLevel": "ALL", "state": ["CA"]},
+      {"value": {"default":{"value":"The promotion for the code entered is not valid for NY. Please check to ensure you have entered the correct code or clear the field to continue."}},"rateLevel": "ALL", "state": ["NY"]},
+      {"value": {"default":{"value":"The promotion for the code entered is not valid for PA. Please check to ensure you have entered the correct code or clear the field to continue."}},"rateLevel": "ALL", "state": ["PA"]},
+      {"value": {"default":{"value":"The promotion for the code entered is not valid for VA. Please check to ensure you have entered the correct code or clear the field to continue."}},"rateLevel": "ALL", "state": ["VA"]}],
+    "lineCoverageLabel": [
+      {"value": {"default":{"value":"Coverage"},
+        "PALiabilityCov_MIG":{"value":"Bodily Injury / Property Damage"},
+        "PAMedPayCov_MIG":{"value":"Medical Coverage"},
+        "PAUMUIMBICov_MIG":{"value":"Uninsured Motorist Bodily Injury"}
+      },"rateLevel": "ALL", "state": ["NV"]},
+      {"value": {"default":{"value":"Coverage"},
+        "PALiabilityCov_MIG":{"value":"Bodily Injury / Property Damage"},
+        "PAMedPayCov_MIG":{"value":"Medical Coverage"},
+        "PAUMBICovGA_MIG":{"value":"Uninsured Motorist Bodily Injury"},
+        "PAUMPDPolCov_MIG":{"value":"Uninsured Motorist Property Damage"}
+      },"rateLevel": "ALL", "state": ["GA"]},
+      {"value": {"default":{"value":"Coverage"},
+        "PALiabilityCov_MIG":{"value":"Bodily Injury / Property Damage"},
+        "PALimitedPDLiabilityCov_MIG":{"value":"Limited Property Damage Limit of $1,000"},
+        "PAPipCovMI_MIG":{"value":"Personal Injury Protection"},
+        "PAPropertyProtectionCov_MIG":{"value":"Property Protection Insurance"},
+        "PAUMUIMBICov_MIG":{"value":"Uninsured Motorist Bodily Injury"}
+      },"rateLevel": "ALL", "state": ["MI"]},
+      {"value": {"default":{"value":"Coverage"},
+        "PALiabilityCov_MIG":{"value":"Bodily Injury / Property Damage"},
+        "PAMedPayCov_MIG":{"value":"Medical Coverage"},
+        "PAPipCovFL_MIG":{"value":"Personal Injury Protection"},
+        "PAUMBICovFL_MIG":{"value":"Uninsured Motorist"}
+      },"rateLevel": "ALL", "state": ["FL"]},
+      {"value": {"default":{"value":"Coverage"},
+        "PALiabilityCov_MIG":{"value":"Bodily Injury / Property Damage"},
+        "PAPipCovNJ_MIG":{"value":"Personal Injury Protection"},
+        "PAAPipCov_MIG":{"value":"Additional Personal Injury Protection"},
+        "PAUMUIMBICov_MIG":{"value":"Uninsured Motorist Bodily Injury"},
+        "PAUMUIMPDPolCov_MIG":{"value":"Uninsured Motorist Property Damage"}
+      },"rateLevel": "ALL", "state": ["NJ"]},
+      {"value": {"default":{"value":"Coverage"},
+        "PALiabilityCov_MIG":{"value":"Bodily Injury / Property Damage"},
+        "PAMedPayCov_MIG":{"value":"Medical Payments"},
+        "PAAPipCovNY_MIG":{"value":"Additional Personal Injury Protection"},
+        "PAUMSUMCov_MIG":{"value":"Uninsured / Underinsured Motorist (UM) or Supplementary Uninsured / Underinsured Motorist (SUM)"},
+        "PAPipCovNY_MIG":{"value":"Personal Injury Protection"},
+        "PAOBELCov_MIG":{"value":"Optional Basic Economic Loss Limit of $25,000"}
+      },"rateLevel": "ALL", "state": ["NY"]},
+      {"value": {"default":{"value":"Coverage"},
+        "PALiabilityCov_MIG":{"value":"Bodily Injury / Property Damage"},
+        "PAPipCovTX_MIG":{"value":"Personal Injury Protection"},
+        "PAMedPayCovTX_MIG":{"value":"Medical Coverage"},
+        "PAUMUIMBICov_MIG":{"value":"Uninsured Motorist Bodily Injury"},
+        "PAUMUIMPDPolCov_MIG":{"value":"Uninsured Motorist Property Damage"}
+      },"rateLevel": "ALL", "state": ["TX"]},
+      {"value": {"default":{"value":"Coverage"},
+        "PALiabilityCov_MIG":{"value":"Bodily Injury / Property Damage"},
+        "PAMedPayCov_MIG":{"value":"Medical Coverage"},
+        "PAUMBICov_MIG":{"value":"Uninsured Motorist Bodily Injury"},
+        "PAUIMBICov_MIG":{"value":"Underinsured Motorist Bodily Injury"}
+      },"rateLevel": "ALL", "state": ["AZ"]},
+      {"value": {"default":{"value":"Coverage"},
+        "PALiabilityCov_MIG":{"value":"Bodily Injury / Property Damage"},
+        "PAMedPayCov_MIG":{"value":"Medical Coverage"},
+        "PAUMBICovIL_MIG":{"value":"Uninsured Motorist Bodily Injury"},
+        "PAUIMBICovIL_MIG":{"value":"Underinsured Motorist Bodily Injury"}
+      },"rateLevel": "ALL", "state": ["IL"]},
+      {"value": {"default":{"value":"Coverage"},
+        "PALiabilityCov_MIG":{"value":"Bodily Injury / Property Damage"},
+        "PAMedPayCov_MIG":{"value":"Medical Coverage"},
+        "PAUMBICovCA_MIG":{"value":"Uninsured Motorist Bodily Injury"}
+      },"rateLevel": "ALL", "state": ["CA"]},
+      {"value": {"default":{"value":"Coverage"},
+        "PALiabilityCov_MIG":{"value":"Bodily Injury / Property Damage"},
+        "PAMedPayCov_MIG":{"value":"Medical Coverage"},
+        "PAUMBICovOK_MIG":{"value":"Uninsured Motorist Bodily Injury"}
+      },"rateLevel": "ALL", "state": ["OK"]},
+      {"value": {"default":{"value":"Coverage"},
+        "PALiabilityCov_MIG":{"value":"Bodily Injury / Property Damage"},
+        "PAIncomeLossBenfCov_MIG":{"value":"Income Loss Benefits"},
+        "PAUMBICov_MIG":{"value":"Uninsured Motorist Bodily Injury"},
+        "PAUMPDPolCov_MIG":{"value":"Uninsured Motorist Property Damage"},
+        "PAMedExpCov_MIG":{"value":"Medical Expense"}
+      },"rateLevel": "ALL", "state": ["VA"]},
+      {"value": {"default":{"value":"Coverage"},
+        "PALiabilityCov_MIG":{"value":"Bodily Injury / Property Damage"},
+        "PAUMBICov_MIG":{"value":"Uninsured Motorist Bodily Injury"},
+        "PAUIMBICov_MIG":{"value":"Underinsured Motorist Bodily Injury"},
+        "PAMedExpCov_MIG":{"value":"Medical Expense"},
+        "PAIncomeLossCov_MIG":{"value":"Income Loss"},
+        "PAFuneralBenfCov_MIG":{"value":"Funeral Benefits"},
+        "PAExtraMedBenfCov_MIG":{"value":"Extraordinary Medical Benefits Limit of $1,000,000"},
+        "PAAccidentalDeathPerPersonCov_MIG":{"value":"Accidental Death"}
+      },"rateLevel": "ALL", "state": ["PA"]}
+    ],
+    "lineCoverageSecondaryLabel":[
+      {"value": {"default":{"value":" "},
+        "PAUMUIMPDPolCov_MIG":{"value":"Includes a $500 deductible"}
+      },"rateLevel": "ALL", "state": ["NJ"]},
+      {"value": {"default":{"value":" "},
+        "PAUMUIMPDPolCov_MIG":{"value":"Includes a $250 deductible"}
+      },"rateLevel": "ALL", "state": ["TX"]},
+      {"value": {"default":{"value":" "},
+        "PAUMPDPolCov_MIG":{"value":"Includes a $200 deductible"},
+        "PAIncomeLossBenfCov_MIG":{"value":"$100 per week/52 weeks"}
+      },"rateLevel": "ALL", "state": ["VA"]}
+    ],
+    "lineCoverageTermLabel":[
+      {"value": {"default":{"value":" "},
+        "PAPip_DeductFL_MIG":{"value":"Deductible"},
+        "PAPip_LimitFL_MIG":{"value":"Limit of $10,000"},
+        "PAPip_WageLossExclFL_MIG":{"value":"Wage Loss Option"}
+      },"rateLevel": "ALL", "state": ["FL"]},
+      {"value": {"default":{"value":" "},
+        "PAUMPDPolCovDeduct_MIG":{"value":"Uninsured Motorist Property Damage Deductible"}
+      },"rateLevel": "ALL", "state": ["GA"]},
+      {"value": {"default":{"value":" "},
+        "PALiab_TortThreshold_MIG":{"value":"Tort Threshold"},
+        "PAPip_NJLimit_MIG":{"value":"Limit"},
+        "PAPip_NJDeduct_MIG":{"value":"Deductible"},
+        "PAPip_NJHealthInsurer_MIG":{"value":"Health Provider"},
+        "PAPip_NJMedExpOnly_MIG":{"value":"Medical Expense Only"},
+        "PAPip_NJExtMedLimit_MIG":{"value":"Extended Medical Limit"},
+        "PAAPip_IncomeContLimit_MIG":{"value":"Income Continuation"},
+        "PAApip_EssenServLimit_MIG":{"value":"Essential Services"},
+        "PAAPip_DeathBenefLimit_MIG":{"value":"Death Benefit"},
+        "PAAPip_FuneralExpLimit_MIG":{"value":"Funeral Expense"},
+        "PAAPip_APipExtension_MIG":{"value":"Extension to Resident Relatives"}
+      },"rateLevel": "ALL", "state": ["NJ"]},
+      {"value": {"default":{"value":" "},
+        "PAPipNY_Limit_MIG":{"value":"Limit of $50,000"},
+        "PAPipNY_Deduct_MIG":{"value":" "}
+      },"rateLevel": "ALL", "state": ["NY"]},
+      {"value": {"default":{"value":" "},
+        "Split1":{"value":"Medical"},
+        "Split2":{"value":"Work Loss"},
+        "Split3":{"value":"Deductible"},
+        "Split4":{"value":"Work Loss Waiver"}
+      },"rateLevel": "ALL", "state": ["MI"]},
+      {"value": {"default":{"value":" "},
+        "PALiab_TortOption_MIG":{"value":"Tort Option"},
+        "PAUMBICovLimit_MIG":{"value":" "},
+        "PAUMBI_CovType_MIG":{"value":" "},
+        "PAUIMBICovLimit_MIG":{"value":" "},
+        "PAUIMBI_CovType_MIG":{"value":" "}
+      },"rateLevel": "ALL", "state": ["PA"]}
+    ],
+    "vehicleCoverageLabel": [
+      {"value": {"default":{"value":"Coverage"},
+        "PAComprehensiveCov_MIG":{"value":"Comprehensive Deductible"},
+        "PACollisionCov_MIG":{"value":"Collision Deductible"},
+        "PACDWCov_MIG":{"value":"Collision Deductible Waiver"},
+        "PARentalCov_MIG":{"value":"Rental Car"},
+        "PARoadSideAssistance_MIG":{"value":"Roadside Assistance"},
+        "PATowingLaborCov_MIG":{"value":"Towing and Labor (Roadside Assistance)"},
+        "PATransExpCov_MIG":{"value":"Transportation Expense"},
+        "PAOtherThanCollCov_MIG":{"value":"Other Than Collision Deductible"},
+        "PANonFactoryEquipment_MIG":{"value":"Non-factory Equipment"},
+        "PACustomExcEquipCov_MIG":{"value":"Customizing and Excess Electronic Equipment"}
+      },"rateLevel": "ALL", "state": ["ALL"]},
+      {"value": {"default":{"value":"Coverage"},
+        "PAComprehensiveCov_MIG":{"value":"Comprehensive Deductible"},
+        "PACollisionCov_MIG":{"value":"Collision Deductible"},
+        "PACDWCov_MIG":{"value":"Collision Deductible Waiver"},
+        "PAUMPDCov_MIG":{"value":"Uninsured Motorist Property Damage"},
+        "PARentalCov_MIG":{"value":"Rental Car"},
+        "PARoadSideAssistance_MIG":{"value":"Roadside Assistance"},
+        "PANonFactoryEquipment_MIG":{"value":"Non-factory Equipment"}
+      },"rateLevel": "ALL", "state": ["IL"]},
+      {"value": {"default":{"value":"Coverage"},
+        "PAComprehensiveCov_MIG":{"value":"Comprehensive Deductible"},
+        "PACollisionCov_MIG":{"value":"Collision Deductible"},
+        "PACDWCov_MIG":{"value":"Collision Deductible Waiver"},
+        "PAUMPDCov_MIG":{"value":"Uninsured Motorist Property Damage"},
+        "PARentalCov_MIG":{"value":"Rental Car"},
+        "PARoadSideAssistance_MIG":{"value":"Roadside Assistance"},
+        "PANonFactoryEquipment_MIG":{"value":"Non-factory Equipment"}
+      },"rateLevel": "ALL", "state": ["CA"]},
+      {"value": {"default":{"value":"Coverage"},
+        "PACollisionCov_MIG":{"value":"Collision Deductible"},
+        "PACustomExcEquipCov_MIG":{"value":"Customizing and Excess Electronic Equipment"},
+        "PAOtherThanCollCov_MIG":{"value":"Other Than Collision Deductible"},
+        "PATransExpCov_MIG":{"value":"Transportation Expense"},
+        "PATowingLaborCov_MIG":{"value":"Towing and Labor (Roadside Assistance)"}
+      },"rateLevel": "ALL", "state": ["VA"]}
+      ],
+      "vehicleCoverageSecondaryLabel":[
+        {"value": {"default":{"value":" "},
+          "PAUMPDCov_MIG":{"value":"Includes a $250 deductible"}
+        },"rateLevel": "ALL", "state": ["IL"]}
+ 	],
+    "apipSecondaryLabel":[
+      {"value": {"default":{"value":" "},
+        "NI":{"value":"Named Insured included"},
+        "NIS":{"value":"Named Insured and spouse included"},
+        "NISR":{"value":"Named Insured, spouse, and resident relatives included"},
+        "NIP":{"value":"Named Insured and partner included"},
+        "NIPR":{"value":"Named Insured, partner, and resident relatives included"},
+        "NIR":{"value":"Named Insured and resident relatives included"}
+      },"rateLevel": "ALL", "state": ["NJ"]}
+    ],
+    "pipSecondaryLabel":[
+      {"value": {"default":{"value":"Warning:  Prior to March 22, 1999 all auto insurance policies had PIP limits of $250,000. Choosing a limit below $250,000 will provide you with less coverage."}
+      },"rateLevel": "ALL", "state": ["NJ"]}
+    ],
+    "ratePageCopyDeck":[
+      {"value": {"default":{"value":"Other policy terms, coverage options and payment plans may be available through your Mercury Agent."}
+      },"rateLevel": "ALL", "state": ["ALL"]},
+      {"value": {"default":{"value":"Other policy terms, coverage options and payment plans, including the basic automobile insurance policy required by state law, may be available through your Mercury Agent."}
+      },"rateLevel": "ALL", "state": ["NJ"]},
+      {"value": {"default":{"value":"Other policy terms, coverage options, company offerings, and payment plans may be available through your Mercury Agent."}
+      },"rateLevel": "ALL", "state": ["CA"]}
+    ],
+    "consumerDisclosure":[
+	{"value": {"default":{"value":"To ensure quote accuracy, we use information provided by you as well as driving record, claim history, and other consumer report sources. We may review your credit report or use a credit-based insurance score, which uses information contained in your credit report. We also may use a third party in connection with the development of your insurance score. You agree to receive automated text/SMS message notifications at the number you provide in an insurance quote from Mercury Insurance. You understand that these messages are only informational, and that consent is not required to purchase an insurance policy. Standard msg/data rates apply. You also agree to allow us to share your information with an authorized Mercury agent who may uses automated technology to call you."}},"rateLevel": "ALL", "state": ["ALL"]},
+	{"value": {"default":{"value":"To ensure quote accuracy, we use information provided by you as well as driving record, claim history, and other consumer report sources. You agree to receive automated text/SMS message notifications at the number you provide in an insurance quote from Mercury Insurance. You understand that these messages are only informational, and that consent is not required to purchase an insurance policy. Standard msg/data rates apply. You also agree to allow us to share your information with an authorized Mercury agent who may uses automated technology to call you."}},"rateLevel": "ALL", "state": ["CA"]}
+    ],
+    "consumerDisclosureAgg":[
+	{"value": {"default":{"value":"To ensure quote accuracy, we use information provided by you as well as driving record and claim history sources. We may review your credit report or use a credit-based insurance score, which uses information contained in your credit report. We also may use a third party in connection with the development of your insurance score. You agree to receive automated text/SMS message notifications at the number you provide in an insurance quote from Mercury Insurance. You understand that these messages are only informational, and that consent is not required to purchase an insurance policy. Standard msg/data rates apply. You also agree to allow us to share your information with an authorized Mercury agent who may use automated technology to call you."}},"rateLevel": "ALL", "state": ["ALL"]},
+	{"value": {"default":{"value":"To ensure quote accuracy, we use information provided by you as well as driving record and claim history sources. You agree to receive automated text/SMS message notifications at the number you provide in an insurance quote from Mercury Insurance. You understand that these messages are only informational, and that consent is not required to purchase an insurance policy. Standard msg/data rates apply. You also agree to allow us to share your information with an authorized Mercury agent who may use automated technology to call you."}},"rateLevel": "ALL", "state": ["CA"]}
+    ],
+    "ahhBodyLabel":[
+    {"value": {"default":{"value":"In addition to the drivers (included or excluded) listed above, please provide information on any remaining people living in your home. We need this information to ensure adequate personal injury coverage for all people in the household."}},"rateLevel": "ALL", "state": ["MI"]},
+    {"value": {"default":{"value":"In addition to the drivers (included or list only) shown above, please provide information on any remaining people living in your home. We need this information to ensure adequate personal injury coverage for all people in the household.  Please provide the full name as it appears on applicable vehicle registration(s)."}},"rateLevel": "ALL", "state": ["NY"]}
+   ],
+    "driverTrainingDateLabel":[
+    {"value": {"default":{"value":"Date Mature Driver training course completed"}},"rateLevel": "ALL", "state": ["NV","AZ","PA","VA"]},
+    {"value": {"default":{"value":"Date Defensive Driving course completed"}},"rateLevel": "ALL", "state": ["IL"]},
+    {"value": {"default":{"value":"Date Defensive Driver course completed"}},"rateLevel": "ALL", "state": ["OK","GA","NJ","NY"]},
+    {"value": {"default":{"value":"Date Driver Improvement course completed"}},"rateLevel": "ALL", "state": ["FL"]},
+    {"value": {"default":{"value":"Date driver training course completed"}},"rateLevel": "ALL", "state": ["CA"]}
+   ],
+  "vehicleOwnershipLabel": [
+    {"value": {
+      "default":{"value":"Are all listed vehicles registered solely to you?"},
+      "M":{"value":"Are all listed vehicles registered solely to you or your spouse?"},
+      "C":{"value":"Are all listed vehicles registered solely to you or your partner?"},
+      "CU":{"value":"Are all listed vehicles registered solely to you or your partner?"}
+    },"rateLevel": "ALL", "state": ["ALL"]}
+  ],
+  "vehiclePurchaseDateLabel": [
+    {"value": {"default":{"value":"What date did you purchase this vehicle?"},"lease":{"value":"What date did you lease this vehicle?"}},"rateLevel": "ALL", "state": ["NY"]}
+  ],
+  "vehiclePurchaseDateValidationLabel": [
+    {"value": {"default":{"value":"Please enter the vehicle purchase date."},"lease":{"value":"Please enter the vehicle lease date."}},"rateLevel": "ALL", "state": ["NY"]}
+  ],
+  "pipExtnForOtherResidentLabel":[
+    {"value": {"default":{"value":"In addition to yourself, please select the resident relatives you would like to include as being covered under the Additional Personal Injury Protection."},
+      "NI":{"value":"In addition to yourself, please select the resident relatives you would like to include as being covered under the Additional Personal Injury Protection."},
+      "NIR":{"value":"In addition to yourself, please select the resident relatives you would like to include as being covered under the Additional Personal Injury Protection."},
+      "NIS":{"value":"In addition to you and your spouse, please select the resident relatives you would like to include as being covered under the Additional Personal Injury Protection."},
+      "NISR":{"value":"In addition to you and your spouse, please select the resident relatives you would like to include as being covered under the Additional Personal Injury Protection."},
+      "NIP":{"value":"In addition to you and your partner, please select the resident relatives you would like to include as being covered under the Additional Personal Injury Protection."},
+      "NIPR":{"value":"In addition to you and your partner, please select the resident relatives you would like to include as being covered under the Additional Personal Injury Protection."}
+    },"rateLevel": "ALL", "state": ["NJ"]}
+  ],
+  "regVehicleOwnershipLabel": [
+    {"value": {
+      "default":{"value":"Are we insuring all vehicles registered to you?"},
+      "M":{"value":"Are we insuring all vehicles registered to you and your spouse?"},
+      "C":{"value":"Are we insuring all vehicles registered to you and your partner?"},
+      "CU":{"value":"Are we insuring all vehicles registered to you and your partner?"}
+    },"rateLevel": "ALL", "state": ["ALL"]}
+  ],
+  "vehHistoryVehicleOwnershipLabel": [
+    {"value": {
+      "default":{"value":"Are all the listed vehicles registered solely to you?"},
+      "M":{"value":"Are all the listed vehicles registered solely to you or your spouse?"},
+      "C":{"value":"Are all the listed vehicles registered solely to you or your partner?"},
+      "CU":{"value":"Are all the listed vehicles registered solely to you or your partner?"}
+    },"rateLevel": "ALL", "state": ["CA"]}
+  ],
+  "usedForTNPerson": [
+    {"value": {"default":{"value":"Will any vehicle be used for the transportation of persons for hire or any delivery purposes such as food, newspaper, magazines, or any other product or material?"}},"rateLevel": "ALL","state": [ "ALL"]},
+    {"value": {"default":{"value":"Other than for Transportation Network purposes if coverage is provided by our policy, will any vehicle be used for the transportation of clients, persons for hire or any delivery purposes - such as food, newspaper, magazines, or any other product or material?"}},"rateLevel": "ALL","state": [ "CA"]},
+    {"value": {"default":{"value":"Other than for Transportation Network purposes if coverage is provided under our policy, will any vehicle be used for the transportation of persons for hire or any delivery purposes - such as food, newspaper, magazines, or any other product or material?"}},"rateLevel": "ALL","state": [ "AZ","NV","OK"]},
+    {"value": {"default":{"value":"Other than for Transportation Network purposes if coverage is provided under our policy, will any vehicle be used for the transportation of persons for hire or any delivery purposes - such as food, newspaper, magazines, or any other product or material?"}},"rateLevel": "ALL","state": [ "TX", "VA","GA"]},
+    {"value": {"default":{"value":"Other than for Transportation Network purposes if coverage is provided under our policy, will any vehicle be used for the transportation of persons for hire or any delivery purposes - such as food, newspaper, magazines, or any other product or material?"}},"rateLevel": "alternative","state": [ "IL"]}
+  ],
+  "tnTransportationLabel": [
+    {"value": {"default":{"value":"Is this vehicle used for any transportation network such as Uber or Lyft?"}},"rateLevel": "ALL", "state": ["CA"]},
+    {"value": {"default":{"value":"Is this vehicle used for any transportation network such as Uber or Lyft?"}},"rateLevel": "alternative", "state": ["IL"]},
+    {"value": {"default":{"value":"Is this vehicle used for any transportation network such as Uber or Lyft?"}},"rateLevel": "ALL", "state": ["GA"]},
+    {"value": {"default":{"value":"Is this vehicle used for any transportation network such as Uber or Lyft?"}},"rateLevel": "ALL", "state": ["TX"]}
+  ],
+  "salvageAndModifications": [
+    {"value": {"default":{"value":"Is any vehicle salvaged or modified, or does any vehicle have existing damage, including broken glass?"}},"rateLevel": "ALL","state": [ "ALL"]},
+    {"value": {"default":{"value":"Is any vehicle modified or customized?"}},"rateLevel": "ALL","state": [ "CA"]},
+    {"value": {"default":{"value":"Is any vehicle modified or damaged, including broken glass?"}},"rateLevel": "ALL","state": ["TX","AZ","VA","FL","NV","GA","OK"]},
+    {"value": {"default":{"value":"Is any vehicle modified or damaged, including broken glass?"}},"rateLevel": "alternative","state": ["IL","NJ"]}
+  ],
+  "bundleCopyDeck": [
+    {"value": {"default":{"value":"Quote is for six months, for auto insurance only."}},"rateLevel": "ALL","state": [ "ALL"]}
+  ],
+  "mercuryGODiscountLabel": [
+    {"value": {
+        "default":{"value":"Sign up for MercuryGO&reg; to save 5% or more just for enrolling!"},
+        "rate":{"value":"MercuryGO\u00AE will save you at least 5% today... and up to 40% more at renewal!"}
+    },"rateLevel": "ALL","state": ["TX","OK"]},
+    {"value": {
+        "default":{"value":"Sign up for MercuryGO&reg; to save 10% or more just for enrolling!"},
+        "rate":{"value":"MercuryGO\u00AE will save you at least 10% today... and up to 40% more at renewal!"}
+    },"rateLevel": "ALL","state": ["FL"]}
+  ]
+}

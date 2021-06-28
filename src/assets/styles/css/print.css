@@ -1,0 +1,138 @@
+/*style for thank you page*/
+* {
+	-webkit-print-color-adjust: exact;
+}
+body {
+	background-color: white;
+}
+header {
+	position: relative;
+	width: 92%;
+	background-color: #fff;
+}
+header #logoWrapper {
+	margin: 0 auto;
+	width: 100%!important;
+}
+header #needHelpWrapper > .rowWrapper, header #needHelpTab {
+    display: none;
+}
+#contentWrapper, footer {
+	margin-top: -8px;
+	padding-bottom: 0;
+	background: none;
+}
+#inputWrapper {
+    padding: 10px 8% 32px 8%;
+}
+#title {
+	display: table;
+    margin: 0 auto;
+}
+#pageTitle {
+	float: left;
+	width: 100%;
+	max-width: 750px;
+	margin: 10px 0 0 0;
+}
+#pageTitle h3 {
+    margin:4px 0% 0 8%;
+}
+.printLogo {
+	display: block;
+	margin: 0 auto;
+	width:200px;
+	height:40px;
+}
+.printIcon {
+	display: block;
+	float: left;
+	width: 52px;
+	height: 52px;
+}
+.screenLogo, .screenIcon, .row.one, footer .row.two {
+	display: none;
+}
+.two-col-conf .left-side .button-wrapper input[type="button"].green{
+	max-width:100%;
+	min-width: 180px;
+	border-radius: 0px;
+	-webkit-box-shadow: none; 
+    -moz-box-shadow: none;
+}
+
+/*style for rate page*/
+#hamburgerWrapper, .updateRate, .footerBuyTable,
+label div a img, .rowWrapper h5:not(:first-child), .mmProgression,
+.buyContent .buttons {
+	display:none;
+}
+.inputContent .premium p{
+	float: right;
+}
+.buyCell{
+	box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, .5);	
+}
+.button-wrapper input[type="button"].green.small{
+	max-width:100%;
+	min-width: 180px;
+	border-radius: 0px;
+	-webkit-box-shadow: none; 
+    -moz-box-shadow: none;   
+}
+.printQuote {
+	display: block;
+	text-align:center;
+}
+.printCallAgent{
+	display: block;
+	font-size: .75rem;
+	text-align:center;
+}
+#rate .printQuote,
+#rate .printCallAgent > p {
+    font-weight: bold;
+}
+#rate .printCallAgent{
+	font-size: inherit;
+}
+#printShow{
+	display:block;
+}
+#thankYou #printShow{
+	padding: 0px;
+}
+#thankYou #bundleThankYou {
+    font-weight: bold;
+    color: #808080;
+    font-size: 1.4em;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+#thankYou #pageTitle {
+    float: left;
+    width: 84%;
+    max-width: 750px;
+    margin: 52px 8% 40px 8%;
+}
+#thankYou #pageTitle h3 {
+    display: table;
+    color: #7e7e7e;
+    margin: 4px auto 0 auto;
+}
+.toggle h2.close span {
+    background: transparent url(../images/icons/blueArrowUp.png) no-repeat 0 8px;
+	display:block;
+}
+.coverageGroup .selectGroup .field{
+     padding-left: 5%;
+}
+#rate .inputContent .coverageGroup .radioGroup .radioButton {
+    width: 37.2%;
+}
+.coverageGroup .radioGroup .field {
+    padding-left: 5%;
+}
+.bundle .checkboxGroup p.mobile {
+	display: none !important;
+}

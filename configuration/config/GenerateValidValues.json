@@ -1,0 +1,350 @@
+{
+  "nameSuffix":{
+    "typeListName": "NameSuffix",
+    "typeListFilters": [{"filterName": "PolicySource.QB", "rateLevel": "ALL", "state": ["ALL"]}]
+  },
+  "vehicleUsage":{
+    "typeListName": "PAVehicleUse_MIG",
+    "typeListFilters": [
+      {"filterName": "CA_PA_RL46_VEHICLE_USE", "rateLevel": "ALL", "state": ["CA"]},
+      {"filterName": "MI_PA_VEHICLE_USE", "rateLevel": "ALL", "state": ["MI"]},
+      {"filterName": "PA_PA_VEHICLE_USE", "rateLevel": "ALL", "state": ["PA"]},
+      {"filterName": "NV_PA_RL08_VEHICLE_USE", "rateLevel": "ALL", "state": ["NV"]},
+      {"filterName": "AZ_PA_RL15_VEHICLE_USE", "rateLevel": "alternative", "state": ["AZ"]},
+      {"filterName": "IL_PA_RL10_VEHICLE_USE", "rateLevel": "alternative", "state": ["IL"]},
+      {"filterName": "OK_PA_RL14_VEHICLE_USE", "rateLevel": "ALL", "state": ["OK"]},
+      {"filterName": "IL_PA_VEHICLE_USE", "rateLevel": "alternative", "state": ["IL"]},
+      {"filterName": "GA_PA_VEHICLE_USE", "rateLevel": "ALL", "state": ["GA"]},
+      {"filterName": "FL_PA_VEHICLE_USE", "rateLevel": "ALL", "state": ["FL"]},
+      {"filterName": "TX_PA_VEHICLE_USE", "rateLevel": "ALL", "state": ["TX"]},
+      {"filterName": "VA_PA_VEHICLE_USE", "rateLevel": "ALL", "state": ["VA"]},
+      {"filterName": "NY_PA_VEHICLE_USE", "rateLevel": "ALL", "state": ["NY"]},
+      {"filterName": "NJ_PA_VEHICLE_USE", "rateLevel": "ALL", "state": ["NJ"]},
+      {"filterName": "GA_PA_RL35_VEHICLE_USE", "rateLevel": "ALL", "state": ["GA"]},
+      {"filterName": "TX_PA_RL21_VEHICLE_USE", "rateLevel": "ALL", "state": ["TX"]},
+      {"filterName": "VA_PA_RL22_VEHICLE_USE", "rateLevel": "ALL", "state": ["VA"]},
+      {"filterName": "IL_PA_RL17_VEHICLE_USE", "rateLevel": "ALL", "state": ["IL"]},
+      {"filterName": "AZ_PA_RL26_VEHICLE_USE", "rateLevel": "ALL", "state": ["AZ"]},
+      {"filterName": "FL_PA_RL19_VEHICLE_USE", "rateLevel": "ALL", "state": ["FL"]}
+    ],
+    "changes":[
+      {"action": "C", "rateLevel": "ALL", "state": ["CA"], "code": "commuting", "displayName": "Commute to work or school"}
+    ]
+      },
+  "leaseOrRent":{
+    "typeListName": "VehicleOwnershipQB_MIG",
+    "typeListFilters":[{"filterName": null, "rateLevel": "ALL", "state": ["ALL"]}]
+  },
+  "state":{
+    "typeListName": "State",
+    "typeListFilters":[{"filterName": "Country.US", "rateLevel": "ALL", "state": ["ALL"]}]
+  },
+  "antiTheftEquipment":{
+    "typeListName": "AntiTheft_MIG",
+    "typeListFilters":[{"filterName": null, "rateLevel": "ALL", "state": ["CA"]}]
+  },
+  "paAntiTheftEquipment":{
+    "typeListName": "PAAntiTheft_MIG",
+    "typeListFilters":[{"filterName": "PolicySource.QB|NY_PPA", "rateLevel": "ALL", "state": ["NY"]}],
+    "changes":[
+      {"action": "C", "rateLevel": "ALL", "state": ["NY"], "code": "2", "displayName": "Manual Disabling Device"},
+      {"action": "C", "rateLevel": "ALL", "state": ["NY"], "code": "3", "displayName": "Automatic Disabling Device"}
+    ]
+  },
+  "nonFactoryEquipment":{
+    "typeListName": "PANonFactoryEquipment_MIG",
+    "typeListFilters":[
+      {"filterName": "CA_PA_NONFACTORYEQUIPMENT", "rateLevel": "ALL", "state": ["CA"]},
+      {"filterName": "NV_PA_NONFACTORYEQUIPMENT", "rateLevel": "ALL", "state": ["NV"]},
+      {"filterName": "MI_PA_NONFACTORYEQUIPMENT", "rateLevel": "ALL", "state": ["MI"]},
+      {"filterName": "AZ_PA_NONFACTORYEQUIPMENT", "rateLevel": "ALL", "state": ["AZ"]},
+      {"filterName": "IL_PA_NONFACTORYEQUIPMENT", "rateLevel": "ALL", "state": ["IL"]},
+      {"filterName": "OK_PA_NONFACTORYEQUIPMENT", "rateLevel": "ALL", "state": ["OK"]},
+      {"filterName": "GA_PA_NONFACTORYEQUIPMENT", "rateLevel": "ALL", "state": ["GA"]},
+      {"filterName": "FL_PA_NONFACTORYEQUIPMENT", "rateLevel": "ALL", "state": ["FL"]},
+      {"filterName": "TX_PA_NONFACTORYEQUIPMENT", "rateLevel": "ALL", "state": ["TX"]},
+      {"filterName": "VA_PA_NONFACTORYEQUIPMENT", "rateLevel": "ALL", "state": ["VA"]},
+      {"filterName": "PA_PA_NONFACTORYEQUIPMENT", "rateLevel": "ALL", "state": ["PA"]},
+      {"filterName": "NY_PA_NONFACTORYEQUIPMENT", "rateLevel": "ALL", "state": ["NY"]},
+      {"filterName": "NJ_PA_NONFACTORYEQUIPMENT", "rateLevel": "ALL", "state": ["NJ"]}
+    ]
+  },
+  "numOfDaysPerWeek":{
+    "typeListName": "DaysInWeek_MIG",
+    "typeListFilters":[{"filterName": null, "rateLevel": "ALL", "state": ["ALL"]}]
+  },
+  "relationship":{
+    "typeListName": "Relationship_MIG",
+    "typeListFilters":[
+      {"filterName": "PolicySource.QB|FilterDP", "rateLevel": "ALL", "state": ["ALL"]},
+      {"filterName": "PolicySource.QB|CARelationshipFilter", "rateLevel": "ALL", "state": ["CA"]},
+      {"filterName": "PolicySource.QB|FilterCU", "rateLevel": "ALL", "state": ["IL","NJ"]}
+    ]
+  },
+  "maritalStatus":{
+    "typeListName": "MaritalStatus",
+    "typeListFilters":[
+      {"filterName": "FilterDP", "rateLevel": "ALL", "state": ["ALL"]},
+      {"filterName": "FilterCU", "rateLevel": "ALL", "state": ["IL"]},
+      {"filterName": "FilterCU", "rateLevel": "ALL", "state": ["NJ"]}
+    ],
+    "changes":[
+      {"action": "D", "rateLevel": "ALL", "state": ["ALL"], "code": "WIM_MIG"}
+    ]
+  },
+  "licenseStatus":{
+    "typeListName": "LicenseTypeQB_MIG",
+    "typeListFilters":[
+      {"filterName": "LicenseTypeFilter", "rateLevel": "ALL", "state": ["ALL"]},
+      {"filterName": "ProvisionalLicenseTypeFilter", "rateLevel": "ALL", "state": ["GA"]}
+    ]
+  },
+  "licenseStatus_HHM":{
+    "typeListName": "LicenseTypeQB_MIG",
+    "typeListFilters":[
+      {"filterName": "LicenseTypeFilter", "rateLevel": "ALL", "state": ["ALL"]},
+      {"filterName": "ProvisionalLicenseTypeFilter", "rateLevel": "ALL", "state": ["GA"]},
+      {"filterName": "NoValidLicenseTypeFilterNJHHM", "rateLevel": "ALL", "state": ["NJ"]}
+    ]
+  },
+  "primaryResidence":{
+    "typeListName": "ResidenceType_HOE",
+    "typeListFilters":[{"filterName": "PolicySource.QB", "rateLevel": "ALL", "state": ["ALL"]}] ,
+
+    "changes":[
+              {"action": "C", "rateLevel": "ALL", "state": ["ALL"], "code": "Renter", "displayName": "Rent home or apartment" ,"priority":"0"}  ,
+              {"action": "C", "rateLevel": "ALL", "state": ["ALL"], "code": "OwnHome", "priority":"1"} ]
+      },
+  "residenceType": {
+    "typeListName": "ResidenceType_HOE",
+    "typeListFilters": [
+      {
+        "filterName": "HOPolicyType_HOE.HO4","rateLevel": "ALL", "state": ["ALL"]
+      }
+    ],
+    "changes":[
+      {"action": "C", "rateLevel": "ALL", "state": ["ALL"], "code": "Fam1", "priority": "10"},
+      {"action": "C", "rateLevel": "ALL", "state": ["ALL"], "code": "Fam2", "priority": "20"},
+      {"action": "C", "rateLevel": "ALL", "state": ["ALL"], "code": "Fam3", "priority": "30"},
+      {"action": "C", "rateLevel": "ALL", "state": ["ALL"], "code": "Fam4", "priority": "40"},
+      {"action": "C", "rateLevel": "ALL", "state": ["ALL"], "code": "Apt", "priority": "50"},
+      {"action": "C", "rateLevel": "ALL", "state": ["ALL"], "code": "Condo", "priority": "60"},
+      {"action": "C", "rateLevel": "ALL", "state": ["ALL"], "code": "TownRow", "priority": "70"},
+      {"action": "C", "rateLevel": "ALL", "state": ["ALL"], "code": "MobileHome", "priority": "80"},
+      {"action": "C", "rateLevel": "ALL", "state": ["ALL"], "code": "ManufacturedHome", "priority": "90"}
+    ]
+  },
+  "stateLicensed":{
+    "typeListName": "DriverStateType_MIG",
+    "typeListFilters":[{"filterName": "PortalLicenseStates", "rateLevel": "ALL", "state": ["ALL"]}
+    ],
+    "changes":[
+      {"action": "D", "rateLevel": "ALL", "state": ["ALL"], "code": "Undisclosed"}
+    ]
+  },
+  "countryLicensed":{
+    "typeListName": "Country",
+    "typeListFilters":[{"filterName": "CA_FOREIGN_LICENSE", "rateLevel": "ALL", "state": ["ALL"]}]
+  },
+
+  "occupationIndustry":{
+    "typeListName": "OccupationIndustry_MIG",
+    "typeListFilters":[
+      {"filterName": "Base_PPA_Filter", "rateLevel": "ALL", "state": ["ALL"]},
+      {"filterName": "IL_PPA_Filter", "rateLevel": "ALL", "state": ["IL"]}
+    ],
+    "changes":[
+      {"action": "D", "rateLevel": "ALL", "state": ["ALL"], "code": "26"},
+      {"action": "D", "rateLevel": "ALL", "state": ["ALL"], "code": "17"},
+      {"action": "D", "rateLevel": "ALL", "state": ["ALL"], "code": "27"}
+    ]
+  },
+  "educationLevel":{
+    "typeListName": "EducationLevel_MIG",
+    "typeListFilters":[{"filterName": "PolicySource.QB", "rateLevel": "ALL", "state": ["ALL"]}]
+  },
+  "excludedReason":{
+    "typeListName": "ExcludedReason_MIG",
+    "typeListFilters":[
+      {"filterName": "NJNYPAFilter", "rateLevel": "ALL", "state": ["NJ","NY","PA"]},
+      {"filterName": "OtherThanNJNYPAFilter", "rateLevel": "ALL", "state": ["NV","AZ","IL","MI","OK","FL","GA","TX","VA"]}
+    ],
+    "changes":[
+      {"action": "C", "rateLevel": "ALL", "state": ["NV","AZ","IL","MI","OK","FL","GA","NJ","NY","TX","VA","PA"], "code": "hasOtherIns", "displayName": "Has insurance, but not with Mercury"},
+      {"action": "C", "rateLevel": "ALL", "state": ["NV","AZ","IL","MI","OK","FL","GA","NJ","NY","TX","VA","PA"], "code": "hasOtherIns2", "displayName": "Has insurance with Mercury"},
+      {"action": "C", "rateLevel": "ALL", "state": ["NV","AZ","IL","MI","OK","FL","GA","NJ","NY","TX","VA","PA"], "code": "outOfCountry", "displayName": "Out of the country"},
+      {"action": "C", "rateLevel": "ALL", "state": ["NV","AZ","IL","MI","OK","FL","GA","NJ","NY","TX","VA","PA"], "code": "disabled", "displayName": "Disabled and does not have a license"},
+      {"action": "C", "rateLevel": "ALL", "state": ["NV","AZ","IL","MI","OK","FL","GA","NJ","NY","TX","VA","PA"], "code": "surrendered", "displayName": "Voluntarily surrendered license"},
+      {"action": "C", "rateLevel": "ALL", "state": ["NV","AZ","IL","MI","OK","FL","GA","NJ","NY","TX","VA","PA"], "code": "suspended", "displayName": "License is suspended or revoked"},
+      {"action": "D", "rateLevel": "ALL", "state": ["NV","AZ","IL","MI","OK","FL","GA","TX","VA"], "code": "minorUnder15"},
+      {"action": "D", "rateLevel": "ALL", "state": ["NJ","NY","PA"], "code": "minorUnder16"},
+      {"action": "C", "rateLevel": "ALL", "state": ["NV","AZ","IL","MI","OK","FL","GA","NJ","NY","TX","VA","PA"], "code": "unlicensed", "displayName": "Not licensed and does not drive"},
+      {"action": "D", "rateLevel": "ALL", "state": ["NV","AZ","IL","MI","OK","FL","GA","NJ","NY","TX","VA","PA"], "code": "other"},
+      {"action": "D", "rateLevel": "ALL", "state": ["NV","AZ","IL","MI","OK","GA","NJ","NY","TX","VA","PA"], "code": "minorUnder18"},
+      {"action": "D", "rateLevel": "base", "state": ["FL"], "code": "minorUnder18"}
+    ]
+  },
+  "associationGroup":{
+    "typeListName": "AssociationGroups_MIG",
+    "typeListFilters":[
+      {"filterName": "CAAssociationGroupFilter", "rateLevel": "ALL", "state": ["CA"]},
+      {"filterName": "NVAssociationGroupFilter", "rateLevel": "ALL", "state": ["NV"]},
+      {"filterName": "MIAssociationGroupFilter", "rateLevel": "ALL", "state": ["MI"]},
+      {"filterName": "AZAssociationGroupFilter", "rateLevel": "ALL", "state": ["AZ"]},
+      {"filterName": "ILAssociationGroupFilter", "rateLevel": "ALL", "state": ["IL"]},
+      {"filterName": "OKAssociationGroupFilter", "rateLevel": "ALL", "state": ["OK"]},
+      {"filterName": "GAAssociationGroupFilter", "rateLevel": "ALL", "state": ["GA"]},
+      {"filterName": "FLAssociationGroupFilter", "rateLevel": "ALL", "state": ["FL"]},
+      {"filterName": "TXAssociationGroupFilter", "rateLevel": "ALL", "state": ["TX"]},
+      {"filterName": "VAAssociationGroupFilter", "rateLevel": "ALL", "state": ["VA"]},
+      {"filterName": "PAAssociationGroupFilter", "rateLevel": "ALL", "state": ["PA"]},
+      {"filterName": "NYAssociationGroupFilter", "rateLevel": "ALL", "state": ["NY"]},
+      {"filterName": "NJAssociationGroupFilter", "rateLevel": "ALL", "state": ["NJ"]}
+    ],
+    "changes":[
+      {"action": "D", "rateLevel": "ALL", "state": ["CA"], "code": "AlumniAssociation"},
+      {"action": "D", "rateLevel": "ALL", "state": ["CA"], "code": "LACountyBarAssociation"},
+      {"action": "D", "rateLevel": "base", "state": ["CA"], "code": "PublicSafetyProfessionals"},
+      {"action": "D", "rateLevel": "base", "state": ["CA"], "code": "GovernmentEmployees"}
+    ]
+  },
+  "violationTypeCA":{
+    "typeListName": "MVRViolationCodeType_MIG",
+    "typeListFilters":[{"filterName": "CA_MVRViolationCodeType_MIG", "rateLevel": "ALL", "state": ["CA"]}]
+  },
+  "violationType":{
+    "typeListName": "PPAViolationGroupType_MIG",
+    "typeListFilters":[
+      {"filterName": "PolicySource.QB|V_Fltr_NV_RL9", "rateLevel": "ALL", "state": ["NV"]},
+      {"filterName": "PolicySource.QB|V_Fltr_MI", "rateLevel": "ALL", "state": ["MI"]},
+      {"filterName": "PolicySource.QB|V_Fltr_AZ", "rateLevel": "ALL", "state": ["AZ"]},
+      {"filterName": "PolicySource.QB|V_Fltr_IL", "rateLevel": "ALL", "state": ["IL"]},
+      {"filterName": "PolicySource.QB|V_Fltr_OK_RL19", "rateLevel": "ALL", "state": ["OK"]},
+      {"filterName": "PolicySource.QB|V_Fltr_GA", "rateLevel": "ALL", "state": ["GA"]},
+      {"filterName": "PolicySource.QB|V_Fltr_FL", "rateLevel": "ALL", "state": ["FL"]},
+      {"filterName": "PolicySource.QB|V_Fltr_TX", "rateLevel": "ALL", "state": ["TX"]},
+      {"filterName": "PolicySource.QB|V_Fltr_VA", "rateLevel": "ALL", "state": ["VA"]},
+      {"filterName": "PolicySource.QB|V_Fltr_PA", "rateLevel": "ALL", "state": ["PA"]},
+      {"filterName": "PolicySource.QB|V_Fltr_NY", "rateLevel": "ALL", "state": ["NY"]},
+      {"filterName": "PolicySource.QB|V_Fltr_NJ", "rateLevel": "ALL", "state": ["NJ"]}
+    ],
+      "changes":[
+         {"action": "C", "rateLevel": "ALL", "state": ["NY"], "code": "NY_AFB", "displayName": "At-Fault Accident where someone was injured"},
+         {"action": "D", "rateLevel": "ALL", "state": ["NY"], "code": "NY_AFL", "priority": "3"}
+      ]
+  },
+  "hasMercuryPolicy":{
+    "typeListName": "PAMercuryInsPolicies",
+    "typeListFilters": [{"filterName": "PolicySource.QB", "rateLevel": "ALL", "state": ["ALL"]}]
+  },
+  "priorInsDuration":{
+     "typeListName": "PriorInsDuration_MIG",
+     "typeListFilters":[
+        {"filterName": "Range_Upto_10Plus", "rateLevel": "ALL", "state": ["IL","AZ","FL"]},
+        {"filterName": "Range_Upto_5Plus", "rateLevel": "ALL", "state": ["CA","NJ","NY"]},
+        {"filterName": "Range_Upto_5Plus", "rateLevel": "base", "state": ["TX","VA","NV","GA","OK"]},
+        {"filterName": "Range_Upto_10Plus", "rateLevel": "alternative", "state": ["TX","VA","NV","GA","OK"]}
+     ]
+   },
+  "reasonForQuoting":{
+    "typeListName": "ReasonForQuoting_MIG",
+    "typeListFilters": [
+      {"filterName": "CAReasons", "rateLevel": "ALL", "state": ["CA"]},
+      {"filterName": "PPA_3_5", "rateLevel": "alternative", "state": ["IL","GA","AZ","NJ","FL"]},
+      {"filterName": "Other", "rateLevel": "ALL", "state": ["ALL"]}
+    ],
+    "changes":[
+      {"action": "D", "rateLevel": "ALL", "state": ["ALL"], "code": "Conversion", "priority": "9"}
+    ]
+  },
+  "reasonForQuote":{
+    "typeListName": "ReasonForQuoting_MIG",
+    "typeListFilters": [
+      {"filterName": "CAReasons", "rateLevel": "ALL", "state": ["CA"]},
+      {"filterName": "Other", "rateLevel": "ALL", "state": ["ALL"]},
+      {"filterName": "PPA_3_5", "rateLevel": "ALL", "state": ["TX","AZ","VA","FL","NV","GA","OK"]},
+      {"filterName": "PPA_3_5", "rateLevel": "alternative", "state": ["IL","NJ"]}
+    ],
+    "changes":[
+      {"action": "D", "rateLevel": "ALL", "state": ["ALL"], "code": "Conversion", "priority": "9"}
+    ]
+  },
+  "priorPolicyCarriers":{
+    "typeListName": "PriorPolicyCarriers",
+    "typeListFilters":[
+      {"filterName": "PersonalAuto", "rateLevel": "ALL", "state": ["CA"]},
+      {"filterName": "PersonalAuto", "rateLevel": "ALL", "state": ["AZ"]},
+      {"filterName": "PersonalAuto", "rateLevel": "ALL", "state": ["MI"]},
+      {"filterName": "PersonalAuto", "rateLevel": "ALL", "state": ["OK"]},
+      {"filterName": "NV_PPA", "rateLevel": "ALL", "state": ["NV"]},
+      {"filterName": "IL_PPA", "rateLevel": "ALL", "state": ["IL"]},
+      {"filterName": "GA_PPA", "rateLevel": "ALL", "state": ["GA"]},
+      {"filterName": "FL_PPA", "rateLevel": "ALL", "state": ["FL"]},
+      {"filterName": "TX_PPA", "rateLevel": "ALL", "state": ["TX"]},
+      {"filterName": "VA_PPA", "rateLevel": "ALL", "state": ["VA"]},
+      {"filterName": "PA_PPA", "rateLevel": "ALL", "state": ["PA"]},
+      {"filterName": "NY_PPA", "rateLevel": "ALL", "state": ["NY"]},
+      {"filterName": "NJ_PPA", "rateLevel": "ALL", "state": ["NJ"]},
+      {"filterName": "IL_PPA_RL17", "rateLevel": "alternative", "state": ["IL"]}
+    ]
+  },
+  "priorBIPDSet":{
+    "typeListName": "BICoverageLimit_MIG",
+    "typeListFilters":[
+      {"filterName": "CABILimits", "rateLevel": "ALL", "state": ["CA"]},
+      {"filterName": "NVBILimits", "rateLevel": "ALL", "state": ["NV"]},
+      {"filterName": "MIBILimits", "rateLevel": "ALL", "state": ["MI"]},
+      {"filterName": "AZBILimits", "rateLevel": "base", "state": ["AZ"]},
+      {"filterName": "AZ_BILimits_RL32", "rateLevel": "alternative", "state": ["AZ"]},
+      {"filterName": "ILBILIMITS_2", "rateLevel": "ALL", "state": ["IL"]},
+      {"filterName": "OKBILimits", "rateLevel": "ALL", "state": ["OK"]},
+      {"filterName": "GABILimits", "rateLevel": "ALL", "state": ["GA"]},
+      {"filterName": "FLBILimits", "rateLevel": "ALL", "state": ["FL"]},
+      {"filterName": "TXBILimits", "rateLevel": "ALL", "state": ["TX"]},
+      {"filterName": "VABILimits", "rateLevel": "ALL", "state": ["VA"]},
+      {"filterName": "PABILimits", "rateLevel": "ALL", "state": ["PA"]},
+      {"filterName": "NYBILimits", "rateLevel": "ALL", "state": ["NY"]},
+      {"filterName": "NJBILimits", "rateLevel": "ALL", "state": ["NJ"]}
+    ]
+  },
+  "durationOfNotInsured":{
+    "typeListName": "DurationOfNotInsured_MIG",
+    "typeListFilters":[{"filterName": null, "rateLevel": "ALL", "state": ["ALL"]}],
+    "changes":[
+      {"action": "C", "rateLevel": "ALL", "state": ["ALL"], "code": "LessThan31", "priority": "1"},
+      {"action": "C", "rateLevel": "ALL", "state": ["ALL"], "code": "GreaterThan30", "priority": "2"}
+    ]
+  },
+  "noPriorInsReasons":{
+    "typeListName": "NoPriorInsReasonsWeb_MIG",
+    "typeListFilters": [{"filterName": "PolicySource.QB", "rateLevel": "ALL", "state": ["ALL"]}],
+    "changes":[
+      {"action": "C", "rateLevel": "ALL", "state": ["ALL"], "code": "NewlyLicensed", "priority": "5"},
+      {"action": "C", "rateLevel": "ALL", "state": ["ALL"], "code": "NoOwnedVehicle", "priority": "6"},
+      {"action": "C", "rateLevel": "ALL", "state": ["ALL"], "code": "Other", "priority": "7"}
+    ]
+  },
+  "noPersonInHouse":{
+    "typeListName": "NumberOfHHMembers_MIG",
+    "typeListFilters":[{"filterName": null, "rateLevel": "ALL", "state": ["ALL"]}]
+  },
+  "apipPackages":{
+    "typeListName": "APIPPackageQB_MIG",
+    "typeListFilters":[{"filterName": null, "rateLevel": "ALL", "state": ["ALL"]}]
+  },
+  "collegeNames":{
+    "typeListName": "PACollegeName_MIG",
+    "typeListFilters":[{"filterName": null, "rateLevel": "ALL", "state": ["CA"]}],
+    "changes":[
+      {"action": "C", "rateLevel": "ALL", "state": ["CA"], "code": "OTHER", "priority": "10000"}
+    ]
+  },
+ "paHealthInsurer_MIG":{
+   "typeListName": "PAHealthInsurer_MIG",
+    "typeListFilters":[{"filterName": null, "rateLevel": "ALL", "state": ["NJ"]}],
+    "changes":[
+          {"action": "C", "rateLevel": "ALL", "state": ["NJ"], "code": "Other", "priority": "1000"}
+     ]
+   }
+}
+

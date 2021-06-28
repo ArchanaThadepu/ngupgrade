@@ -1,0 +1,27 @@
+{
+	"pipClaimsCount": {
+		"state":["FL"],
+		"rateLevel":"ALL",
+		"values":[
+			{
+				"code":"0",
+				"displayName":"0",
+				"priority":"0"
+			},
+			{
+				"code":"1",
+				"displayName":"1",
+				"priority":"1"
+			},
+			{
+				"code":"2",
+				"displayName":"2",
+				"priority":"2"
+			},
+			{
+				"code":"3+",
+				"displayName":"3+",
+				"priority":"3"
+			}]
+	}
+}

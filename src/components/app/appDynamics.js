@@ -1,0 +1,1 @@
+window['adrum-start-time'] = new Date().getTime(); window['adrum--app-key'] = 'AD-AAB-AAB-YBA';

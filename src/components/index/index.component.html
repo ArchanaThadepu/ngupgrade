@@ -1,0 +1,107 @@
+<header><img src="assets/styles/images/logo_mcy.png" alt="Mercury Insurance Company logo"></header>
+<div class="contentWrapper">
+  <div><a [routerLink]="['/aboutYou', 'OK', '73101']" routerLinkActive="active">Create a New Quote</a></div>
+  <!--  <div><a href="mercury.html#/create">Create a New Quote </a></div>-->
+  <div><a href="mercury.html#/retrieve?zip=89031&quoteID=NVQ0000201459">Retrieve Quote</a></div>
+
+
+  <div>Start or Retrieve a Quote</div>
+  <br>
+  <div>
+    Start Date # : <input id="startDate" style="width: 130px"/>
+    <br>
+    <br>
+    <div>
+      Bundle Type :
+      <select id="bundleType" style="width: 140px">
+        <option value="None" selected>None</option>
+        <option value="bundle-homeowners">Homeowner</option>
+        <option value="bundle-renters">Rent</option>
+        <option value="bundle-condo">Condo</option>
+      </select>
+    </div>
+    <br>
+    State : <select id="quotestate" [(ngModel)]="quotestate" style="width: 90px">
+    <option value="AZ">AZ</option>
+    <option value="IL">IL</option>
+    <option value="MI">MI</option>
+    <option value="NV">NV</option>
+    <option value="OK">OK</option>
+    <option value="CA">CA</option>
+    <option value="FL" selected>FL</option>
+    <option value="NJ">NJ</option>
+    <option value="GA">GA</option>
+    <option value="TX">TX</option>
+    <option value="VA">VA</option>
+    <option value="NY">NY</option>
+    <option value="PA">PA</option>
+  </select>
+
+    Zip : <input id="quotezip" [(ngModel)]="quotezip" style="width: 100px"/>
+    &nbsp;&nbsp;
+    <input type="button" [routerLink]="['/aboutYou', quotestate, quotezip]" id="launchBtn" value="Start"/>
+  </div>
+  <br>
+  <br>
+  <div>
+    Retrieve Based on : <select id="retrievalType" style="width: 190px">
+    <option value="quoteid">Quote ID</option>
+    <option value="dateofbirth">Date of Birth</option>
+  </select>
+    <br>
+    <br>
+    <div id="quoteidretrieval">
+      Quote # : <input id="quotenum" style="width: 130px"/>
+      <br>
+      <br>
+    </div>
+    <div id="dobretrieval">
+      Date of Birth : <input type="text" id="dateOfBirth" name="dateOfBirth" placeholder="MM/DD/YYYY" pattern="[0-9]*"
+                             ng-pattern="" mig-valid-date mig-date-picker mig-date-range2 mig-field-attribute
+                             ng-maxlength="" maxlength="10" style="width: 130px"/>
+      <br>
+      <br>
+    </div>
+    Email : <input id="email" style="width: 100px"/>
+    Last Name : <input id="lastName" style="width: 100px"/>
+    <br>
+    <br>
+    <input type="button" id="retrieveBtn" value="Retrieve"/>
+  </div>
+  <div>
+    <br>Quick link -R1/ R2 States
+    <ul>
+      <li><a href="mercury.html#/create?zip=89031&state=NV">Start 89031-NV</a></li>
+      <li><a href="mercury.html#/create?zip=73101&state=OK">Start 73101-OK</a></li>
+      <li><a href="mercury.html#/create?zip=60064&state=IL">Start 60064-IL</a></li>
+      <li><a href="mercury.html#/create?zip=60630&state=IL">Start 60630-IL -Split T</a></li>
+      <li><a href="mercury.html#/create?zip=85003&state=AZ">Start 85003-AZ</a></li>
+      <li><a href="mercury.html#/create?zip=48001&state=MI">Start 48001-MI</a></li>
+    </ul>
+  </div>
+  <div>
+    <br>Quick link - R3/R4 States
+    <ul>
+      <li><a href="mercury.html#/create?zip=32003&state=FL">Start 32003-FL</a></li>
+      <li><a href="mercury.html#/create?zip=07019&state=NJ">Start 07019-NJ</a></li>
+      <li><a href="mercury.html#/create?zip=30458&state=GA">Start 30458-GA</a></li>
+      <li><a href="mercury.html#/create?zip=73301&state=TX">Start 73301-TX</a></li>
+      <li><a href="mercury.html#/create?zip=92821&state=CA">Start 92821-CA</a>
+    </ul>
+  </div>
+  <div>
+    <br>Quick link - R5 States
+    <ul>
+      <li><a href="mercury.html#/create?zip=20103&state=VA">Start 20103-VA</a></li>
+      <li><a href="mercury.html#/create?zip=12201&state=NY">Start 12201-NY</a></li>
+      <li><a href="mercury.html#/create?zip=15222&state=PA">Start 15222-PA</a></li>
+    </ul>
+  </div>
+</div>
+<footer>
+  <h1>Call (800) 443-1581</h1>
+  <h1>Call Me</h1>
+  <h1>Email Quote</h1>
+  <p><a href="mercury.html#/retrieve?zipCode=89031&quoteID=NVQ0000201459">Quote ID: NVQ0000201459</a></p>
+  <div id="buildNumber"></div>
+</footer>

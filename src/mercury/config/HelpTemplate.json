@@ -1,0 +1,11 @@
+{
+	
+	"helpURL": "<a href='javascript:void(0)' onclick=\"toggleSection('#id', true)\" onkeypress='keyboardCheck(event)'><img src='../styles/images/icons/helpIcon.png' alt='More Information' aria-describedby='#describedby' /></a>",
+	"helpDIV": "<div id='#id' class='slide-down' onclick='toggleSection(\"#id\", false)'>#content</div>",
+	"helpMoreURL": "<a href='javascript:void(0)' onclick='toggleSection(\"#idMore\", false)' onkeypress='keyboardCheck(event)'>#moreKey</a>",
+	"helpMoreBackURL": "<div id='#idMore' class='slide-down' onclick='toggleSection(\"#idMore\", false)'>#content <a href='javascript:void(0)' class='help-back' onclick='toggleSection(\"#idMoreBack\", false)' onkeypress='keyboardCheck(event)'>Back</a></div>",
+	"helpRateURL": "",
+	"helpRate": "<div class='#id cov-details show-more'>#content</div>",
+	"helpRateMore": "<a href='javascript:void(0)' class='#moreKey' ng-click='displayHelpMore(\"#idMore\")' onkeypress='keyboardCheck(event)'>#moreKey</a>",
+	"helpRateMoreBackURL": "<div class='#idMore cov-details'>#content <a href='javascript:void(0)' class='help-back' ng-click='displayHelpMore(\"#idMoreBack\")' onkeypress='keyboardCheck(event)'>Back</a></div>"
+}

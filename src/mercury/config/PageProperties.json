@@ -1,0 +1,512 @@
+{
+  "rateLevels": {
+    "NV": {
+      "baseRateLevel": "24.0.0"
+    },
+    "OK": {
+      "baseRateLevel": "26.0.0"
+    },
+    "IL": {
+      "baseRateLevel": "16.0.0"
+    },
+    "AZ": {
+      "baseRateLevel": "31.0.0"
+    },
+    "MI": {
+      "baseRateLevel": "12.0.0"
+    },
+    "FL": {
+      "baseRateLevel": "26.0.0"
+    },
+    "NJ": {
+      "baseRateLevel": "35.0.0"
+    },
+    "GA": {
+      "baseRateLevel": "44.0.0"
+    },
+    "TX": {
+      "baseRateLevel": "31.0.0"
+    },
+    "CA": {
+      "baseRateLevel": "55.0.0.0"
+    },
+    "VA": {
+      "baseRateLevel": "24.0.0"
+    },
+    "NY": {
+      "baseRateLevel": "19.0.0"
+    },
+    "PA": {
+      "baseRateLevel": "24.0.0"
+    }
+  },
+  "validValues": {
+    "NV": {
+      "baseServiceURL": "ValidValues",
+      "baseLocationURL": "NV/base/NVValidValues.json",
+      "alternativeLocationURL": "NV/alternative/NVValidValues.json"
+    },
+    "OK": {
+      "baseServiceURL": "ValidValues",
+      "baseLocationURL": "OK/base/OKValidValues.json",
+      "alternativeLocationURL": "OK/alternative/OKValidValues.json"
+    },
+    "IL": {
+      "baseServiceURL": "ValidValues",
+      "baseLocationURL": "IL/base/ILValidValues.json",
+      "alternativeLocationURL": "IL/alternative/ILValidValues.json"
+    },
+    "AZ": {
+      "baseServiceURL": "ValidValues",
+      "baseLocationURL": "AZ/base/AZValidValues.json",
+      "alternativeLocationURL": "AZ/alternative/AZValidValues.json"
+    },
+    "MI": {
+      "baseServiceURL": "ValidValues",
+      "baseLocationURL": "MI/base/MIValidValues.json",
+      "alternativeLocationURL": "MI/alternative/MIValidValues.json"
+    },
+    "FL": {
+      "baseServiceURL": "ValidValues",
+      "baseLocationURL": "FL/base/FLValidValues.json",
+      "alternativeLocationURL": "FL/alternative/FLValidValues.json"
+    },
+    "NJ": {
+      "baseServiceURL": "ValidValues",
+      "baseLocationURL": "NJ/base/NJValidValues.json",
+      "alternativeLocationURL": "NJ/alternative/NJValidValues.json"
+    },
+    "GA": {
+      "baseServiceURL": "ValidValues",
+      "baseLocationURL": "GA/base/GAValidValues.json",
+      "alternativeLocationURL": "GA/alternative/GAValidValues.json"
+    },
+    "TX": {
+      "baseServiceURL": "ValidValues",
+      "baseLocationURL": "TX/base/TXValidValues.json",
+      "alternativeLocationURL": "TX/alternative/TXValidValues.json"
+    },
+    "CA": {
+      "baseServiceURL": "ValidValues",
+      "baseLocationURL": "CA/base/CAValidValues.json",
+      "alternativeLocationURL": "CA/alternative/CAValidValues.json"
+    },
+    "VA": {
+      "baseServiceURL": "ValidValues",
+      "baseLocationURL": "VA/base/VAValidValues.json",
+      "alternativeLocationURL": "VA/alternative/VAValidValues.json"
+    },
+    "NY": {
+      "baseServiceURL": "ValidValues",
+      "baseLocationURL": "NY/base/NYValidValues.json",
+      "alternativeLocationURL": "NY/alternative/NYValidValues.json"
+    },
+    "PA": {
+      "baseServiceURL": "ValidValues",
+      "baseLocationURL": "PA/base/PAValidValues.json",
+      "alternativeLocationURL": "PA/alternative/PAValidValues.json"
+    }
+  },
+  "labels": {
+    "NV": {
+      "baseServiceURL": "Labels",
+      "baseLocationURL": "NV/base/NVLabels.json",
+      "alternativeLocationURL": "NV/alternative/NVLabels.json"
+    },
+    "OK": {
+      "baseServiceURL": "Labels",
+      "baseLocationURL": "OK/base/OKLabels.json",
+      "alternativeLocationURL": "OK/alternative/OKLabels.json"
+    },
+    "IL": {
+      "baseServiceURL": "Labels",
+      "baseLocationURL": "IL/base/ILLabels.json",
+      "alternativeLocationURL": "IL/alternative/ILLabels.json"
+    },
+    "AZ": {
+      "baseServiceURL": "Labels",
+      "baseLocationURL": "AZ/base/AZLabels.json",
+      "alternativeLocationURL": "AZ/alternative/AZLabels.json"
+    },
+    "MI": {
+      "baseServiceURL": "Labels",
+      "baseLocationURL": "MI/base/MILabels.json",
+      "alternativeLocationURL": "MI/alternative/MILabels.json"
+    },
+    "FL": {
+      "baseServiceURL": "Labels",
+      "baseLocationURL": "FL/base/FLLabels.json",
+      "alternativeLocationURL": "FL/alternative/FLLabels.json"
+    },
+    "NJ": {
+      "baseServiceURL": "Labels",
+      "baseLocationURL": "NJ/base/NJLabels.json",
+      "alternativeLocationURL": "NJ/alternative/NJLabels.json"
+    },
+    "GA": {
+      "baseServiceURL": "Labels",
+      "baseLocationURL": "GA/base/GALabels.json",
+      "alternativeLocationURL": "GA/alternative/GALabels.json"
+    },
+    "TX": {
+      "baseServiceURL": "Labels",
+      "baseLocationURL": "TX/base/TXLabels.json",
+      "alternativeLocationURL": "TX/alternative/TXLabels.json"
+    },
+    "CA": {
+      "baseServiceURL": "Labels",
+      "baseLocationURL": "CA/base/CALabels.json",
+      "alternativeLocationURL": "CA/alternative/CALabels.json"
+    },
+    "VA": {
+      "baseServiceURL": "Labels",
+      "baseLocationURL": "VA/base/VALabels.json",
+      "alternativeLocationURL": "VA/alternative/VALabels.json"
+    },
+    "NY": {
+      "baseServiceURL": "Labels",
+      "baseLocationURL": "NY/base/NYLabels.json",
+      "alternativeLocationURL": "NY/alternative/NYLabels.json"
+    },
+    "PA": {
+      "baseServiceURL": "Labels",
+      "baseLocationURL": "PA/base/PALabels.json",
+      "alternativeLocationURL": "PA/alternative/PALabels.json"
+    }
+  },
+  "helps": {
+    "NV": {
+      "baseServiceURL": "Helps",
+      "baseLocationURL": "NV/base/NVHelps.json",
+      "alternativeLocationURL": "NV/alternative/NVHelps.json"
+    },
+    "OK": {
+      "baseServiceURL": "Helps",
+      "baseLocationURL": "OK/base/OKHelps.json",
+      "alternativeLocationURL": "OK/alternative/OKHelps.json"
+    },
+    "IL": {
+      "baseServiceURL": "Helps",
+      "baseLocationURL": "IL/base/ILHelps.json",
+      "alternativeLocationURL": "IL/alternative/ILHelps.json"
+    },
+    "AZ": {
+      "baseServiceURL": "Helps",
+      "baseLocationURL": "AZ/base/AZHelps.json",
+      "alternativeLocationURL": "AZ/alternative/AZHelps.json"
+    },
+    "MI": {
+      "baseServiceURL": "Helps",
+      "baseLocationURL": "MI/base/MIHelps.json",
+      "alternativeLocationURL": "MI/alternative/MIHelps.json"
+    },
+    "FL": {
+      "baseServiceURL": "Helps",
+      "baseLocationURL": "FL/base/FLHelps.json",
+      "alternativeLocationURL": "FL/alternative/FLHelps.json"
+    },
+    "NJ": {
+      "baseServiceURL": "Helps",
+      "baseLocationURL": "NJ/base/NJHelps.json",
+      "alternativeLocationURL": "NJ/alternative/NJHelps.json"
+    },
+    "GA": {
+      "baseServiceURL": "Helps",
+      "baseLocationURL": "GA/base/GAHelps.json",
+      "alternativeLocationURL": "GA/alternative/GAHelps.json"
+    },
+    "TX": {
+      "baseServiceURL": "Helps",
+      "baseLocationURL": "TX/base/TXHelps.json",
+      "alternativeLocationURL": "TX/alternative/TXHelps.json"
+    },
+    "CA": {
+      "baseServiceURL": "Helps",
+      "baseLocationURL": "CA/base/CAHelps.json",
+      "alternativeLocationURL": "CA/alternative/CAHelps.json"
+    },
+    "VA": {
+      "baseServiceURL": "Helps",
+      "baseLocationURL": "VA/base/VAHelps.json",
+      "alternativeLocationURL": "VA/alternative/VAHelps.json"
+    },
+    "NY": {
+      "baseServiceURL": "Helps",
+      "baseLocationURL": "NY/base/NYHelps.json",
+      "alternativeLocationURL": "NY/alternative/NYHelps.json"
+    },
+    "PA": {
+      "baseServiceURL": "Helps",
+      "baseLocationURL": "PA/base/PAHelps.json",
+      "alternativeLocationURL": "PA/alternative/PAHelps.json"
+    }
+  },
+  "messages": {
+    "NV": {
+      "baseServiceURL": "Messages",
+      "baseLocationURL": "NV/base/NVMessages.json",
+      "alternativeLocationURL": "NV/alternative/NVMessages.json"
+    },
+    "OK": {
+      "baseServiceURL": "Messages",
+      "baseLocationURL": "OK/base/OKMessages.json",
+      "alternativeLocationURL": "OK/alternative/OKMessages.json"
+    },
+    "IL": {
+      "baseServiceURL": "Messages",
+      "baseLocationURL": "IL/base/ILMessages.json",
+      "alternativeLocationURL": "IL/alternative/ILMessages.json"
+    },
+    "AZ": {
+      "baseServiceURL": "Messages",
+      "baseLocationURL": "AZ/base/AZMessages.json",
+      "alternativeLocationURL": "AZ/alternative/AZMessages.json"
+    },
+    "MI": {
+      "baseServiceURL": "Messages",
+      "baseLocationURL": "MI/base/MIMessages.json",
+      "alternativeLocationURL": "MI/alternative/MIMessages.json"
+    },
+    "FL": {
+      "baseServiceURL": "Messages",
+      "baseLocationURL": "FL/base/FLMessages.json",
+      "alternativeLocationURL": "FL/alternative/FLMessages.json"
+    },
+    "NJ": {
+      "baseServiceURL": "Messages",
+      "baseLocationURL": "NJ/base/NJMessages.json",
+      "alternativeLocationURL": "NJ/alternative/NJMessages.json"
+    },
+    "GA": {
+      "baseServiceURL": "Messages",
+      "baseLocationURL": "GA/base/GAMessages.json",
+      "alternativeLocationURL": "GA/alternative/GAMessages.json"
+    },
+    "TX": {
+      "baseServiceURL": "Messages",
+      "baseLocationURL": "TX/base/TXMessages.json",
+      "alternativeLocationURL": "TX/alternative/TXMessages.json"
+    },
+    "CA": {
+      "baseServiceURL": "Messages",
+      "baseLocationURL": "CA/base/CAMessages.json",
+      "alternativeLocationURL": "CA/alternative/CAMessages.json"
+    },
+    "VA": {
+      "baseServiceURL": "Messages",
+      "baseLocationURL": "VA/base/VAMessages.json",
+      "alternativeLocationURL": "VA/alternative/VAMessages.json"
+    },
+    "NY": {
+      "baseServiceURL": "Messages",
+      "baseLocationURL": "NY/base/NYMessages.json",
+      "alternativeLocationURL": "NY/alternative/NYMessages.json"
+    },
+    "PA": {
+      "baseServiceURL": "Messages",
+      "baseLocationURL": "PA/base/PAMessages.json",
+      "alternativeLocationURL": "PA/alternative/PAMessages.json"
+    }
+  },
+  "hideShowRules": {
+    "NV": {
+      "baseServiceURL": "HideShowRules",
+      "baseLocationURL": "NV/base/NVHideShowRules.json",
+      "alternativeLocationURL": "NV/alternative/NVHideShowRules.json"
+    },
+    "OK": {
+      "baseServiceURL": "HideShowRules",
+      "baseLocationURL": "OK/base/OKHideShowRules.json",
+      "alternativeLocationURL": "OK/alternative/OKHideShowRules.json"
+    },
+    "IL": {
+      "baseServiceURL": "HideShowRules",
+      "baseLocationURL": "IL/base/ILHideShowRules.json",
+      "alternativeLocationURL": "IL/alternative/ILHideShowRules.json"
+    },
+    "AZ": {
+      "baseServiceURL": "HideShowRules",
+      "baseLocationURL": "AZ/base/AZHideShowRules.json",
+      "alternativeLocationURL": "AZ/alternative/AZHideShowRules.json"
+    },
+    "MI": {
+      "baseServiceURL": "HideShowRules",
+      "baseLocationURL": "MI/base/MIHideShowRules.json",
+      "alternativeLocationURL": "MI/alternative/MIHideShowRules.json"
+    },
+    "FL": {
+      "baseServiceURL": "HideShowRules",
+      "baseLocationURL": "FL/base/FLHideShowRules.json",
+      "alternativeLocationURL": "FL/alternative/FLHideShowRules.json"
+    },
+    "NJ": {
+      "baseServiceURL": "HideShowRules",
+      "baseLocationURL": "NJ/base/NJHideShowRules.json",
+      "alternativeLocationURL": "NJ/alternative/NJHideShowRules.json"
+    },
+    "GA": {
+      "baseServiceURL": "HideShowRules",
+      "baseLocationURL": "GA/base/GAHideShowRules.json",
+      "alternativeLocationURL": "GA/alternative/GAHideShowRules.json"
+    },
+    "TX": {
+      "baseServiceURL": "HideShowRules",
+      "baseLocationURL": "TX/base/TXHideShowRules.json",
+      "alternativeLocationURL": "TX/alternative/TXHideShowRules.json"
+    },
+    "CA": {
+      "baseServiceURL": "HideShowRules",
+      "baseLocationURL": "CA/base/CAHideShowRules.json",
+      "alternativeLocationURL": "CA/alternative/CAHideShowRules.json"
+    },
+    "VA": {
+      "baseServiceURL": "HideShowRules",
+      "baseLocationURL": "VA/base/VAHideShowRules.json",
+      "alternativeLocationURL": "VA/alternative/VAHideShowRules.json"
+    },
+    "NY": {
+      "baseServiceURL": "HideShowRules",
+      "baseLocationURL": "NY/base/NYHideShowRules.json",
+      "alternativeLocationURL": "NY/alternative/NYHideShowRules.json"
+    },
+    "PA": {
+      "baseServiceURL": "HideShowRules",
+      "baseLocationURL": "PA/base/PAHideShowRules.json",
+      "alternativeLocationURL": "PA/alternative/PAHideShowRules.json"
+    }
+  },
+  "constraintValues": {
+    "NV": {
+      "baseServiceURL": "ConstraintValues",
+      "baseLocationURL": "NV/base/NVConstraintValues.json",
+      "alternativeLocationURL": "NV/alternative/NVConstraintValues.json"
+    },
+    "OK": {
+      "baseServiceURL": "ConstraintValues",
+      "baseLocationURL": "OK/base/OKConstraintValues.json",
+      "alternativeLocationURL": "OK/alternative/OKConstraintValues.json"
+    },
+    "IL": {
+      "baseServiceURL": "ConstraintValues",
+      "baseLocationURL": "IL/base/ILConstraintValues.json",
+      "alternativeLocationURL": "IL/alternative/ILConstraintValues.json"
+    },
+    "AZ": {
+      "baseServiceURL": "ConstraintValues",
+      "baseLocationURL": "AZ/base/AZConstraintValues.json",
+      "alternativeLocationURL": "AZ/alternative/AZConstraintValues.json"
+    },
+    "MI": {
+      "baseServiceURL": "ConstraintValues",
+      "baseLocationURL": "MI/base/MIConstraintValues.json",
+      "alternativeLocationURL": "MI/alternative/MIConstraintValues.json"
+    },
+    "FL": {
+      "baseServiceURL": "ConstraintValues",
+      "baseLocationURL": "FL/base/FLConstraintValues.json",
+      "alternativeLocationURL": "FL/alternative/FLConstraintValues.json"
+    },
+    "NJ": {
+      "baseServiceURL": "ConstraintValues",
+      "baseLocationURL": "NJ/base/NJConstraintValues.json",
+      "alternativeLocationURL": "NJ/alternative/NJConstraintValues.json"
+    },
+    "GA": {
+      "baseServiceURL": "ConstraintValues",
+      "baseLocationURL": "GA/base/GAConstraintValues.json",
+      "alternativeLocationURL": "GA/alternative/GAConstraintValues.json"
+    },
+    "TX": {
+      "baseServiceURL": "ConstraintValues",
+      "baseLocationURL": "TX/base/TXConstraintValues.json",
+      "alternativeLocationURL": "TX/alternative/TXConstraintValues.json"
+    },
+    "CA": {
+      "baseServiceURL": "ConstraintValues",
+      "baseLocationURL": "CA/base/CAConstraintValues.json",
+      "alternativeLocationURL": "CA/alternative/CAConstraintValues.json"
+    },
+    "VA": {
+      "baseServiceURL": "Labels",
+      "baseLocationURL": "VA/base/VAConstraintValues.json",
+      "alternativeLocationURL": "VA/alternative/VAConstraintValues.json"
+    },
+    "NY": {
+      "baseServiceURL": "Labels",
+      "baseLocationURL": "NY/base/NYConstraintValues.json",
+      "alternativeLocationURL": "NY/alternative/NYConstraintValues.json"
+    },
+    "PA": {
+      "baseServiceURL": "ConstraintValues",
+      "baseLocationURL": "PA/base/PAConstraintValues.json",
+      "alternativeLocationURL": "PA/alternative/PAConstraintValues.json"
+    }
+  },
+  "coverageDisplayType": {
+    "NV": {
+      "baseServiceURL": "CoverageDisplayType",
+      "baseLocationURL": "NV/base/NVCoverageDisplayType.json",
+      "alternativeLocationURL": "NV/alternative/NVCoverageDisplayType.json"
+    },
+    "OK": {
+      "baseServiceURL": "CoverageDisplayType",
+      "baseLocationURL": "OK/base/OKCoverageDisplayType.json",
+      "alternativeLocationURL": "OK/alternative/OKCoverageDisplayType.json"
+    },
+    "IL": {
+      "baseServiceURL": "CoverageDisplayType",
+      "baseLocationURL": "IL/base/ILCoverageDisplayType.json",
+      "alternativeLocationURL": "IL/alternative/ILCoverageDisplayType.json"
+    },
+    "AZ": {
+      "baseServiceURL": "CoverageDisplayType",
+      "baseLocationURL": "AZ/base/AZCoverageDisplayType.json",
+      "alternativeLocationURL": "AZ/alternative/AZCoverageDisplayType.json"
+    },
+    "MI": {
+      "baseServiceURL": "CoverageDisplayType",
+      "baseLocationURL": "MI/base/MICoverageDisplayType.json",
+      "alternativeLocationURL": "MI/alternative/MICoverageDisplayType.json"
+    },
+    "FL": {
+      "baseServiceURL": "CoverageDisplayType",
+      "baseLocationURL": "FL/base/FLCoverageDisplayType.json",
+      "alternativeLocationURL": "FL/alternative/FLCoverageDisplayType.json"
+    },
+    "NJ": {
+      "baseServiceURL": "CoverageDisplayType",
+      "baseLocationURL": "NJ/base/NJCoverageDisplayType.json",
+      "alternativeLocationURL": "NJ/alternative/NJCoverageDisplayType.json"
+    },
+    "GA": {
+      "baseServiceURL": "CoverageDisplayType",
+      "baseLocationURL": "GA/base/GACoverageDisplayType.json",
+      "alternativeLocationURL": "GA/alternative/GACoverageDisplayType.json"
+    },
+    "TX": {
+      "baseServiceURL": "CoverageDisplayType",
+      "baseLocationURL": "TX/base/TXCoverageDisplayType.json",
+      "alternativeLocationURL": "TX/alternative/TXCoverageDisplayType.json"
+    },
+    "CA": {
+      "baseServiceURL": "CoverageDisplayType",
+      "baseLocationURL": "CA/base/CACoverageDisplayType.json",
+      "alternativeLocationURL": "CA/alternative/CACoverageDisplayType.json"
+    },
+    "VA": {
+      "baseServiceURL": "CoverageDisplayType",
+      "baseLocationURL": "VA/base/VACoverageDisplayType.json",
+      "alternativeLocationURL": "VA/alternative/VACoverageDisplayType.json"
+    },
+    "NY": {
+      "baseServiceURL": "CoverageDisplayType",
+      "baseLocationURL": "NY/base/NYCoverageDisplayType.json",
+      "alternativeLocationURL": "NY/alternative/NYCoverageDisplayType.json"
+    },
+    "PA": {
+      "baseServiceURL": "CoverageDisplayType",
+      "baseLocationURL": "PA/base/PACoverageDisplayType.json",
+      "alternativeLocationURL": "PA/alternative/PACoverageDisplayType.json"
+    }
+  }
+}

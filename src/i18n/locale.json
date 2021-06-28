@@ -1,0 +1,44 @@
+{
+    "address": {
+        "PostalCodeRegex": "[0-9]{5}(-[0-9]{4})?",
+        "fieldNames": [
+            "County",
+            "PostalCode",
+            "State",
+            "Country",
+            "AddressLine1",
+            "City",
+            "AddressLine2",
+            "AddressLine3"
+        ],
+        "pcfMode": "default"
+    },
+    "country": {
+        "code": "US",
+        "name": "United States"
+    },
+    "currency": {
+        "fractionSize": 2,
+        "symbol": "$"
+    },
+    "locales": {
+        "en_US": "English (US)"
+    },
+    "name": {
+        "formatMode": "default",
+        "mode": "default",
+        "visibleFields": [
+            "Name",
+            "MiddleName",
+            "Suffix",
+            "FirstName",
+            "Prefix",
+            "LastName"
+        ]
+    },
+    "phone": {
+        "UserDefaultPhoneCountry": "US",
+        "sample": "201-555-0123"
+    },
+    "preferredLocale": "en_US"
+}

@@ -1,0 +1,10 @@
+diff a/Transcend-QB1/QB/app/styles/css/default.css b/Transcend-QB1/QB/app/styles/css/default.css	(rejected hunks)
+@@ -7339,8 +7339,6 @@
+ .oops .button-wrapper a.orange,
+ .oops .button-wrapper a.green {
+   margin-left: 0;
+-  padding-top: 10px;
+-  padding-bottom: 10px;
+ }
+ 
+ .oops #inputWrapper h1 {
