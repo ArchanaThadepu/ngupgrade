@@ -1,231 +1,229 @@
 <app-common-header></app-common-header>
 <div id="contentWrapper">
-  <div id="sectionContent" class="buyButton">
+    <div id="sectionContent" class="buyButton">
 
-    <section id="aboutYou">
-      <!-- <mig-edit-menu page="aboutYou"></mig-edit-menu> -->
-      <div class="content">
+        <section id="aboutYou">
+            <!-- <mig-edit-menu page="aboutYou"></mig-edit-menu> -->
+            <div class="content">
 
-        <div id="pageTitle" class="pageTitleContainer">
-          <div id="title" class="titleContainer">
-            <h1>Get your quote in less than 7 minutes!</h1>
-          </div>
-          <mig-progression-header page="aboutYou"></mig-progression-header>
-        </div>
+                <div id="pageTitle" class="pageTitleContainer">
+                    <div id="title" class="titleContainer">
+                        <h1>Get your quote in less than 7 minutes!</h1>
+                    </div>
+                    <mig-progression-header page="aboutYou"></mig-progression-header>
+                </div>
 
-        <form id="aboutYouForm" [ngClass]="{submitted:submitted}" novalidate=""
-              (ngSubmit)="submitted = true; submit(aboutYouForm.valid, page, baseData)">
-          <div id="formGroup">
-            <div class="globalErrorMsg" *ngIf="!aboutYouForm.valid && submitted && !invalidOutOfStateZip">
-              <div class="warning"></div>
-              <h3>Please correct the information highlighted below. </h3>
-            </div>
-            <div class="globalErrorMsg" *ngIf="invalidOutOfStateZip">
-              <div class="warning"></div>
-              <h3>We're sorry, but we are unable to locate your zip code. If you need help, please
-                call {{contactNumber}}.</h3>
-            </div>
-            <div class="globalErrorMsg" *ngIf="messages.length>0">
-              <div class="warning"></div>
-              <h3 *ngFor="let error in errors">{{error.getMessage()}}</h3>
-            </div>
-            <div id="inputWrapper">
-              <div class="formColumn">
-                <div class="secondaryGroup">
-                  <h6>Enter name as it appears on applicable vehicle registration(s).</h6>
-                </div>
-                <div class="aboutYouRow">
-                  <div class="inputGroup firstName">
-                    <label for="firstName" id="firstNameLabel">First Name</label>
-                    <input type="text" id="firstName" name="firstName" class="diUnmask" maxlength="15"
-                           placeholder="First Name">
-                  </div>
-                  <div class="inputGroup middleName">
-                    <label for="middleName" id="middleNameLabel">MI</label>
-                    <input type="text" id="middleName" name="middleName" class="diUnmask" maxlength="1"
-                           placeholder="MI">
-                  </div>
-                </div>
-                <div class="inputGroup validation">
-                  <div class="error" *ngIf="submitted">
-                    <div id="enterFirstNameMsg">Please enter your first name.</div>
-                    <div id="validFirstNameMsg">Please enter a valid first name.</div>
-                  </div>
-                </div>
-                <div class="aboutYouRow">
-                  <div class="inputGroup lastName">
-                    <label for="lastName" id="lastNameLabel">Last Name</label>
-                    <input type="text" id="lastName" name="lastName" class="diUnmask" maxlength="20"
-                           placeholder="Last Name">
-                  </div>
-                  <div class="selectGroup suffix">
-                    <label id="nameSuffixLabel">Suffix</label>
-                    <select formControlName="suffix" id="nameSuffix" name="suffix" class="diUnmask">
+                <form id="aboutYouForm" [formGroup]="aboutYouForm" [ngClass]="{submitted:submitted}" novalidate="" (ngSubmit)="onSubmit()">
+                    <div id="formGroup">
+                        <div class="globalErrorMsg" *ngIf="!aboutYouForm.valid && submitted && !invalidOutOfStateZip">
+                            <div class="warning"></div>
+                            <h3>Please correct the information highlighted below. </h3>
+                        </div>
+                        <div class="globalErrorMsg" *ngIf="invalidOutOfStateZip">
+                            <div class="warning"></div>
+                            <h3>We're sorry, but we are unable to locate your zip code. If you need help, please call {{contactNumber}}.
+                            </h3>
+                        </div>
+                        <div class="globalErrorMsg" *ngIf="messages.length>0">
+                            <div class="warning"></div>
+                            <h3 *ngFor="let error in errors">{{error.getMessage()}}</h3>
+                        </div>
+                        <div id="inputWrapper">
+                            <div class="formColumn">
+                                <div class="secondaryGroup">
+                                    <h6>Enter name as it appears on applicable vehicle registration(s).</h6>
+                                </div>
+                                <div class="aboutYouRow">
+                                    <div class="inputGroup firstName">
+                                        <label for="firstName" id="firstNameLabel">First Name</label>
+                                        <input type="text" id="firstName" name="firstName" formControlName="firstName" class="diUnmask" maxlength="15" placeholder="First Name">
+                                    </div>
+                                    <div class="inputGroup middleName">
+                                        <label for="middleName" id="middleNameLabel">MI</label>
+                                        <input type="text" id="middleName" name="middleName" class="diUnmask" maxlength="1" placeholder="MI">
+                                    </div>
+                                </div>
+                                <div class="inputGroup validation">
+                                    <div class="error" *ngIf="submitted && f.firstName.errors">
+                                        <div *ngIf="f.firstName.errors.required">Please enter your first name.</div>
+                                        <div *ngIf="f.firstName.errors.pattern">Please enter a valid first name.</div>
+                                    </div>
+                                </div>
+                                <div class="aboutYouRow">
+                                    <div class="inputGroup lastName">
+                                        <label for="lastName" id="lastNameLabel">Last Name</label>
+                                        <input type="text" id="lastName" name="lastName" class="diUnmask" formControlName="lastName" maxlength="20" placeholder="Last Name">
+                                    </div>
+                                    <div class="selectGroup suffix">
+                                        <label id="nameSuffixLabel">Suffix</label>
+                                        <select formControlName="suffix" id="nameSuffix" name="suffix" class="diUnmask">
                       <option value="">-Select one-</option>
                       <option *ngFor="let s of suffix" [ngValue]="s.id">{{s.name}}</option>
                     </select>
-                  </div>
-                </div>
-                <div class="inputGroup validation">
-                  <div class="error" *ngIf="submitted">
-                    <div id="enterLastNameMsg">Please enter your last name.</div>
-                    <div id="validLastNameMsg">Please enter a valid last name.</div>
-                  </div>
-                </div>
-                <div class="inputGroup dateOfBirth" *ngIf="!(hideDateOfBirth)">
-                  <label for="dateOfBirth" id="dateOfBirthLabel">Date of Birth</label>
-                  <div class="dobPlaceholder" data-placeholder="MM/DD/YYYY">
-                    <input formControlName="dateOfBirth" mig-valid-date type="text" id="dateOfBirth" name="dateOfBirth" placeholder=""
-                           pattern="[0-9]*" [mask]="dateOfBirthMask"  maxlength="10">
-                  </div>
-                  <div class="error" *ngIf="submitted">
-                    <div id="enterDateOfBirthMsg">Please enter your date of birth.</div>
-                    <div id="enterValidDateMsg2">Please enter a valid date (mm/dd/yyyy).</div>
-                    <div id="validRange">Please enter a date between A, B.</div>
-                  </div>
-                </div>
-                <div class="inputGroup phoneNumber" *ngIf="showPhoneNumberEmail">
-                  <label for="phoneNumber" id="phoneNumberLabel">Primary Phone Number</label>
-                  <input formControlName="phoneNumber" type="tel" id="phoneNumber" name="phoneNumber" class="phoneMask diUnmask"  [mask]="phoneNumberMask" maxlength="14">
-                  <div class="error" *ngIf="submitted">
-                    <div id="enterPhoneNumberMsg">Please enter your primary phone number.</div>
-                    <div id="enterValidPhoneMsg">Please enter a valid phone number.</div>
-                  </div>
-                </div>
-                <div class="inputGroup email" *ngIf="showPhoneNumberEmail">
-                  <label for="email" id="emailLabel">Primary E-mail Address</label>
-                  <input formControlName="email" type="email" id="email" name="email" class="diUnmask" maxlength="60">
-                  <div id="phoneNumberTip" class="fieldTip" tabindex="-1" (click)="showTip()">
-                    <p>
-                      <a href="#x" onclick="toggleSection('fieldTipMobile', true)" onkeypress="keyboardCheck(event)">
+                                    </div>
+                                </div>
+                                <div class="inputGroup validation">
+                                    <div class="error" *ngIf="submitted && f.lastName.errors">
+                                        <div *ngIf="f.lastName.errors.required">Please enter your last name.</div>
+                                        <div *ngIf="f.lastName.errors.pattern">Please enter a valid last name.</div>
+                                    </div>
+                                    <!-- <div class="error" *ngIf="submitted">
+                                        <div id="enterLastNameMsg">Please enter your last name.</div>
+                                        <div id="validLastNameMsg">Please enter a valid last name.</div>
+                                    </div> -->
+                                </div>
+                                <div class="inputGroup dateOfBirth" *ngIf="!(hideDateOfBirth)">
+                                    <label for="dateOfBirth" id="dateOfBirthLabel">Date of Birth</label>
+                                    <div class="dobPlaceholder">
+                                        <input formControlName="dateOfBirth" type="date" id="dateOfBirth" name="dateOfBirth">
+                                    </div>
+                                    <div class="error" *ngIf="submitted && f.dateOfBirth.errors">
+                                        <div *ngIf="f.dateOfBirth.errors.required">Please enter your date of birth.</div>
+
+                                        <div id="enterValidDateMsg2" *ngIf="f.dateOfBirth.errors.inValidFormat">Please enter a valid date (mm/dd/yyyy).
+                                        </div>
+                                        <!-- <div id="validRange">Please enter a date between A, B.</div> -->
+                                    </div>
+                                    <!-- <div class="error" *ngIf="submitted">
+                                        <div id="enterDateOfBirthMsg">Please enter your date of birth.</div>
+                                        <div id="enterValidDateMsg2">Please enter a valid date (mm/dd/yyyy).</div>
+                                        <div id="validRange">Please enter a date between A, B.</div>
+                                    </div> -->
+                                </div>
+                                <div class="inputGroup phoneNumber" *ngIf="showPhoneNumberEmail">
+                                    <label for="phoneNumber" id="phoneNumberLabel">Primary Phone Number</label>
+                                    <input formControlName="phoneNumber" type="tel" id="phoneNumber" name="phoneNumber" class="phoneMask diUnmask" [mask]="phoneNumberMask" maxlength="14">
+                                    <div class="error" *ngIf="submitted">
+                                        <div id="enterPhoneNumberMsg">Please enter your primary phone number.</div>
+                                        <div id="enterValidPhoneMsg">Please enter a valid phone number.</div>
+                                    </div>
+                                </div>
+                                <div class="inputGroup email" *ngIf="showPhoneNumberEmail">
+                                    <label for="email" id="emailLabel">Primary E-mail Address</label>
+                                    <input formControlName="email" type="email" id="email" name="email" class="diUnmask" maxlength="60">
+                                    <div id="phoneNumberTip" class="fieldTip" tabindex="-1" (click)="showTip()">
+                                        <p>
+                                            <a href="#x" onclick="toggleSection('fieldTipMobile', true)" onkeypress="keyboardCheck(event)">
                         Mercury keeps your information secure. <span>Learn more</span>
                       </a>
-                    </p>
-                    <a href="#x" onclick="toggleSection('fieldTipMobile')" tabindex="{{ tipShown ? 0 : -1 }}"
-                       [attr.aria-live]="polite">
-                    <span id="fieldTipMobile" class="slide-down ng-scope">
-                        <span>Mercury protects information submitted on our website which is secured using the highest industry-standards in security.  Any personal information submitted as part of your quote, such as email and phone number, will not be accessed by anyone other than Mercury Insurance, or its authorized agents.</span>
-                    </span>
-                    </a>
-                  </div>
-                  <div class="error" *ngIf="submitted">
-                    <div id="enterEmailMsg">Please enter your primary e-mail address.</div>
-                    <div id="enterValidEmailMsg3">Please enter a valid e-mail address.</div>
-                    <div id="enterValidEmailMsg4">Please enter a valid e-mail address.</div>
-                  </div>
-                </div>
-                <div class="inputGroup">
-                  <label for="policyStartDate">When would you like coverage to begin?</label>
-                  <input formControlName="policyStartDate" type="text" id="policyStartDate" class="diUnmask" placeholder="MM/DD/YYYY">
-                  <div class="error" *ngIf="submitted">
-                    <div id="enterPolicyStartDateMsg">Please enter a coverage start date.</div>
-                    <div id="enterValidDateMsg">Please enter a valid date (mm/dd/yyyy).</div>
-                    <div>Please enter a date between A, B.</div>
-                  </div>
-                </div>
-              </div>
-              <div class="formColumn">
-                <div class="inputGroup addressLine1">
-                  <label for="addressLine1" id="addressLine1Label">Mailing Address</label>
-                  <input formControlName="addressLine1" type="text" id="addressLine1" name="addressLine1" class="diUnmask" maxlength="40">
-                </div>
-                <div class="inputGroup validation">
-                  <div class="error" *ngIf="submitted">
-                    <div id="enterMailingAddressMsg">Please enter your street address.</div>
-                    <div id="validMailingAddressMsg2">Please enter a house number and a street name, separated by a
-                      space.
+                                        </p>
+                                        <a href="#x" onclick="toggleSection('fieldTipMobile')" tabindex="{{ tipShown ? 0 : -1 }}" [attr.aria-live]="polite">
+                                            <span id="fieldTipMobile" class="slide-down ng-scope">
+                        <span>Mercury protects information submitted on our website which is secured using the highest
+                          industry-standards in security. Any personal information submitted as part of your quote, such
+                          as email and phone number, will not be accessed by anyone other than Mercury Insurance, or its
+                          authorized agents.</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="error" *ngIf="submitted">
+                                        <div id="enterEmailMsg">Please enter your primary e-mail address.</div>
+                                        <div id="enterValidEmailMsg3">Please enter a valid e-mail address.</div>
+                                        <div id="enterValidEmailMsg4">Please enter a valid e-mail address.</div>
+                                    </div>
+                                </div>
+                                <!-- <div class="inputGroup">
+                                    <label for="policyStartDate">When would you like coverage to begin?</label>
+                                    <input formControlName="policyStartDate" type="text" id="policyStartDate" class="diUnmask" placeholder="MM/DD/YYYY">
+                                    <div class="error" *ngIf="submitted">
+                                        <div id="enterPolicyStartDateMsg">Please enter a coverage start date.</div>
+                                        <div id="enterValidDateMsg">Please enter a valid date (mm/dd/yyyy).</div>
+                                        <div>Please enter a date between A, B.</div>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <!-- <div class="formColumn">
+                                <div class="inputGroup addressLine1">
+                                    <label for="addressLine1" id="addressLine1Label">Mailing Address</label>
+                                    <input formControlName="addressLine1" type="text" id="addressLine1" name="addressLine1" class="diUnmask" maxlength="40">
+                                </div>
+                                <div class="inputGroup validation">
+                                    <div class="error" *ngIf="submitted">
+                                        <div id="enterMailingAddressMsg">Please enter your street address.</div>
+                                        <div id="validMailingAddressMsg2">Please enter a house number and a street name, separated by a space.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inputGroup addressLine2">
+                                    <label for="addressLine2" id="addressLine2Label">Apt or Unit</label>
+                                    <input formControlName="addressLine2" type="text" id="addressLine2" name="addressLine2" class="diUnmask" maxlength="10">
+                                </div>
+                                <div class="inputGroup validation">
+                                    <div class="error" *ngIf="submitted">
+                                        <div id="validMailingAddressMsg">Please enter a valid apartment number.</div>
+                                    </div>
+                                </div>
+                                <div class="inputGroup city">
+                                    <label for="city" id="cityLabel" class="focus">City</label>
+                                    <input formControlName="city" type="text" id="city" name="city" class="diUnmask" maxlength="60">
+                                </div>
+                                <div class="inputGroup state">
+                                    <label for="state" id="stateLabel" class="focus">State</label>
+                                    <input formControlName="state" type="text" id="state" name="state" class="diUnmask" readonly="">
+                                </div>
+                                <div class="inputGroup postalCodeUI">
+                                    <label for="postalCodeUI" id="postalCodeLabel" class="focus">Zip Code</label>
+                                    <input formControlName="zipCode" type="text" id="postalCodeUI" [mask]="zipCodeMask" name="zipCode" class="zipCode diUnmask" maxlength="5">
+                                    <input type="hidden" id="postalCode">
+                                </div>
+                                <div class="inputGroup validation">
+                                    <div class="error" *ngIf="submitted">
+                                        <div id="enterCityMsg">Please enter your city.</div>
+                                        <div id="validCityMsg">Please enter a valid city name.</div>
+                                    </div>
+                                    <div class="error" *ngIf="submitted">
+                                        <div id="enterZipCodeMsg">Please enter your zip code.</div>
+                                        <div id="validZipCodeMsg5">Please enter a valid zip code.</div>
+                                        <div id="validZipCodeMsg6">Please enter a valid zip code within the state.</div>
+                                        <div id="validZipCodeMsg7">Please enter a valid zip code.</div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- <div class="radioGroup" *ngIf="splitTerritories.length > 0">
+                                <h3>Do you live within Chicago city limits?</h3>
+                                <div class="radioGroup">
+                                    <label for="policySplitTerritoryYes" class="radioButton left" [attr.aria-required]="true">Yes</label>
+                                    <input id="policySplitTerritoryYes" name="policySplitTerritory" type="radio" class="hide">
+                                    <label for="policySplitTerritoryNo" class="radioButton right">No</label>
+                                    <input id="policySplitTerritoryNo" name="policySplitTerritory" type="radio" class="hide">
+                                    <div class="error" *ngIf="submitted">
+                                        <div>Please select an option.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="legal">
+                                By selecting Save and Continue, you are confirming that you have read our
+                                <a href="#x" class="disclosureAYMobile" onclick="toggleSection('consumerDisclosureMobile', true)" onkeypress="keyboardCheck(event)" *ngIf="!isAgg">Consumer Disclosure</a>
+                                <a href="#x" class="disclosureAYDesktop" onclick="toggleSection('consumerDisclosure', true)" onkeypress="keyboardCheck(event)" *ngIf="!isAgg">Consumer Disclosure</a>
+                                <a href="#x" class="disclosureAYMobile" onclick="toggleSection('consumerDisclosureAggMobile', true)" onkeypress="keyboardCheck(event)" *ngIf="isAgg">Consumer Disclosure</a>
+                                <a href="#x" class="disclosureAYDesktop" onclick="toggleSection('consumerDisclosureAgg', true)" onkeypress="keyboardCheck(event)" *ngIf="isAgg">Consumer Disclosure</a> and <a href="http://www.mercuryinsurance.com/about/privacy-statement.html"
+                                    target="_blank" onkeypress="keyboardCheck(event, true)" [attr.aria-describedby]="">Privacy Statement</a>.
+                            </h3>
+                            <a href="#x" class="disclosureAYMobile" onclick="toggleSection('consumerDisclosureMobile')" *ngIf="!isAgg">
+                                <span class="slide-down ng-scope"> </span>
+                            </a>
+                            <a href="#x" class="disclosureAYMobile" onclick="toggleSection('consumerDisclosureAggMobile')" *ngIf="isAgg">
+                                <span class="slide-down ng-scope"> </span>
+                            </a> -->
+                            <div class="button-wrapper">
+                                <div class="buttons">
+                                    <!-- <input type="submit" class="orange" value="Save and Continue" *ngIf="!updateQuote && percentComplete < 100"> -->
+                                    <input type="submit" class="orange" value="Save and Continue">
+                                    <input type="submit" class="green" value="Update Quote" *ngIf="menuEditMode && percentComplete === 100">
+                                    <input type="button" class="gray" value="Return to Quote Details" *ngIf="updateQuote">
+                                </div>
+                            </div>
+                            <a href="#x" class="disclosureAYDesktop" onclick="toggleSection('consumerDisclosure')" tabindex="-1" *ngIf="!isAgg">
+                                <span class="slide-down ng-scope"> </span>
+                            </a>
+                            <a href="#x" class="disclosureAYDesktop" onclick="toggleSection('consumerDisclosureAgg')" *ngIf="isAgg">
+                                <span class="slide-down ng-scope"> </span>
+                            </a>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="inputGroup addressLine2">
-                  <label for="addressLine2" id="addressLine2Label">Apt or Unit</label>
-                  <input formControlName="addressLine2" type="text" id="addressLine2" name="addressLine2" class="diUnmask" maxlength="10">
-                </div>
-                <div class="inputGroup validation">
-                  <div class="error" *ngIf="submitted">
-                    <div id="validMailingAddressMsg">Please enter a valid apartment number.</div>
-                  </div>
-                </div>
-                <div class="inputGroup city">
-                  <label for="city" id="cityLabel" class="focus">City</label>
-                  <input formControlName="city" type="text" id="city" name="city" class="diUnmask" maxlength="60">
-                </div>
-                <div class="inputGroup state">
-                  <label for="state" id="stateLabel" class="focus">State</label>
-                  <input formControlName="state" type="text" id="state" name="state" class="diUnmask" readonly="">
-                </div>
-                <div class="inputGroup postalCodeUI">
-                  <label for="postalCodeUI" id="postalCodeLabel" class="focus">Zip Code</label>
-                  <input formControlName="zipCode"  type="text" id="postalCodeUI" [mask]="zipCodeMask" name="zipCode" class="zipCode diUnmask" maxlength="5">
-                  <input type="hidden" id="postalCode">
-                </div>
-                <div class="inputGroup validation">
-                  <div class="error" *ngIf="submitted">
-                    <div id="enterCityMsg">Please enter your city.</div>
-                    <div id="validCityMsg">Please enter a valid city name.</div>
-                  </div>
-                  <div class="error" *ngIf="submitted">
-                    <div id="enterZipCodeMsg">Please enter your zip code.</div>
-                    <div id="validZipCodeMsg5">Please enter a valid zip code.</div>
-                    <div id="validZipCodeMsg6">Please enter a valid zip code within the state.</div>
-                    <div id="validZipCodeMsg7">Please enter a valid zip code.</div>
-                  </div>
-                </div>
-              </div>
-              <div class="radioGroup" *ngIf="splitTerritories.length > 0">
-                <h3>Do you live within Chicago city limits?</h3>
-                <div class="radioGroup">
-                  <label for="policySplitTerritoryYes" class="radioButton left" [attr.aria-required]="true">Yes</label>
-                  <input id="policySplitTerritoryYes" name="policySplitTerritory" type="radio" class="hide">
-                  <label for="policySplitTerritoryNo" class="radioButton right">No</label>
-                  <input id="policySplitTerritoryNo" name="policySplitTerritory" type="radio" class="hide">
-                  <div class="error" *ngIf="submitted">
-                    <div>Please select an option.</div>
-                  </div>
-                </div>
-              </div>
-              <h3 class="legal">
-                By selecting Save and Continue, you are confirming that you have read our
-                <a href="#x" class="disclosureAYMobile" onclick="toggleSection('consumerDisclosureMobile', true)"
-                   onkeypress="keyboardCheck(event)" *ngIf="!isAgg">Consumer Disclosure</a>
-                <a href="#x" class="disclosureAYDesktop" onclick="toggleSection('consumerDisclosure', true)"
-                   onkeypress="keyboardCheck(event)" *ngIf="!isAgg">Consumer Disclosure</a>
-                <a href="#x" class="disclosureAYMobile" onclick="toggleSection('consumerDisclosureAggMobile', true)"
-                   onkeypress="keyboardCheck(event)" *ngIf="isAgg">Consumer Disclosure</a>
-                <a href="#x" class="disclosureAYDesktop" onclick="toggleSection('consumerDisclosureAgg', true)"
-                   onkeypress="keyboardCheck(event)" *ngIf="isAgg">Consumer Disclosure</a>
-                and <a href="http://www.mercuryinsurance.com/about/privacy-statement.html" target="_blank"
-                       onkeypress="keyboardCheck(event, true)" [attr.aria-describedby]="">Privacy Statement</a>.
-              </h3>
-              <a href="#x" class="disclosureAYMobile" onclick="toggleSection('consumerDisclosureMobile')"
-                 *ngIf="!isAgg">
-                <span class="slide-down ng-scope"> </span>
-              </a>
-              <a href="#x" class="disclosureAYMobile" onclick="toggleSection('consumerDisclosureAggMobile')"
-                 *ngIf="isAgg">
-                <span class="slide-down ng-scope"> </span>
-              </a>
-              <div class="button-wrapper">
-                <div class="buttons">
-                  <input type="submit" class="orange" value="Save and Continue"
-                         *ngIf="!updateQuote && percentComplete < 100">
-                  <input type="submit" class="green" value="Update Quote"
-                         *ngIf="menuEditMode && percentComplete === 100">
-                  <input type="button" class="gray" value="Return to Quote Details" *ngIf="updateQuote">
-                </div>
-              </div>
-              <a href="#x" class="disclosureAYDesktop" onclick="toggleSection('consumerDisclosure')" tabindex="-1"
-                 *ngIf="!isAgg">
-                <span class="slide-down ng-scope"> </span>
-              </a>
-              <a href="#x" class="disclosureAYDesktop" onclick="toggleSection('consumerDisclosureAgg')" *ngIf="isAgg">
-                <span class="slide-down ng-scope"> </span>
-              </a>
+                    <!--          <div data-ng-include="'../js/src/mercury/views/rightContent.html'"></div>-->
+                </form>
             </div>
-          </div>
-<!--          <div data-ng-include="'../js/src/mercury/views/rightContent.html'"></div>-->
-        </form>
-      </div>
-    </section>
-  </div>
+        </section>
+    </div>
 </div>

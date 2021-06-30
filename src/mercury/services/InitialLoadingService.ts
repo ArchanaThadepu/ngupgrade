@@ -119,7 +119,7 @@ export class InitialLoadingService {
   }
 
   updateData(PageProperties: any, state: any, rateLevel: any) {
-    this.loadData(PageProperties, state, rateLevel);
+    this.loadData(PageProperties.default, state, rateLevel);
   }
 
   public getLocationURL(baseRateLevel: any, rateLevel: any, pageProperty: any) {

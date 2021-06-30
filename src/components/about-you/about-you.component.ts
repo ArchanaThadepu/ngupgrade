@@ -1,20 +1,21 @@
-import {Component, OnInit} from '@angular/core';
-import {ContextService} from "../../mercury/services/base/ContextService";
-import {AddressService} from "../../mercury/services/AddressService";
+import { Component, OnInit } from '@angular/core';
+import { ContextService } from "../../mercury/services/base/ContextService";
+import { AddressService } from "../../mercury/services/AddressService";
 import * as _ from "underscore";
-import {Submission} from "../../edge/quoteandbind/common/models/Submission";
-import {IBusinessService} from "../../mercury/services/base/IBusinessService";
-import {ValidValueService} from "../../mercury/services/ValidValueService";
-import {MessageService} from "../../mercury/services/MessageService";
-import {LabelService} from "../../mercury/services/LabelService";
-import {HelpService} from "../../mercury/services/HelpService";
-import {CoverageDisplayTypeService} from "../../mercury/services/CoverageDisplayTypeService";
-import {HideShowService} from "../../mercury/services/HideShowService";
-import {ConstraintValuesService} from "../../mercury/services/ConstraintValuesService";
-import {AppConstants} from "../../mercury/config/AppConstants";
-import {AboutYouUIAdapter} from "../../mercury/services/impl/uiAdapter/AboutYouUIAdapter";
-import {ActivatedRoute} from "@angular/router";
-import {Form, FormBuilder, FormGroup} from "@angular/forms";
+import { Submission } from "../../edge/quoteandbind/common/models/Submission";
+import { IBusinessService } from "../../mercury/services/base/IBusinessService";
+import { ValidValueService } from "../../mercury/services/ValidValueService";
+import { MessageService } from "../../mercury/services/MessageService";
+import { LabelService } from "../../mercury/services/LabelService";
+import { HelpService } from "../../mercury/services/HelpService";
+import { CoverageDisplayTypeService } from "../../mercury/services/CoverageDisplayTypeService";
+import { HideShowService } from "../../mercury/services/HideShowService";
+import { ConstraintValuesService } from "../../mercury/services/ConstraintValuesService";
+import { AppConstants } from "../../mercury/config/AppConstants";
+import { AboutYouUIAdapter } from "../../mercury/services/impl/uiAdapter/AboutYouUIAdapter";
+import { ActivatedRoute } from "@angular/router";
+import { Form, FormBuilder, FormGroup, Validators } from "@angular/forms";
+import { MIGValidDate } from 'src/mercury/directives/MIGValidDate';
 
 declare let $: any;
 
@@ -25,6 +26,7 @@ declare let $: any;
   styleUrls: ['./about-you.component.css']
 })
 export class AboutYouComponent implements OnInit {
+
   private validateDOBAsEmpty: boolean = false;
   private dateOfBirthModel: string = "";
   private periodStartDate: string = "";
@@ -33,37 +35,9 @@ export class AboutYouComponent implements OnInit {
   zipCode: string | null = "";
   private policySplitTerritory: any;
   private postalCodeUI: string = "";
-  private aboutYouUIAdapter:AboutYouUIAdapter;
+  private aboutYouUIAdapter: AboutYouUIAdapter;
 
-  public aboutYouForm:FormGroup;
-
-  constructor(
-    protected contextService: ContextService,
-    protected addressService: AddressService,
-    protected businessService: IBusinessService,
-    protected validValueService: ValidValueService,
-    protected messageService: MessageService,
-    protected labelService: LabelService,
-    protected helpService: HelpService,
-    protected coverageDisplayTypeService: CoverageDisplayTypeService,
-    protected hideShowService: HideShowService,
-    protected constraintValuesService: ConstraintValuesService,
-    protected appConstants: AppConstants,
-    private route: ActivatedRoute,
-
-    private formBuilder: FormBuilder,
-  ) {
-    this.aboutYouUIAdapter = new AboutYouUIAdapter(businessService, validValueService,messageService,
-      labelService, helpService, coverageDisplayTypeService, hideShowService, constraintValuesService, appConstants, contextService);
-    this.submission = this.getInitialData();
-
-    this.aboutYouForm = formBuilder.group({
-      name: '',
-      address: ''
-    });
-
-
-  }
+  public aboutYouForm: FormGroup;
 
   invalidOutOfStateZip: boolean = false;
   submitted: boolean = false;
@@ -91,6 +65,38 @@ export class AboutYouComponent implements OnInit {
   submission: Submission;
   suffix: any = []
   state: string | null = "";
+  constructor(
+    protected contextService: ContextService,
+    protected addressService: AddressService,
+    protected businessService: IBusinessService,
+    protected validValueService: ValidValueService,
+    protected messageService: MessageService,
+    protected labelService: LabelService,
+    protected helpService: HelpService,
+    protected coverageDisplayTypeService: CoverageDisplayTypeService,
+    protected hideShowService: HideShowService,
+    protected constraintValuesService: ConstraintValuesService,
+    protected appConstants: AppConstants,
+    private route: ActivatedRoute,
+
+    private formBuilder: FormBuilder,
+    private MIGValidDate : MIGValidDate
+  ) {
+    this.aboutYouUIAdapter = new AboutYouUIAdapter(businessService, validValueService, messageService,
+      labelService, helpService, coverageDisplayTypeService, hideShowService, constraintValuesService, appConstants, contextService);
+    this.submission = this.getInitialData();
+
+    this.aboutYouForm = formBuilder.group({
+      firstName: ['', [Validators.required,Validators.pattern('^[a-zA-Z ]*$')]],
+      lastName:  ['', [Validators.required,Validators.pattern('^[a-zA-Z ]*$')]],
+      dateOfBirth : ['', [Validators.required,this.MIGValidDate.dateValidator()]],
+      addressLine1 :[''],
+      suffix : [''],
+      address: ''
+    });
+
+
+  }
 
   ngOnInit(): void {
     this.page = "aboutYou"
@@ -106,13 +112,23 @@ export class AboutYouComponent implements OnInit {
   submit(valid: any, page: any, baseData: any) {
 
   }
+  get f() { return this.aboutYouForm.controls; }
 
+  onSubmit() {
+    this.submitted = true;
+
+    // stop here if form is invalid
+    if (this.aboutYouForm.invalid) {
+      return;
+    }
+    console.log(this.aboutYouForm.value);
+  }
   public getInitialData(): Submission {
     this.aboutYouUIAdapter.getInitialData();
     let context = this.aboutYouUIAdapter.getContextService();
-    console.log("valid values == "+this.aboutYouUIAdapter.getValidValues());
+    console.log("valid values == " + this.aboutYouUIAdapter.getValidValues());
     let values = this.validValueService.getFilteredTypeListByFilter("nameSuffix");
-    if (values ) {
+    if (values) {
       values.forEach((value: any) => {
         this.suffix.push({
           "id": value.code,
@@ -127,13 +143,13 @@ export class AboutYouComponent implements OnInit {
     this.showPhoneNumberEmail = false;//(Utils.getCookie("phoneNumberEmailMove").indexOf("YES") >= 0) ? false : true;
     this.validateDOBAsEmpty = false;
 
-    if(submission && submission.baseData && submission.baseData.accountHolder){
+    if (submission && submission.baseData && submission.baseData.accountHolder) {
       let phoneNum = submission.baseData.accountHolder.homeNumber;
-      if(phoneNum){
+      if (phoneNum) {
         submission.baseData.accountHolder.homeNumber = phoneNum.replace(/(\d{3})(\d{3})(\d{4})/, '($1) $2-$3');
       }
 
-      if (submission.baseData.accountHolder.prefilledDateOfBirth.indexOf("●") >= 0){
+      if (submission.baseData.accountHolder.prefilledDateOfBirth.indexOf("●") >= 0) {
         // $('.dateOfBirth label').addClass('focus');
         // $('input#dateOfBirth').attr('placeholder', submission.baseData.accountHolder.prefilledDateOfBirth);
         this.validateDOBAsEmpty = true;
@@ -144,7 +160,7 @@ export class AboutYouComponent implements OnInit {
 
     if (submission && submission.baseData) {
       let periodStDate = submission.baseData.periodStartDate;
-      this.periodStartDate = (submission.baseData.periodStartDate) ? (new Date(periodStDate.year,periodStDate.month,periodStDate.day)).toJSON() : new Date().toJSON();
+      this.periodStartDate = (submission.baseData.periodStartDate) ? (new Date(periodStDate.year, periodStDate.month, periodStDate.day)).toJSON() : new Date().toJSON();
     }
 
     // Shifts DOB input to prevent placeholder from creating a bold effect on IE
@@ -152,13 +168,13 @@ export class AboutYouComponent implements OnInit {
     //   $('input#dateOfBirth').css('top', '0px');
     // }
 
-    if (submission && submission.baseData && submission.baseData.policyAddress){
+    if (submission && submission.baseData && submission.baseData.policyAddress) {
       this.addressService.formatAddressLine2(submission.baseData.policyAddress);
     }
 
     this.consumerID = "consumerDisclosure";
     this.consumerIDMobile = "consumerDisclosureMobile";
-    if (submission && submission.baseData.quoteInfo){
+    if (submission && submission.baseData.quoteInfo) {
       this.isAgg = submission.baseData.quoteInfo.aggregatorFlag;
       if (submission.baseData.quoteInfo.aggregatorFlag) {
         this.consumerID = "consumerDisclosureAgg";
@@ -168,21 +184,21 @@ export class AboutYouComponent implements OnInit {
 
     let drivers = submission?.lobData.personalAuto.coverables.drivers;
 
-    let insuredDriver:any = [];//$filter('filter')(drivers, { relationship_Ext: "insured" });
+    let insuredDriver: any = [];//$filter('filter')(drivers, { relationship_Ext: "insured" });
 
-    if(insuredDriver.length > 0 && insuredDriver[0].completed == true)
+    if (insuredDriver.length > 0 && insuredDriver[0].completed == true)
       this.hideDateOfBirth = true;
 
     this.contactNumber = "";//ConfigurationValuesService.getContactNumbers(context.getState()).default;
     //setup address and name in scope to detect address changed
-    if ( submission ){
+    if (submission) {
       this.userAddress = _.clone(context.getSubmission().baseData.policyAddress)
       this.userInfo = _.clone(context.getSubmission().baseData.accountHolder);
     }
 
     this.policySplitTerritory = context.getSessionData()?.isPolicySplitTerritory;
 
-    if(submission && submission.baseData.policyAddress.postalCode != null){
+    if (submission && submission.baseData.policyAddress.postalCode != null) {
       let zipCodePlus4 = submission.baseData.policyAddress.postalCode;
       let zipCodeArray = zipCodePlus4.split('-');
       this.postalCodeUI = zipCodeArray[0];
@@ -252,7 +268,7 @@ export class AboutYouComponent implements OnInit {
     // };
     // $scope.baseData.policySplitTerritory = AboutYouUiAdapter.getContextService().getSessionData().isPolicySplitTerritory();
 
-    if (this.baseData  && this.baseData.policyAddress){
+    if (this.baseData && this.baseData.policyAddress) {
       this.zipCode = this.baseData.policyAddress.postalCode;
       //$scope.getSplitTerritories($scope.zipCode);
     }
@@ -263,7 +279,7 @@ export class AboutYouComponent implements OnInit {
     return submission;
   }
 
-  public getSplitTerritories(context:any, zipCode: string){
+  public getSplitTerritories(context: any, zipCode: string) {
     this.splitTerritories = {};
     // if (context.getState() == "IL"){
     //   AboutYouUiAdapter.getSplitTerritories(zipCode).then(function (resp){

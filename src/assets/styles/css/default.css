@@ -8105,3 +8105,12 @@ only screen and (min-width:1281px) {
     }
 }
 
+@media only screen and (min-width: 0px){ .mmProgression .migActive .circleContainerNum {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #d8c076;
+    border: 1px solid #ffc000;
+    border-radius: 50%;
+}
+}

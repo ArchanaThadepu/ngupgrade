@@ -7,7 +7,7 @@ import {CreateComponent} from "../create/create.component";
 import {IndexComponent} from "../index/index.component";
 import {AboutYouComponent} from "../about-you/about-you.component";
 import {MigProgressionHeaderComponent} from "../mig-progression-header/mig-progression-header.component";
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {CommonHeaderComponent} from "../common-header/common-header.component";
 import {NgxMaskModule, IConfig} from 'ngx-mask'
 import {AppConstants} from "../../mercury/config/AppConstants";
@@ -42,6 +42,7 @@ import {MIGValidDate} from "../../mercury/directives/MIGValidDate";
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
     HttpClientModule,
     NgxMaskModule.forRoot(),
   ],
@@ -55,7 +56,8 @@ import {MIGValidDate} from "../../mercury/directives/MIGValidDate";
     MessageService,
     HideShowService,
     RESTService,
-    PolicyLineExtensionConfiguration
+    PolicyLineExtensionConfiguration,
+    MIGValidDate
   ],
   bootstrap: [AppComponent]
 })

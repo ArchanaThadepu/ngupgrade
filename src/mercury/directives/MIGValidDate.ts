@@ -22,8 +22,9 @@ export class MIGValidDate implements Validator {
     return this._valFn(control);
   }
 
-  protected dateValidator(): ValidatorFn {
+  public dateValidator(): ValidatorFn {
     return (control: AbstractControl): { [p: string]: any } | null => {
+      
       const dateStr = control.value;
       // Length of months (will update for leap years)
       const monthLength = [ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 ];
@@ -34,7 +35,7 @@ export class MIGValidDate implements Validator {
       // If the pattern is wrong, don't validate dates yet
       if (!this.DATE_REGEX.test(dateStr)) {
         console.log("directive -- not a date")
-        return null;
+        return {inValidFormat : true};
       }
 
       // Parse the date input to integers

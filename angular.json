@@ -69,6 +69,9 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options":{ 
+            "browserTarget":"QB-ng10:build"
+         },
           "configurations": {
             "production": {
               "browserTarget": "QB-ng10:build:production"
@@ -105,5 +108,8 @@
       }
     }
   },
-  "defaultProject": "QB-ng10"
+  "defaultProject": "QB-ng10",
+  "cli": {
+    "analytics": "439dd83b-d34f-42b8-b22e-8b653a6fe2c9"
+  }
 }
